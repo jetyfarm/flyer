@@ -123,46 +123,40 @@
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
     <div style="background-color: rgb(74, 109, 58); text-align: center; height: 71vh; overflow-y: scroll;">
 
-      <button id="myBtn">Open Modal</button>
       <!-- The Modal -->
       <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
           <span class="close">&times;</span>
           <p>Some text in the Modal..</p>
+          <p id="modalText"></p>
         </div>
       </div>
 
       <div class="portrait">
         <div>
-          <img src="images/20220106.jpg">
+          <img id="myBtn" onclick="showModal(this.id)" src="images/20220106.jpg">
         </div>
         <div>
-          <img src="images/20220106-1.jpg">
+          <img id="myBtn2" onclick="showModal(this.id)" src="images/20220106-1.jpg">
         </div>
         
       </div>
 
       <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
+        function showModal(txt) {
+          document.getElementById("modalText").innerHTML=txt;
           modal.style.display = "block";
         }
 
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() {
           modal.style.display = "none";
         }
-
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
           if (event.target == modal) {
