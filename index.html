@@ -179,7 +179,6 @@
         d.setTime(d.getTime() + (exdays*24*60*60*1000));
         let expires = "expires=" + d.toUTCString();
         let s = cname + "=" + cvalue + ";" + expires + ";path=/";
-        alert( "setCookie [" + s + "]");
         document.cookie = s;
       }
 
@@ -199,21 +198,29 @@
         return "";
       }
 
+      function onBodyLoad() {
+        checkTutorial();
+        loadProduces();
+      }
+
       function checkTutorial() {
         let dontshow = getCookie("dontShowTutorial");
-        alert ( "dontshow is" + dontshow);
         if (dontshow == "" || dontshow == false) {
+          setCookie( "dontShowTutorial", false, 30 );
           var t = document.getElementById("tutorial")
           t.style.display="block";
         }
       }
+
+
+
     </script>
   </head>
 
   <!--  ============================================  -->
   <!--                      BODY                      -->
   <!--  ============================================  -->
-  <body onload="checkTutorial()">
+  <body onload="onBodyLoad()">
     <header>
       <div style="height: 8vh; padding: 0.5vh;">
         <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
@@ -248,9 +255,8 @@
         </div> 
       </div>
       
-
+      <!-- Modal content -->
       <div id="myModal" class="modal">
-        <!-- Modal content -->
         <div class="modal-content">
           <span id="modalClose" class="close">&times;</span>
           <p>Some text in the Modal..</p>
@@ -258,14 +264,32 @@
         </div>
       </div>
 
-      <div class="portrait">
-        <div>
-          <img id="myBtn" onclick="showModal(this.id)" src="images/20220106.jpg">
-        </div>
-        <div>
-          <img id="myBtn2" onclick="showModal(this.id)" src="images/20220106-1.jpg">
-        </div>
-        
+      <!-- List of produces -->
+      <div id="produceList" onload="loadProduces()" class="portrait">
+        <script>
+          var pl = document.getElementById("produceList");
+
+          function createProduce(_id) {
+            var p = document.createElement('img');
+            p.id = _id;
+            p.addEventListener( "click", function(){ showModal(this.id)} );
+            var imgPath = "images/produces/"+_id+".jpg";
+            p.src = imgPath;
+            pl.appendChild(p);   
+            
+            // create a divider
+            var d = document.createElement('div');
+            d.setAttribute("style","text-align:center; margin:auto; height:0.2vh; width:80vw; background-color:#0c343d;" );
+            pl.appendChild(d);   
+          }
+
+          function loadProduces() {
+            createProduce("egg");
+            createProduce("bottleMapleSyrup");
+            createProduce("dummy");
+          }
+
+        </script>
       </div>
 
       <script>
@@ -300,13 +324,10 @@
         function handleClickDontShow(cb) {
           setCookie( "dontShowTutorial", cb.checked, 30 );
           let dontshow = getCookie("dontShowTutorial");
-
-          alert( "Hello [" + cb.checked + "] [" + document.cookie + "]");
         }
       </script>        
     </div>
    
-  
 
     <div style="background-color: #274e13ff; height: auto; max-height: 12vh; padding: 0.1vh; margin: 0;">
       <div style="margin: auto; text-align: center; width: 90vw; ">
