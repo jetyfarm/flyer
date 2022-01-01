@@ -68,14 +68,13 @@
       }
 
       /* ======================================= */
-      /* Style: Image slider */
-      /* ======================================= */
       /* The Modal (background) */
+      /* ======================================= */
       .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
+        padding-top: 20vh; /* Location of the box */
         left: 0;
         top: 0;
         width: 100%; /* Full width */
@@ -89,16 +88,18 @@
       .modal-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 20px;
-        border: 1px solid #888;
+        padding: 2vw;
+        border: 0.5vw solid #888;
         width: 80%;
       }
 
+      /* ======================================= */
       /* The Close Button */
+      /* ======================================= */
       .close {
         color: #aaaaaa;
         float: right;
-        font-size: 28px;
+        font-size: 5vw;
         font-weight: bold;
       }
 
@@ -108,9 +109,111 @@
         text-decoration: none;
         cursor: pointer;
       }
+
+      /* ======================================= */
+      /* toggle button */
+      /* ======================================= */
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 6vw;
+        height: 3.4vw;
+      }
+
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 2.6vw;
+        width: 2.6vw;
+        left: 0.4vw;
+        bottom: 0.4vw;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 0.1vw #2196F3;
+      }
+
+      input:checked + .slider:before {
+        -webkit-transform: translateX(2.6vw);
+        -ms-transform: translateX(2.6vw);
+        transform: translateX(2.6vw);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 3.4vw;
+      }
+
+      .slider.round:before {
+        border-radius: 3.4vw;
+      }
     </style>
+    <script>
+      function setCookie(cname,cvalue,exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        let expires = "expires=" + d.toUTCString();
+        let s = cname + "=" + cvalue + ";" + expires + ";path=/";
+        alert( "setCookie [" + s + "]");
+        document.cookie = s;
+      }
+
+      function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+      function checkTutorial() {
+        let dontshow = getCookie("dontShowTutorial");
+        alert ( "dontshow is" + dontshow);
+        if (dontshow == "" || dontshow == false) {
+          var t = document.getElementById("tutorial")
+          t.style.display="block";
+        }
+      }
+    </script>
   </head>
-  <body>
+
+  <!--  ============================================  -->
+  <!--                      BODY                      -->
+  <!--  ============================================  -->
+  <body onload="checkTutorial()">
     <header>
       <div style="height: 8vh; padding: 0.5vh;">
         <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
@@ -124,10 +227,32 @@
     <div style="background-color: rgb(74, 109, 58); text-align: center; height: 71vh; overflow-y: scroll;">
 
       <!-- The Modal -->
+      <div id="tutorial" class="modal" style="padding-top: 10vh;">
+        <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 70vw; height:70vh;">
+          <span id="tutorialClose" class="close">&times;</span>
+          <div style="height: 4vh;"> </div>
+          <div style="background-color: grey; height: 60vh;"> </div>
+          <div style="height: 0.5vh;"> </div>
+
+          <!-- Don't show again -->
+          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 33vw;">
+            <label class="switch" style="vertical-align: middle;">
+              <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
+              <span class="slider round" style="vertical-align: middle;"></span>
+            </label>
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; color: #707070; font-size: 2vw;">
+              Don't show again
+            </label>
+          </div>
+
+        </div> 
+      </div>
+      
+
       <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
+          <span id="modalClose" class="close">&times;</span>
           <p>Some text in the Modal..</p>
           <p id="modalText"></p>
         </div>
@@ -144,26 +269,40 @@
       </div>
 
       <script>
+        // Get the modal
+        var tutorial = document.getElementById("tutorial");
+        var modal = document.getElementById("myModal");
+        // Get the <span> element that closes the modal
+        var tutorialClose = document.getElementById("tutorialClose");
+        var modalClose = document.getElementById("modalClose");
+
+        // When the user clicks on <span> (x), close the modal
+        tutorialClose.onclick = function(event) {
+          tutorial.style.display = "none";
+        }
+        modalClose.onclick = function(event) {
+          modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {          
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+          if (event.target == tutorial) {
+            tutorial.style.display = "none";
+          }
+        }
         function showModal(txt) {
           document.getElementById("modalText").innerHTML=txt;
           modal.style.display = "block";
         }
 
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
-        }
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
+        function handleClickDontShow(cb) {
+          setCookie( "dontShowTutorial", cb.checked, 30 );
+          let dontshow = getCookie("dontShowTutorial");
 
+          alert( "Hello [" + cb.checked + "] [" + document.cookie + "]");
+        }
       </script>        
     </div>
    
