@@ -1,0 +1,22 @@
+{
+  "egg": {
+      "image" : "egg_square",
+      "txt": "This is yummy egg"
+  },
+  "salsa": {
+    "image" : "egg_square",
+    "txt": "Yummy salsa"
+  },
+  "beets": {
+    "image" : "egg_square",
+    "txt": "i like beets"
+  },
+  "pickles": {
+    "image" : "egg_square",
+    "txt": "pickles are crunchy"
+  },
+  "maplesyrup": {
+    "image" : "egg_square",
+    "txt": "Everyone love maple syrup"
+  }
+};
