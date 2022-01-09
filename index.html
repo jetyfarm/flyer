@@ -3,6 +3,9 @@
   <head>
     <title>Jety Farm Flyer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="toggleButton.css">
+    
     <style>
       * {
         box-sizing: border-box
@@ -10,7 +13,6 @@
       /* ======================================= */
       /* Style: Layout */
       /* ======================================= */
-
       html {
         width:  100%;
         height: 100vh;
@@ -67,110 +69,9 @@
         width: 50%;
       }
 
-      /* ======================================= */
-      /* The Modal (background) */
-      /* ======================================= */
-      .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 20vh; /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-      }
-
-      /* Modal Content */
-      .modal-content {
-        background-color: #fefefe;
-        margin: auto;
-        padding: 2vw;
-        border: 0.5vw solid #888;
-        width: 80%;
-      }
-
-      /* ======================================= */
-      /* The Close Button */
-      /* ======================================= */
-      .close {
-        color: #aaaaaa;
-        float: right;
-        font-size: 5vw;
-        font-weight: bold;
-      }
-
-      .close:hover,
-      .close:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      /* ======================================= */
-      /* toggle button */
-      /* ======================================= */
-      .switch {
-        position: relative;
-        display: inline-block;
-        width: 6vw;
-        height: 3.4vw;
-      }
-
-      .switch input { 
-        opacity: 0;
-        width: 0;
-        height: 0;
-      }
-
-      .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-
-      .slider:before {
-        position: absolute;
-        content: "";
-        height: 2.6vw;
-        width: 2.6vw;
-        left: 0.4vw;
-        bottom: 0.4vw;
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-
-      input:checked + .slider {
-        background-color: #2196F3;
-      }
-
-      input:focus + .slider {
-        box-shadow: 0 0 0.1vw #2196F3;
-      }
-
-      input:checked + .slider:before {
-        -webkit-transform: translateX(2.6vw);
-        -ms-transform: translateX(2.6vw);
-        transform: translateX(2.6vw);
-      }
-
-      /* Rounded sliders */
-      .slider.round {
-        border-radius: 3.4vw;
-      }
-
-      .slider.round:before {
-        border-radius: 3.4vw;
+      .main div {
+        float: left;
+        clear: none;
       }
     </style>
     <script>
@@ -212,15 +113,19 @@
         }
       }
 
-
-
     </script>
+
+    <script type="text/javascript" src="produceData.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
 
   <!--  ============================================  -->
   <!--                      BODY                      -->
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
+
+
     <header>
       <div style="height: 8vh; padding: 0.5vh;">
         <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
@@ -233,7 +138,7 @@
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
     <div style="background-color: rgb(74, 109, 58); text-align: center; height: 71vh; overflow-y: scroll;">
 
-      <!-- The Modal -->
+      <!-- Tutorial -->
       <div id="tutorial" class="modal" style="padding-top: 10vh;">
         <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 70vw; height:70vh;">
           <span id="tutorialClose" class="close">&times;</span>
@@ -255,12 +160,19 @@
         </div> 
       </div>
       
-      <!-- Modal content -->
-      <div id="myModal" class="modal">
+      <!-- Produce item Modal box -->
+      <div id="produceModal" class="modal">
         <div class="modal-content">
           <span id="modalClose" class="close">&times;</span>
-          <p>Some text in the Modal..</p>
-          <p id="modalText"></p>
+          <div style="margin-top: 4vh;">
+            <div style="margin-right: 2vw; width: 8vh;">
+                <img src="images/produces/egg_square.jpg" style="width: auto; height: 8vh; max-width: 8vh;">
+            </div>
+            <div style="text-align: left;">
+              <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw;" id="modalTitle"></p> </p>
+              <p style="text-align:justify; color: rgb(44, 44, 44); font-size: 3vw;" id="modalText"></p> </p>
+            </div>
+        </div>
         </div>
       </div>
 
@@ -298,7 +210,7 @@
       <script>
         // Get the modal
         var tutorial = document.getElementById("tutorial");
-        var modal = document.getElementById("myModal");
+        var modal = document.getElementById("produceModal");
         // Get the <span> element that closes the modal
         var tutorialClose = document.getElementById("tutorialClose");
         var modalClose = document.getElementById("modalClose");
@@ -319,8 +231,14 @@
             tutorial.style.display = "none";
           }
         }
-        function showModal(txt) {
-          document.getElementById("modalText").innerHTML=txt;
+
+        function showModal(produceId) {
+          $.each(myProducesData, function(i, item) {
+            if( myProducesData[i].id == produceId ) {
+              document.getElementById("modalTitle").innerHTML = myProducesData[i].title;
+              document.getElementById("modalText").innerHTML = myProducesData[i].description;
+            }
+          });
           modal.style.display = "block";
         }
 

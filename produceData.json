@@ -1,22 +1,32 @@
-{
-  "egg": {
-      "image" : "egg_square",
-      "txt": "This is yummy egg"
+var myProducesData = [
+  {
+    "id" : "egg",
+    "image" : "egg_square.jpg",
+    "title" : "Free Range Farm Egg",
+    "description": "This is yummy egg. Fred VanVleet scored 24 of his season-high 37 points in the third quarter against the Jazz, almost single-handedly flipping the outlook of the game in the final five minutes of the frame. As wild as that sounds, it's even wilder to relive."
   },
-  "salsa": {
-    "image" : "egg_square",
-    "txt": "Yummy salsa"
+  {
+    "id" : "salsa",
+    "image" : "egg_square.jpg",
+    "title" : "Salsa",
+    "description": "Yummy salsa"
   },
-  "beets": {
-    "image" : "egg_square",
-    "txt": "i like beets"
+  {
+    "id" : "beets",
+    "image" : "egg_square.jpg",
+    "title" : "Sweet & Sour Beets",
+    "description": "i like beets"
   },
-  "pickles": {
-    "image" : "egg_square",
-    "txt": "pickles are crunchy"
+  {
+    "id" : "pickles",
+    "image" : "egg_square.jpg",
+    "title" : "Sweet & Sour Pickles",
+    "description": "pickles are crunchy"
   },
-  "maplesyrup": {
-    "image" : "egg_square",
-    "txt": "Everyone love maple syrup"
+  {
+    "id" : "maplesyrup",
+    "image" : "egg_square.jpg",
+    "title" : "Maple Syrup",
+    "description": "Everyone love maple syrup"
   }
-};
+];
