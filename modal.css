@@ -5,7 +5,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 20vh; /* Location of the box */
+    padding-top: 30vh; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -17,13 +17,24 @@
 
 /* Modal Content */
 .modal-content {
-    background-color: #ced6d1;
+    background-color: #e7e7e7;
     margin: auto;
     padding: 2vw;
     border: 0.5vw solid #888;
     width: 90vw;
     height: auto;
     overflow: auto;
+}
+
+.modal-content-roundcorner {
+    background-color: #e7e7e7;
+    margin: auto;
+    padding: 2vw;
+    border: 0.5vw solid #888;
+    width: 90vw;
+    height: auto;
+    overflow: auto;
+    border-radius: 3vw;
 }
 
 .modalRight {

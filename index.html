@@ -125,7 +125,6 @@
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
 
-
     <header>
       <div style="height: 8vh; padding: 0.5vh;">
         <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
@@ -162,9 +161,9 @@
       
       <!-- Produce item Modal box -->
       <div id="produceModal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content-roundcorner">
           <span id="modalClose" class="close">&times;</span>
-          <div style="margin-top: 4vh;">
+          <div style="margin-top: 3vh; margin-left: 2vw; margin-right: 2vw;">
             <div style="margin-right: 2vw; width: 8vh;">
                 <img src="images/produces/egg_square.jpg" style="width: auto; height: 8vh; max-width: 8vh;">
             </div>
@@ -172,7 +171,7 @@
               <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw;" id="modalTitle"></p> </p>
               <p style="text-align:justify; color: rgb(44, 44, 44); font-size: 3vw;" id="modalText"></p> </p>
             </div>
-        </div>
+          </div>
         </div>
       </div>
 
@@ -189,7 +188,18 @@
             p.src = imgPath;
             pl.appendChild(p);   
             
-            // create a divider
+            // create a line
+            var d = document.createElement('div');
+            d.setAttribute("style","text-align:center; margin:auto; height:0.2vh; width:80vw; background-color:#0c343d;" );
+            pl.appendChild(d);   
+          }
+
+          function createDivider(_id) {
+            var p = document.createElement('img');
+            var imgPath = "images/produces/"+_id+".jpg";
+            p.src = imgPath;
+            pl.appendChild(p);   
+            // create a line
             var d = document.createElement('div');
             d.setAttribute("style","text-align:center; margin:auto; height:0.2vh; width:80vw; background-color:#0c343d;" );
             pl.appendChild(d);   
@@ -197,7 +207,7 @@
 
           function loadProduces() {
             createProduce("egg");
-            createProduce("divider_mennonite")
+            createDivider("divider_mennonite")
             createProduce("salsa");
             createProduce("beets");
             createProduce("pickles");
