@@ -1,0 +1,15 @@
+var myFlyerData = [{
+    "banner1Txt" : "Flyer for Jan 13, 2022",
+    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, Jan 11 @6pm. Thank you for your support and stay safe!"
+}];
+
+
+var myFlyerProduceList = [
+    { "type" : "produce", "id" : "egg" },
+    { "type" : "divider", "id" : "From our Mennonite neighbours..." },
+    { "type" : "produce", "id" : "salsa" },
+    { "type" : "produce", "id" : "beets" },
+    { "type" : "produce", "id" : "pickles" },
+    { "type" : "produce", "id" : "maplesyrup" }
+];
