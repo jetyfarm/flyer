@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="toggleButton.css">
     
     <style>
+
+      @font-face { font-family: Raleway; src: url('Raleway-VariableFont_wght.ttf'); }
+      @font-face { font-family: Caveat; src: url('Caveat-Medium.ttf'); }
+      @font-face { font-family: Pacifico; src: url('Pacifico-Regular.ttf'); }
+
       * {
         box-sizing: border-box
       }
@@ -101,6 +106,7 @@
 
       function onBodyLoad() {
         checkTutorial();
+        loadFlyerText();
         loadProduces();
       }
 
@@ -116,6 +122,7 @@
     </script>
 
     <script type="text/javascript" src="produceData.json"></script>
+    <script type="text/javascript" src="flyerData.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -129,8 +136,9 @@
       <div style="height: 8vh; padding: 0.5vh;">
         <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
       </div>
-      <div style="background-color: #0c343dff; height: 8vh; padding: 0.5vh;">
-        <img src="images/FlyerBanner20220106.jpg" class="center" style="width: 80vw; height: auto;">
+      <div style="background-color: #0c343dff; height: 8vh; padding: 1.4vh;">
+        <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(223, 223, 223);"></p>
+        <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.2vh; color: rgb(223, 223, 223);"></p>
       </div>
     </header>
 
@@ -165,7 +173,7 @@
           <span id="modalClose" class="close">&times;</span>
           <div style="margin-top: 3vh; margin-left: 2vw; margin-right: 2vw;">
             <div style="margin-right: 2vw; width: 8vh;">
-                <img src="images/produces/egg_square.jpg" style="width: auto; height: 8vh; max-width: 8vh;">
+                <img id="modalImage" style="width: auto; height: 8vh; max-width: 8vh;">
             </div>
             <div style="text-align: left;">
               <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw;" id="modalTitle"></p> </p>
@@ -180,25 +188,73 @@
         <script>
           var pl = document.getElementById("produceList");
 
-          function createProduce(_id) {
+          function createProduceStatic(_id) {
             var p = document.createElement('img');
             p.id = _id;
             p.addEventListener( "click", function(){ showModal(this.id)} );
             var imgPath = "images/produces/"+_id+".jpg";
             p.src = imgPath;
             pl.appendChild(p);   
-            
+
             // create a line
             var d = document.createElement('div');
             d.setAttribute("style","text-align:center; margin:auto; height:0.2vh; width:80vw; background-color:#0c343d;" );
             pl.appendChild(d);   
           }
 
-          function createDivider(_id) {
+          function createProduce(_id) {
+            var d = document.createElement('div');
+            d.setAttribute("style","text-align:center; position:relative; margin:auto; height:auto; width:80vw;" );
+            d.id = _id;
+            d.addEventListener( "click", function(){ showModal(this.id)} );
+
+            // create image
             var p = document.createElement('img');
             var imgPath = "images/produces/"+_id+".jpg";
             p.src = imgPath;
+            d.appendChild(p);   
+
+            {
+              // create div for text
+              var dt = document.createElement('div');
+              dt.setAttribute("style","position:absolute; top:50%; left:50%; transform: translate(-4%,-50%); margin:auto; height:10vw; width:40vw;" );
+
+              var produce_index=0;
+              $.each(myProducesData, function(i, item) {
+                if( myProducesData[i].id == _id ) {
+                  produce_index = i;
+                }
+              });
+
+              var t1 = document.createElement("P");                 // Create a <p> element
+              t1.setAttribute("style","text-align:left; color: white; font-size: 4vw; font-family: Pacifico; margin:auto; height:auto; line-height: 1.5;" );
+              t1.innerHTML = myProducesData[produce_index].title;   
+              dt.appendChild(t1);
+
+              var t2 = document.createElement("P");                 // Create a <p> element
+              t2.setAttribute("style","margin: auto; text-align:left; color: white; font-size: 3.2vw; font-family: Caveat; margin:auto; height: auto; line-height: 1.0;" );
+              t2.innerHTML = myProducesData[produce_index].pricing; 
+              dt.appendChild(t2);
+            }
+
+            d.appendChild(dt);
+            pl.appendChild(d);   
+
+            // create a line
+            var l = document.createElement('div');
+            l.setAttribute("style","text-align:center; margin:auto; height:3px; width:80vw; background-color:#0c343d;" );
+            pl.appendChild(l);   
+          }
+
+          function createDivider(dividerTitle) {
+            var p = document.createElement('div');
+            p.setAttribute("style","text-align:center; margin:auto; height:7vh; width:80vw; background-color:#274e13; padding-top:1.2vh;" );
+            var t = document.createElement("P");                 // Create a <p> element
+            t.setAttribute("style","text-align:center; color: rgb(223, 223, 223); font-size: 5.1vw; font-family: Pacifico; margin:auto;" );
+            t.innerHTML = dividerTitle;                // Insert text
+            p.appendChild(t); 
             pl.appendChild(p);   
+
             // create a line
             var d = document.createElement('div');
             d.setAttribute("style","text-align:center; margin:auto; height:0.2vh; width:80vw; background-color:#0c343d;" );
@@ -206,12 +262,21 @@
           }
 
           function loadProduces() {
-            createProduce("egg");
-            createDivider("divider_mennonite")
-            createProduce("salsa");
-            createProduce("beets");
-            createProduce("pickles");
-            createProduce("maplesyrup");
+            for( let i = 0; i < myFlyerProduceList.length; i++) {
+              if( myFlyerProduceList[i].type == "divider" ) {
+                createDivider( myFlyerProduceList[i].id);
+              } else {
+                $.each(myProducesData, function(j, item) {
+                  if( myProducesData[j].id == myFlyerProduceList[i].id ) {
+                    if( myProducesData[j].produce_div == "static") {
+                      createProduceStatic( myProducesData[j].id );
+                    } else {
+                      createProduce( myProducesData[j].id );
+                    }
+                  }
+                });
+              }
+            }
           }
 
         </script>
@@ -245,6 +310,8 @@
         function showModal(produceId) {
           $.each(myProducesData, function(i, item) {
             if( myProducesData[i].id == produceId ) {
+              var imgPath = "images/produces/"+myProducesData[i].image;
+              document.getElementById("modalImage").src = imgPath;
               document.getElementById("modalTitle").innerHTML = myProducesData[i].title;
               document.getElementById("modalText").innerHTML = myProducesData[i].description;
             }
@@ -256,18 +323,25 @@
           setCookie( "dontShowTutorial", cb.checked, 30 );
           let dontshow = getCookie("dontShowTutorial");
         }
+
       </script>        
     </div>
    
-
     <div style="background-color: #274e13ff; height: auto; max-height: 12vh; padding: 0.1vh; margin: 0;">
       <div style="margin: auto; text-align: center; width: 90vw; ">
-        <p style="text-align:center; color: rgb(223, 223, 223); font-size: 2vw;">
-          Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, 
-          or direct message. Minimum order is $10. The order cut-off time is Tue, Jan 4 @6pm.
-          Thank you for your support and stay safe!
-        </p>
+        <p id="flyerFootnoteTxt" style="text-align:center; color: rgb(223, 223, 223); font-size: 2vw;"></p>
       </div>
     </div>
+
+    <script>
+        function loadFlyerText() {
+          var t1 = document.getElementById("flyerBanner1Txt");
+          t1.innerHTML = myFlyerData[0].banner1Txt; 
+          var t2 = document.getElementById("flyerBanner2Txt");
+          t2.innerHTML = myFlyerData[0].banner2Txt;
+          var t3 = document.getElementById("flyerFootnoteTxt");
+          t3.innerHTML = myFlyerData[0].footnoteTxt;
+        }
+    </script>
   </body>
 </html>

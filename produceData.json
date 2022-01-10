@@ -1,32 +1,47 @@
 var myProducesData = [
   {
     "id" : "egg",
+    "produce_image" : "egg.jpg",
+    "produce_div" : "static",
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Egg",
+    "pricing" : "-",
     "description": "This is yummy egg. Fred VanVleet scored 24 of his season-high 37 points in the third quarter against the Jazz, almost single-handedly flipping the outlook of the game in the final five minutes of the frame. As wild as that sounds, it's even wilder to relive."
   },
   {
     "id" : "salsa",
-    "image" : "egg_square.jpg",
+    "produce_image" : "salsa.jpg",
+    "produce_div" : "narrow",
+    "image" : "salsa_square.jpg",
     "title" : "Salsa",
+    "pricing" : "$8.00 per 500ml",
     "description": "Yummy salsa"
   },
   {
     "id" : "beets",
-    "image" : "egg_square.jpg",
+    "produce_image" : "beets.jpg",
+    "produce_div" : "narrow",
+    "image" : "beets_square.jpg",
     "title" : "Sweet & Sour Beets",
+    "pricing" : "$7.00 per 500ml",
     "description": "i like beets"
   },
   {
     "id" : "pickles",
-    "image" : "egg_square.jpg",
+    "produce_image" : "pickles.jpg",
+    "produce_div" : "narrow",
+    "image" : "pickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
+    "pricing" : "$7.00 per 500ml",
     "description": "pickles are crunchy"
   },
   {
     "id" : "maplesyrup",
-    "image" : "egg_square.jpg",
+    "produce_image" : "maplesyrup.jpg",
+    "produce_div" : "narrow",
+    "image" : "maplesyrup_square.jpg",
     "title" : "Maple Syrup",
+    "pricing" : "$7.00 per 250ml",
     "description": "Everyone love maple syrup"
   }
 ];
