@@ -8,38 +8,60 @@ var myProducesData = [
     "pricing" : "-",
     "description": "This is yummy egg. Fred VanVleet scored 24 of his season-high 37 points in the third quarter against the Jazz, almost single-handedly flipping the outlook of the game in the final five minutes of the frame. As wild as that sounds, it's even wilder to relive."
   },
+
+  // Microgreens
   {
-    "id" : "salsa",
-    "produce_image" : "salsa.jpg",
+    "id" : "MGMizuna",
+    "produce_image" : "MGMizuna.jpg",
     "produce_div" : "narrow",
-    "image" : "salsa_square.jpg",
+    "image" : "MGMizuna_square.jpg",
+    "title" : "Mizuna",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
+  {
+    "id" : "MGBroccoli",
+    "produce_image" : "MGBroccoli.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGBroccoli_square.jpg",
+    "title" : "Broccoli",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
+
+  // BOTTLE
+  {
+    "id" : "BTSalsa",
+    "produce_image" : "BTSalsa.jpg",
+    "produce_div" : "narrow",
+    "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
     "pricing" : "$8.00 per 500ml",
     "description": "Yummy salsa"
   },
   {
-    "id" : "beets",
-    "produce_image" : "beets.jpg",
+    "id" : "BTBeets",
+    "produce_image" : "BTBeets.jpg",
     "produce_div" : "narrow",
-    "image" : "beets_square.jpg",
+    "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
     "pricing" : "$7.00 per 500ml",
     "description": "i like beets"
   },
   {
-    "id" : "pickles",
-    "produce_image" : "pickles.jpg",
+    "id" : "BTPickles",
+    "produce_image" : "BTPickles.jpg",
     "produce_div" : "narrow",
-    "image" : "pickles_square.jpg",
+    "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
     "pricing" : "$7.00 per 500ml",
     "description": "pickles are crunchy"
   },
   {
-    "id" : "maplesyrup",
-    "produce_image" : "maplesyrup.jpg",
+    "id" : "BTMaplesyrup",
+    "produce_image" : "BTMaplesyrup.jpg",
     "produce_div" : "narrow",
-    "image" : "maplesyrup_square.jpg",
+    "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
     "pricing" : "$7.00 per 250ml",
     "description": "Everyone love maple syrup"
