@@ -19,12 +19,48 @@ var myProducesData = [
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
     "pricing" : "$7.50 per 150g",
-    "description": "Fresh black osyter mushroom"
+    "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>Black Oyster mushrooms are a source of calcium to strengthen bones and teeth and iron to build the protein hemoglobin for oxygen transport through the bloodstream. The mushrooms also provide some potassium to balance fluid levels within the body, vitamin C to boost the immune system, and other vitamins, including vitamins B and D."
   },
 
   // ===========================================
   // Microgreens
   // ===========================================
+  {
+    "id" : "MGCabbage",
+    "produce_image" : "MGCabbage.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGCabbage_square.jpg",
+    "title" : "Cabbage",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
+    {
+    "id" : "MGPokChoy",
+    "produce_image" : "MGPokChoy.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGPokChoy_square.jpg",
+    "title" : "Pok Choy",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
+  {
+    "id" : "MGSunflower",
+    "produce_image" : "MGSunflower.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGSunflower_square.jpg",
+    "title" : "Sunflower",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
+    {
+    "id" : "MGRadish",
+    "produce_image" : "MGRadish.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGRadish_square.jpg",
+    "title" : "Radish",
+    "pricing" : "$4.00 per 70g",
+    "description": "Yummy salsa"
+  },
   {
     "id" : "MGMizuna",
     "produce_image" : "MGMizuna.jpg",

@@ -7,11 +7,16 @@ var myFlyerData = [{
 
 var myFlyerProduceList = [
     { "type" : "produce", "id" : "egg",             "soldout" : "false",     "soldoutText" : "Medium and Small are SOLD OUT" },
+    
     { "type" : "divider", "id" : "Mushroom" },
     { "type" : "produce", "id" : "MSBlack",      "soldout" : "false" },
+    
     { "type" : "divider", "id" : "Microgreens" },
-    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGMizuna",        "soldout" : "false" },
+    { "type" : "produce", "id" : "MGCabbage",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGPokChoy",        "soldout" : "false" },
+    { "type" : "produce", "id" : "MGSunflower",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGRadish",        "soldout" : "false" },
+
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
     { "type" : "produce", "id" : "BTBeets",         "soldout" : "false" },
