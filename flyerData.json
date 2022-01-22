@@ -1,7 +1,7 @@
 var myFlyerData = [{
-    "banner1Txt" : "Flyer for Jan 13, 2022",
+    "banner1Txt" : "Flyer for Jan 27, 2022",
     "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, Jan 11 @6pm. Thank you for your support and stay safe!"
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, Jan 25 @6pm. Thank you for your support and stay safe!"
 }];
 
 
