@@ -9,7 +9,22 @@ var myProducesData = [
     "description": "This is yummy egg. Fred VanVleet scored 24 of his season-high 37 points in the third quarter against the Jazz, almost single-handedly flipping the outlook of the game in the final five minutes of the frame. As wild as that sounds, it's even wilder to relive."
   },
 
+  // ===========================================
+  // Mushroom
+  // ===========================================
+  {
+    "id" : "MSBlack",
+    "produce_image" : "MSBlack.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSBlack_square.jpg",
+    "title" : "Black Osyter",
+    "pricing" : "$7.50 per 150g",
+    "description": "Fresh black osyter mushroom"
+  },
+
+  // ===========================================
   // Microgreens
+  // ===========================================
   {
     "id" : "MGMizuna",
     "produce_image" : "MGMizuna.jpg",
@@ -29,7 +44,9 @@ var myProducesData = [
     "description": "Yummy salsa"
   },
 
+  // ===========================================
   // BOTTLE
+  // ===========================================
   {
     "id" : "BTSalsa",
     "produce_image" : "BTSalsa.jpg",

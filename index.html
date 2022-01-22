@@ -129,9 +129,9 @@
       }
 
       function checkTutorial() {
-        let dontshow = getCookie("dontShowTutorial");
+        let dontshow = getCookie("dontShowTutorial20220127");
         if (dontshow == "" || dontshow == false) {
-          setCookie( "dontShowTutorial", false, 30 );
+          setCookie( "dontShowTutorial20220127", false, 30 );
           var t = document.getElementById("tutorial")
           t.style.display="block";
         }
@@ -165,14 +165,13 @@
 
       <!-- Tutorial -->
       <div id="tutorial" class="modal" style="padding-top: 10vh;">
-        <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 70vw; height:70vh;">
+        <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 88vw; height:auto;">
+          
           <span id="tutorialClose" class="close">&times;</span>
-          <div style="height: 4vh;"> </div>
-          <div style="background-color: grey; height: 60vh;"> </div>
-          <div style="height: 0.5vh;"> </div>
-
+          <img src="images/tutorial.jpg" class="center" style="width: auto; height: 60vh;">
+         
           <!-- Don't show again -->
-          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 33vw;">
+          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 45vw;">
             <label class="switch" style="vertical-align: middle;">
               <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
               <span class="slider round" style="vertical-align: middle;"></span>
@@ -181,7 +180,6 @@
               Don't show again
             </label>
           </div>
-
         </div> 
       </div>
       
@@ -375,8 +373,8 @@
         }
 
         function handleClickDontShow(cb) {
-          setCookie( "dontShowTutorial", cb.checked, 30 );
-          let dontshow = getCookie("dontShowTutorial");
+          setCookie( "dontShowTutorial20220127", cb.checked, 30 );
+          let dontshow = getCookie("dontShowTutorial20220127");
         }
 
       </script>        
