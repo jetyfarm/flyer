@@ -6,7 +6,7 @@ var myFlyerData = [{
 
 
 var myFlyerProduceList = [
-    { "type" : "produce", "id" : "egg",             "soldout" : "false",     "soldoutText" : "Medium and Small are SOLD OUT" },
+    { "type" : "produce", "id" : "egg",             "soldout" : "true",     "soldoutText" : "Medium and Small eggs are SOLD OUT" },
     
     { "type" : "divider", "id" : "Mushroom" },
     { "type" : "produce", "id" : "MSBlack",      "soldout" : "false" },

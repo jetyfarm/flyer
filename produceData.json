@@ -6,7 +6,7 @@ var myProducesData = [
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Egg",
     "pricing" : "-",
-    "description": "This is yummy egg. Fred VanVleet scored 24 of his season-high 37 points in the third quarter against the Jazz, almost single-handedly flipping the outlook of the game in the final five minutes of the frame. As wild as that sounds, it's even wilder to relive."
+    "description": "-"
   },
 
   // ===========================================
@@ -19,7 +19,7 @@ var myProducesData = [
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
     "pricing" : "$7.50 per 150g",
-    "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>Black Oyster mushrooms are a source of calcium to strengthen bones and teeth and iron to build the protein hemoglobin for oxygen transport through the bloodstream. The mushrooms also provide some potassium to balance fluid levels within the body, vitamin C to boost the immune system, and other vitamins, including vitamins B and D."
+    "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
 
   // ===========================================
@@ -32,7 +32,7 @@ var myProducesData = [
     "image" : "MGCabbage_square.jpg",
     "title" : "Cabbage",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "Cabbage microgreens grow petite red and violet stems with variegated shades of green leaves."
   },
     {
     "id" : "MGPokChoy",
@@ -41,7 +41,7 @@ var myProducesData = [
     "image" : "MGPokChoy_square.jpg",
     "title" : "Pok Choy",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "-"
   },
   {
     "id" : "MGSunflower",
@@ -50,7 +50,7 @@ var myProducesData = [
     "image" : "MGSunflower_square.jpg",
     "title" : "Sunflower",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "-"
   },
     {
     "id" : "MGRadish",
@@ -59,7 +59,7 @@ var myProducesData = [
     "image" : "MGRadish_square.jpg",
     "title" : "Radish",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "-"
   },
   {
     "id" : "MGMizuna",
@@ -68,7 +68,7 @@ var myProducesData = [
     "image" : "MGMizuna_square.jpg",
     "title" : "Mizuna",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "Red, delicately serrated leaves have green undersides and contrasting white petioles. Cotyledons are green with a red blush. Mild flavor."
   },
   {
     "id" : "MGBroccoli",
@@ -77,9 +77,18 @@ var myProducesData = [
     "image" : "MGBroccoli_square.jpg",
     "title" : "Broccoli",
     "pricing" : "$4.00 per 70g",
-    "description": "Yummy salsa"
+    "description": "Mild broccoli flavor. Dark green leaves with long stems."
   },
-
+  {
+    "id" : "MGKale",
+    "produce_image" : "MGKale.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGKale_square.jpg",
+    "title" : "Kale",
+    "pricing" : "$4.00 per 70g",
+    "description": "Medium-green serrated leaves with bright purple stems and leaf margins. Textured leaves with purple stems. Mild kale flavor"
+  },
+  
   // ===========================================
   // BOTTLE
   // ===========================================
@@ -90,7 +99,7 @@ var myProducesData = [
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
     "pricing" : "$8.00 per 500ml",
-    "description": "Yummy salsa"
+    "description": "-"
   },
   {
     "id" : "BTBeets",
@@ -99,7 +108,7 @@ var myProducesData = [
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
     "pricing" : "$7.00 per 500ml",
-    "description": "i like beets"
+    "description": "-"
   },
   {
     "id" : "BTPickles",
@@ -108,7 +117,7 @@ var myProducesData = [
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
     "pricing" : "$7.00 per 500ml",
-    "description": "pickles are crunchy"
+    "description": "-"
   },
   {
     "id" : "BTMaplesyrup",
@@ -117,6 +126,6 @@ var myProducesData = [
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
     "pricing" : "$7.00 per 250ml",
-    "description": "Everyone love maple syrup"
+    "description": "-"
   }
 ];
