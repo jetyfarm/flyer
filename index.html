@@ -130,7 +130,7 @@
 
       function checkTutorial() {
         let dontshow = getCookie("dontShowTutorial20220127");
-        if (dontshow == "" || dontshow == false) {
+        if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220127", false, 30 );
           var t = document.getElementById("tutorial")
           t.style.display="block";
