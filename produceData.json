@@ -13,6 +13,24 @@ var myProducesData = [
   // Mushroom
   // ===========================================
   {
+    "id" : "MSShiitake",
+    "produce_image" : "MSShiitake.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSShiitake_square.jpg",
+    "title" : "Shiitake",
+    "pricing" : "$7.50 per 150g",
+    "description": "-"
+  },
+  {
+    "id" : "MSLion",
+    "produce_image" : "MSLion.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSLion_square.jpg",
+    "title" : "Lion's Mane",
+    "pricing" : "$7.50 per 150g",
+    "description": "-"
+  },
+  {
     "id" : "MSBlack",
     "produce_image" : "MSBlack.jpg",
     "produce_div" : "narrow",
@@ -21,25 +39,44 @@ var myProducesData = [
     "pricing" : "$7.50 per 150g",
     "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
+  {
+    "id" : "MSGold",
+    "produce_image" : "MSGold.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSGold_square.jpg",
+    "title" : "Gold Osyter",
+    "pricing" : "$7.50 per 150g",
+    "description": "-"
+  },
+  {
+    "id" : "MSPink",
+    "produce_image" : "MSPink.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSPink_square.jpg",
+    "title" : "Pink Osyter",
+    "pricing" : "$7.50 per 150g",
+    "description": "-"
+  },
+  {
+    "id" : "MSKing",
+    "produce_image" : "MSKing.jpg",
+    "produce_div" : "narrow",
+    "image" : "MSKing_square.jpg",
+    "title" : "King Osyter",
+    "pricing" : "$7.50 per 150g",
+    "description": "-"
+  },
+
 
   // ===========================================
   // Microgreens
   // ===========================================
   {
-    "id" : "MGCabbage",
-    "produce_image" : "MGCabbage.jpg",
+    "id" : "MGPeashoot",
+    "produce_image" : "MGPeashoot.jpg",
     "produce_div" : "narrow",
-    "image" : "MGCabbage_square.jpg",
-    "title" : "Cabbage",
-    "pricing" : "$4.00 per 70g",
-    "description": "Cabbage microgreens grow petite red and violet stems with variegated shades of green leaves."
-  },
-    {
-    "id" : "MGPokChoy",
-    "produce_image" : "MGPokChoy.jpg",
-    "produce_div" : "narrow",
-    "image" : "MGPokChoy_square.jpg",
-    "title" : "Pok Choy",
+    "image" : "MGPeashoot_square.jpg",
+    "title" : "Pea Shoot",
     "pricing" : "$4.00 per 70g",
     "description": "-"
   },
@@ -52,7 +89,34 @@ var myProducesData = [
     "pricing" : "$4.00 per 70g",
     "description": "-"
   },
-    {
+  {
+    "id" : "MGBroccoli",
+    "produce_image" : "MGBroccoli.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGBroccoli_square.jpg",
+    "title" : "Broccoli",
+    "pricing" : "$4.00 per 70g",
+    "description": "Mild broccoli flavor. Dark green leaves with long stems."
+  },
+  {
+    "id" : "MGCabbage",
+    "produce_image" : "MGCabbage.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGCabbage_square.jpg",
+    "title" : "Cabbage",
+    "pricing" : "$4.00 per 70g",
+    "description": "Cabbage microgreens grow petite red and violet stems with variegated shades of green leaves."
+  },
+  {
+    "id" : "MGPokChoy",
+    "produce_image" : "MGPokChoy.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGPokChoy_square.jpg",
+    "title" : "Pok Choy",
+    "pricing" : "$4.00 per 70g",
+    "description": "-"
+  },
+  {
     "id" : "MGRadish",
     "produce_image" : "MGRadish.jpg",
     "produce_div" : "narrow",
@@ -71,15 +135,6 @@ var myProducesData = [
     "description": "Red, delicately serrated leaves have green undersides and contrasting white petioles. Cotyledons are green with a red blush. Mild flavor."
   },
   {
-    "id" : "MGBroccoli",
-    "produce_image" : "MGBroccoli.jpg",
-    "produce_div" : "narrow",
-    "image" : "MGBroccoli_square.jpg",
-    "title" : "Broccoli",
-    "pricing" : "$4.00 per 70g",
-    "description": "Mild broccoli flavor. Dark green leaves with long stems."
-  },
-  {
     "id" : "MGKale",
     "produce_image" : "MGKale.jpg",
     "produce_div" : "narrow",
@@ -87,6 +142,42 @@ var myProducesData = [
     "title" : "Kale",
     "pricing" : "$4.00 per 70g",
     "description": "Medium-green serrated leaves with bright purple stems and leaf margins. Textured leaves with purple stems. Mild kale flavor"
+  },
+  {
+    "id" : "MGKohlrabi",
+    "produce_image" : "MGKohlrabi.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGKohlrabi_square.jpg",
+    "title" : "Kohlrabi",
+    "pricing" : "$4.00 per 70g",
+    "description": "-"
+  },
+  {
+    "id" : "MGKomatsuna",
+    "produce_image" : "MGKomatsuna.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGKomatsuna_square.jpg",
+    "title" : "Komatsuna",
+    "pricing" : "$4.00 per 70g",
+    "description": "-"
+  },
+  {
+    "id" : "MGSorrel",
+    "produce_image" : "MGSorrel.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGSorrel_square.jpg",
+    "title" : "Sorrel",
+    "pricing" : "$4.00 per 70g",
+    "description": "-"
+  },
+  {
+    "id" : "MGCorn",
+    "produce_image" : "MGCorn.jpg",
+    "produce_div" : "narrow",
+    "image" : "MGCorn_square.jpg",
+    "title" : "Corn",
+    "pricing" : "$4.00 per 70g",
+    "description": "-"
   },
   
   // ===========================================
