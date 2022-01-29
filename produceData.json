@@ -6,6 +6,7 @@ var myProducesData = [
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
     "pricing" : "-",
+    "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. Bi-weekly subscription orders are highly recommended. <BR><BR>*Eggs are unwashed, please wash before consuming."
   },
 
@@ -19,6 +20,7 @@ var myProducesData = [
     "image" : "MSShiitake_square.jpg",
     "title" : "Shiitake",
     "pricing" : "$7.50 per 150g",
+    "description_title": "Shiitake",
     "description": "Can be eaten raw with a mild Flavour. When Cooked, the taste is more pronounced. <br>Tastes: Earthy, Woody, Savory, Meaty, Buttery when Cooked.<br>Benefits: Reduces Cholesterol Levels. Promotes Heart Health. Supports Healthy Blood Vessels and Bones, Supports Immune System, Reduce Inflammation."
   },
   {
@@ -28,6 +30,7 @@ var myProducesData = [
     "image" : "MSLion_square.jpg",
     "title" : "Lion's Mane",
     "pricing" : "$7.50 per 150g",
+    "description_title": "Lion's Mane 鮮猴頭菇",
     "description": "Lion's Mane is one of the healthiest mushrooms, medicinal, Can be eaten raw, cooked, dried, or steeped as a tea. It has a taste of lobster/crab.<br><br>Benefits: Protects against dementia. Reduces mild symptoms of anxiety and depression. Helps repair nerve damage. Strong anti-inflammatory. Helps with heart issues, cancer, ulcers, and diabetes."
   },
   {
@@ -37,6 +40,7 @@ var myProducesData = [
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
     "pricing" : "$7.50 per 150g",
+    "description_title": "Black Osyter 黑秀珍菇",
     "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
   {
@@ -46,6 +50,7 @@ var myProducesData = [
     "image" : "MSGold_square.jpg",
     "title" : "Gold Osyter",
     "pricing" : "$7.50 per 150g",
+    "description_title": "Gold Osyter 黄金秀珍菇",
     "description": "-"
   },
   {
@@ -55,6 +60,7 @@ var myProducesData = [
     "image" : "MSPink_square.jpg",
     "title" : "Pink Osyter",
     "pricing" : "$7.50 per 150g",
+    "description_title": "Pink Osyter 粉红秀珍菇",
     "description": "-"
   },
   {
@@ -64,6 +70,7 @@ var myProducesData = [
     "image" : "MSKing_square.jpg",
     "title" : "King Osyter",
     "pricing" : "$7.50 per 150g",
+    "description_title": "King Osyter",
     "description": "-"
   },
 
@@ -78,6 +85,7 @@ var myProducesData = [
     "image" : "MGPeashoot_square.jpg",
     "title" : "Pea Shoot",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Pea Shoot",
     "description": "-"
   },
   {
@@ -87,6 +95,7 @@ var myProducesData = [
     "image" : "MGSunflower_square.jpg",
     "title" : "Sunflower",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Sunflower",
     "description": "-"
   },
   {
@@ -96,6 +105,7 @@ var myProducesData = [
     "image" : "MGBroccoli_square.jpg",
     "title" : "Broccoli",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Broccoli",
     "description": "-"    
   },
   {
@@ -105,6 +115,7 @@ var myProducesData = [
     "image" : "MGCabbage_square.jpg",
     "title" : "Cabbage",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Cabbage Microgreen 椰菜微綠",
     "description": "Leaf: Round, toothed; <br><br>Colour: Deep purple veins and stems; <br><br>Flavour: Mild cabbage <br><br>Benefits: Detoxifies blood, removes toxins, promotes good eye health, reduces risk of cancer and ulcer, aids weight loss, prevents neurodegeneration disease, prevents osteoporosis, improves digestion."
   },
   {
@@ -114,6 +125,7 @@ var myProducesData = [
     "image" : "MGPokChoy_square.jpg",
     "title" : "Bok Choy",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Bok Choy Microgreen 白菜微綠",
     "description": "Leaf: Oval <br><br>Colour: Light green leafs and white stems <br><br>Flavour: Mild bok choy <br><br>Benefits: Aids in the prevention of cancer, fights inflammation, lower risk of heart disease"
   },
   {
@@ -123,6 +135,7 @@ var myProducesData = [
     "image" : "MGRadish_square.jpg",
     "title" : "Radish",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Radish",
     "description": "L-"
   },
   {
@@ -132,34 +145,38 @@ var myProducesData = [
     "image" : "MGMizuna_square.jpg",
     "title" : "Mizuna",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Mizuna",
     "description": "-"    
   },
   {
     "id" : "MGKale",
     "produce_image" : "MGKale.jpg",
     "produce_div" : "narrow",
-    "image" : "MGKale_square.jpg",
+    "image" : "Empty_square.jpg",
     "title" : "Kale",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Kale 羽衣甘藍微綠",
     "description": "Colour: Pale pink stems, green leaves <br><br>Flavour: Mild kale <br><br>Benefits: Protects against macular degeneration and cataracts, high in calcium, protects against osteoporosis, improves digestion, builds collagen."
   },
   {
     "id" : "MGKohlrabi",
     "produce_image" : "MGKohlrabi.jpg",
     "produce_div" : "narrow",
-    "image" : "MGKohlrabi_square.jpg",
+    "image" : "Empty_square.jpg",
     "title" : "Kohlrabi",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Kohlrabi 苤藍微綠",
     "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes, fights cancer, improves heart health, lowers blood pressure, reduces C-reactive protein."
   },
   {
     "id" : "MGKomatsuna",
     "produce_image" : "MGKomatsuna.jpg",
     "produce_div" : "narrow",
-    "image" : "MGKomatsuna_square.jpg",
+    "image" : "Empty_square.jpg",
     "title" : "Komatsuna",
     "pricing" : "$4.00 per 70g",
-    "description": "The name 'Komatsuna' means 'greens of Komatsu' in Japanese. A Japanese mustard spinach.<br><br>Flavour: Mild, heat at end <br><br>Benefits: Kills cancer stem cells, slows tumor growth, prevents diabetes, aids heart health, anti-aging, prevents anaemia, strengthens bones."
+    "description_title": "Komatsuna",
+    "description": "A Japanese mustard spinach. The name 'Komatsuna' means 'greens of Komatsu' in Japanese.<br><br>Flavour: Mild, heat at end <br><br>Benefits: Kills cancer stem cells, slows tumor growth, prevents diabetes, aids heart health, anti-aging, prevents anaemia, strengthens bones."
   },
   {
     "id" : "MGSorrel",
@@ -168,6 +185,7 @@ var myProducesData = [
     "image" : "MGSorrel_square.jpg",
     "title" : "Sorrel",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Sorrel",
     "description": "-"
   },
   {
@@ -177,6 +195,7 @@ var myProducesData = [
     "image" : "MGCorn_square.jpg",
     "title" : "Corn",
     "pricing" : "$4.00 per 70g",
+    "description_title": "Corn",
     "description": "L-"
   },
   
@@ -190,6 +209,7 @@ var myProducesData = [
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
     "pricing" : "$8.00 per 500ml",
+    "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
   {
@@ -199,6 +219,7 @@ var myProducesData = [
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
     "pricing" : "$7.00 per 500ml",
+    "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
   },
   {
@@ -208,6 +229,7 @@ var myProducesData = [
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
     "pricing" : "$7.00 per 500ml",
+    "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
   },
   {
@@ -217,6 +239,7 @@ var myProducesData = [
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
     "pricing" : "$7.00 per 250ml",
+    "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. No added sugar, preservatives, colour, and artificial flavours."
   }
 ];

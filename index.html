@@ -4,6 +4,7 @@
     <title>Jety Farm Flyer</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="toggleButton.css">
     
@@ -195,7 +196,7 @@
                 <img id="modalImage" style="width: auto; height: 30vw; max-width: 30vw;">
             </div>
             <div style="text-align: left; padding-bottom: 1vh;">
-              <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw; font-family: Raleway;" id="modalTitle"></p> </p>
+              <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw; font-family: Raleway; line-height: 65%;" id="modalTitle"></p> </p>
               <p style="text-align:justify; color: rgb(44, 44, 44); font-size: 3vw; font-family: Raleway;" id="modalText"></p> </p>
             </div>
           </div>
@@ -368,7 +369,7 @@
             if( myProducesData[i].id == produceId ) {
               var imgPath = "images/produces/"+myProducesData[i].image;
               document.getElementById("modalImage").src = imgPath;
-              document.getElementById("modalTitle").innerHTML = myProducesData[i].title;
+              document.getElementById("modalTitle").innerHTML = myProducesData[i].description_title;
               document.getElementById("modalText").innerHTML = myProducesData[i].description;
             }
           });
