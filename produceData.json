@@ -4,9 +4,9 @@ var myProducesData = [
     "produce_image" : "egg.jpg",
     "produce_div" : "static",
     "image" : "egg_square.jpg",
-    "title" : "Free Range Farm Egg",
+    "title" : "Free Range Farm Eggs",
     "pricing" : "-",
-    "description": "From our farm raised chicken. Eggs are naturally laid. Our farm chickens are fed with chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. Bi-weekly subscription orders are highly recommended. <BR><BR>*Eggs are unwashed, please wash before consuming."
+    "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. Bi-weekly subscription orders are highly recommended. <BR><BR>*Eggs are unwashed, please wash before consuming."
   },
 
   // ===========================================
@@ -28,7 +28,7 @@ var myProducesData = [
     "image" : "MSLion_square.jpg",
     "title" : "Lion's Mane",
     "pricing" : "$7.50 per 150g",
-    "description": "Lion's Mane is one of the healthiest mushrooms, medicinal, Can be eaten raw, cooked, dried, or steeped as a tea. It has a taste of lobster/crab <br><br>Benefits: Protects against dementia. Reduces mild symptoms of anxiety and depression. Helps repair nerve damage. Strong anti-inflammatory. Helps with heart issues, cancer, ulcers, and diabetes."
+    "description": "Lion's Mane is one of the healthiest mushrooms, medicinal, Can be eaten raw, cooked, dried, or steeped as a tea. It has a taste of lobster/crab.<br><br>Benefits: Protects against dementia. Reduces mild symptoms of anxiety and depression. Helps repair nerve damage. Strong anti-inflammatory. Helps with heart issues, cancer, ulcers, and diabetes."
   },
   {
     "id" : "MSBlack",
@@ -105,16 +105,16 @@ var myProducesData = [
     "image" : "MGCabbage_square.jpg",
     "title" : "Cabbage",
     "pricing" : "$4.00 per 70g",
-    "description": "Leaf: Round, toothed; <br><br>Colour: Deep purple veins and stems; <br><br>Flavour: Mild cabbage <br><br>Benefits: Detoxifies blood, removes toxins, promotes good eye health, reduce risk of cancer and ulcer, aids weight loss, prevents neurodegeneration disease, prevents osteoporosis, improves digestion."
+    "description": "Leaf: Round, toothed; <br><br>Colour: Deep purple veins and stems; <br><br>Flavour: Mild cabbage <br><br>Benefits: Detoxifies blood, removes toxins, promotes good eye health, reduces risk of cancer and ulcer, aids weight loss, prevents neurodegeneration disease, prevents osteoporosis, improves digestion."
   },
   {
     "id" : "MGPokChoy",
     "produce_image" : "MGPokChoy.jpg",
     "produce_div" : "narrow",
     "image" : "MGPokChoy_square.jpg",
-    "title" : "Pok Choy",
+    "title" : "Bok Choy",
     "pricing" : "$4.00 per 70g",
-    "description": "Leaf: Oval <br><br>Colour: light green leafs and white stems <br><br>Flavour: Mild bok choy <br><br>Benefits: Aid in the prevention of cancer, fights inflammation; Lower risk of heart disease"
+    "description": "Leaf: Oval <br><br>Colour: Light green leafs and white stems <br><br>Flavour: Mild bok choy <br><br>Benefits: Aids in the prevention of cancer, fights inflammation, lower risk of heart disease"
   },
   {
     "id" : "MGRadish",
@@ -150,7 +150,7 @@ var myProducesData = [
     "image" : "MGKohlrabi_square.jpg",
     "title" : "Kohlrabi",
     "pricing" : "$4.00 per 70g",
-    "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes. Fights cancer. Improves heart health. Lowers blood pressure. Reduces c-reactive protein."
+    "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes, fights cancer, improves heart health, lowers blood pressure, reduces C-reactive protein."
   },
   {
     "id" : "MGKomatsuna",

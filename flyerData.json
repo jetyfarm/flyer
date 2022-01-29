@@ -1,7 +1,8 @@
 var myFlyerData = [{
-    "banner1Txt" : "Flyer for Jan 27, 2022",
-    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, Jan 25 @6pm. Thank you for your support and stay safe!"
+    "banner1Txt" : "Flyer for Feb 3, 2022",
+//    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, Feb 1 @6pm. Thank you for your support and stay safe!"
 }];
 
 
@@ -11,7 +12,7 @@ var myFlyerProduceList = [
         "soldout" : "true",     
         "soldoutText" : "Limited time offer! Large eggs are available for non-subscription customers" },
     
-    { "type" : "divider", "id" : "Mushroom" },
+    { "type" : "divider", "id" : "Mushrooms" },
     { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
     { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
     
