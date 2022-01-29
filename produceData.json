@@ -155,7 +155,7 @@ var myProducesData = [
     "image" : "Empty_square.jpg",
     "title" : "Kale",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Kale 羽衣甘藍微綠",
+    "description_title": "Kale Microgreen 羽衣甘藍微綠",
     "description": "Colour: Pale pink stems, green leaves <br><br>Flavour: Mild kale <br><br>Benefits: Protects against macular degeneration and cataracts, high in calcium, protects against osteoporosis, improves digestion, builds collagen."
   },
   {
@@ -165,7 +165,7 @@ var myProducesData = [
     "image" : "Empty_square.jpg",
     "title" : "Kohlrabi",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Kohlrabi 苤藍微綠",
+    "description_title": "Kohlrabi Microgreen 苤藍微綠",
     "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes, fights cancer, improves heart health, lowers blood pressure, reduces C-reactive protein."
   },
   {
@@ -175,7 +175,7 @@ var myProducesData = [
     "image" : "Empty_square.jpg",
     "title" : "Komatsuna",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Komatsuna",
+    "description_title": "Komatsuna Microgreen ",
     "description": "A Japanese mustard spinach. The name 'Komatsuna' means 'greens of Komatsu' in Japanese.<br><br>Flavour: Mild, heat at end <br><br>Benefits: Kills cancer stem cells, slows tumor growth, prevents diabetes, aids heart health, anti-aging, prevents anaemia, strengthens bones."
   },
   {
