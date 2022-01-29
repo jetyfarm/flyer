@@ -6,16 +6,21 @@ var myFlyerData = [{
 
 
 var myFlyerProduceList = [
-    { "type" : "produce", "id" : "egg",             "soldout" : "true",     "soldoutText" : "Medium and Small eggs are SOLD OUT" },
+    { "type" : "produce", 
+        "id" : "egg",             
+        "soldout" : "true",     
+        "soldoutText" : "Limited time offer! Large eggs are available for non-subscription customers" },
     
     { "type" : "divider", "id" : "Mushroom" },
-    { "type" : "produce", "id" : "MSBlack",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
     
     { "type" : "divider", "id" : "Microgreens" },
-    { "type" : "produce", "id" : "MGCabbage",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGPokChoy",        "soldout" : "false" },
-    { "type" : "produce", "id" : "MGSunflower",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGRadish",        "soldout" : "false" },
+    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "false" },
+    { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "false" },
+    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
+    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
 
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
