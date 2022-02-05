@@ -85,8 +85,8 @@ var myProducesData = [
     "image" : "MGPeashoot_square.jpg",
     "title" : "Pea Shoot",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Pea Shoot",
-    "description": "-"
+    "description_title": "Pea Shoot Microgreen",
+    "description": "Pea Shoot Microgreens are sweet and tender like the nicest sugar snap peas, munched raw right out of the pot. <br><br>Benefits: Fights Against Free Radicals, Lowers Blood Sugar Levels, Prevents Iron Deficiency and Anaemia, High in Protein."
   },
   {
     "id" : "MGSunflower",
@@ -95,8 +95,8 @@ var myProducesData = [
     "image" : "MGSunflower_square.jpg",
     "title" : "Sunflower",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Sunflower",
-    "description": "-"
+    "description_title": "Sunflower Microgreen 向日葵微綠",
+    "description": "Sunflower Micorgreens produce seedlings that contain about 25% protein. They are big and succulent like mung bean sprouts, but with large, prominent cotyledons (first leaves). They have a surprisingly sweet and mild taste reminiscent of carrots. Add some of these delicious black oil sunflower microgreens to a salad or sandwich, or serve as a refreshing and nutritious side dish. <br><br> Benefits: High in Iron and Protein, Aids Brain Health, Reduces Blood Pressure, Skin Health, Promotes Healthy Bones and Teeth, Prevents Alzheimers, Promotes Heart Health, Boosts Immune System, Promotes Healthy Thyroids, Aids Digestion"
   },
   {
     "id" : "MGBroccoli",
@@ -105,8 +105,8 @@ var myProducesData = [
     "image" : "MGBroccoli_square.jpg",
     "title" : "Broccoli",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Broccoli",
-    "description": "-"    
+    "description_title": "Broccoli Microgreen 西蘭花微綠",
+    "description": "Add some crunchy Broccoli Microgreens to your salads, sandwiches and burgers or use them in nutrient-packed juices and smoothies. They go well with cheese and vegetable dishes and you can also garnish omelettes, poached eggs, dips or pasta sauces with broccoli microgreens for extra flavor and nutrients. <br><br>Broccoli Microgreens have up to 40 times the amount of vitamins and minerals than their mature counterparts (source). They have larger quantities of magnesium, manganese, copper, and zinc."    
   },
   {
     "id" : "MGCabbage",
@@ -116,7 +116,7 @@ var myProducesData = [
     "title" : "Cabbage",
     "pricing" : "$4.00 per 70g",
     "description_title": "Cabbage Microgreen 椰菜微綠",
-    "description": "Leaf: Round, toothed; <br><br>Colour: Deep purple veins and stems; <br><br>Flavour: Mild cabbage <br><br>Benefits: Detoxifies blood, removes toxins, promotes good eye health, reduces risk of cancer and ulcer, aids weight loss, prevents neurodegeneration disease, prevents osteoporosis, improves digestion."
+    "description": "Cabbage Microgreens taste like a cross between cabbage and spinach, but more delicate. The leaves are tender and flavorful, making them perfect for salads, sandwiches, or wraps. You can also add them to soups or stir fry for an extra boost of flavor. <br><br>Our PURPLE Cabbage Microgreens contain high levels of vitamin C, carotenoids, and flavonoid antioxidants."
   },
   {
     "id" : "MGPokChoy",
@@ -152,7 +152,7 @@ var myProducesData = [
     "id" : "MGKale",
     "produce_image" : "MGKale.jpg",
     "produce_div" : "narrow",
-    "image" : "Empty_square.jpg",
+    "image" : "MGKale_square.jpg",
     "title" : "Kale",
     "pricing" : "$4.00 per 70g",
     "description_title": "Kale Microgreen 羽衣甘藍微綠",
@@ -162,7 +162,7 @@ var myProducesData = [
     "id" : "MGKohlrabi",
     "produce_image" : "MGKohlrabi.jpg",
     "produce_div" : "narrow",
-    "image" : "Empty_square.jpg",
+    "image" : "MGKohlrabi_square.jpg",
     "title" : "Kohlrabi",
     "pricing" : "$4.00 per 70g",
     "description_title": "Kohlrabi Microgreen 苤藍微綠",
@@ -172,7 +172,7 @@ var myProducesData = [
     "id" : "MGKomatsuna",
     "produce_image" : "MGKomatsuna.jpg",
     "produce_div" : "narrow",
-    "image" : "Empty_square.jpg",
+    "image" : "MGKomatsuna_square.jpg",
     "title" : "Komatsuna",
     "pricing" : "$4.00 per 70g",
     "description_title": "Komatsuna Microgreen ",
