@@ -13,7 +13,7 @@ var myFlyerProduceList = [
         "soldoutText" : "Medium and Small eggs are sold out.<br>Large eggs are available for non-subscription customers." },
     
     { "type" : "divider", "id" : "Mushrooms" },
-    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "true" },
  //   { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
     
     { "type" : "divider", "id" : "Microgreens" },
@@ -24,7 +24,7 @@ var myFlyerProduceList = [
  //   { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
  //   { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
     { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "true" },
     
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
