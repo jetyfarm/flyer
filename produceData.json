@@ -135,8 +135,8 @@ var myProducesData = [
     "image" : "MGRadish_square.jpg",
     "title" : "Radish",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Radish",
-    "description": "L-"
+    "description_title": "Radish Microgreen 蘿蔔微綠",
+    "description": "Radish microgreens add a fresh, crunchy, and spicy flavor to your foods. They have a pleasant peppery flavor similar to that of root radishes. <br><br>Radish microgreens have high levels of Vitamin B3 (Niacin), Vitamin B6, Vitamin C, Folate, and the mineral Manganese. They also contain Vitamin A, E, and K as well as potassium, iron, phosphorus, pantothenic acid, calcium, magnesium, zinc, and beta carotenes."
   },
   {
     "id" : "MGMizuna",
@@ -145,8 +145,8 @@ var myProducesData = [
     "image" : "MGMizuna_square.jpg",
     "title" : "Mizuna",
     "pricing" : "$4.00 per 70g",
-    "description_title": "Mizuna",
-    "description": "-"    
+    "description_title": "Mizuna Microgreen",
+    "description": "A Japanese mustard microgreen. It is an unique, mild-flavored mustard green.<br><br>Mizuna microgreen is an excellent source of vitamin K to promote faster wound healing and is rich in vitamins A and C, antioxidants that reduce inflammation."    
   },
   {
     "id" : "MGKale",
