@@ -19,7 +19,7 @@ var myFlyerProduceList = [
         "soldoutText" : "Large eggs are available for non-subscription customers." },
     
     { "type" : "divider", "id" : "Mushrooms" },
-    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "true" },
     { "type" : "produce", "id" : "MSLion",          "soldout" : "true" },
     
     { "type" : "divider", "id" : "Microgreens" },
