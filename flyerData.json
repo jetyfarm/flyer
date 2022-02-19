@@ -15,7 +15,7 @@ var myFlyerProduceList = [
     
     { "type" : "divider", "id" : "Mushrooms" },
     { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
-    { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
+    { "type" : "produce", "id" : "MSLion",          "soldout" : "true" },
     
     { "type" : "divider", "id" : "Microgreens" },
     { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
