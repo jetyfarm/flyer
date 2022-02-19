@@ -319,9 +319,28 @@
             pl.appendChild(d);   
           }
 
+          function createNote(noteContent) {
+            var p = document.createElement('div');
+            p.setAttribute("style","text-align:center; margin:auto; height: auto; width:80vw; background-color: rgb(54, 54, 54); padding-top:1.2vh; padding-bottom:1.2vh;" );
+            var t = document.createElement("P");                 // Create a <p> element
+            t.setAttribute("style","margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.3vh; color: rgb(223, 223, 223);" );
+ 
+
+            t.innerHTML = noteContent;                // Insert text
+            p.appendChild(t); 
+            pl.appendChild(p);   
+
+            // create a line
+            var d = document.createElement('div');
+            d.setAttribute("style","text-align:center; margin:auto; height:0.3vh; width:80vw; background-color:#0c343d;" );
+            pl.appendChild(d);   
+          }
+
           function loadProduces() {
             for( let i = 0; i < myFlyerProduceList.length; i++) {
-              if( myFlyerProduceList[i].type == "divider" ) {
+              if( myFlyerProduceList[i].type == "note" ) {
+                createNote( myFlyerProduceList[i].note);
+              } else if( myFlyerProduceList[i].type == "divider" ) {
                 createDivider( myFlyerProduceList[i].id);
               } else {
                 $.each(myProducesData, function(j, item) {

@@ -7,6 +7,11 @@ var myFlyerData = [{
 
 
 var myFlyerProduceList = [
+    {
+        "type" : "note", 
+        "note" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
+    },
+
     { "type" : "produce", 
         "id" : "egg",             
         "soldout" : "true",     
@@ -34,4 +39,5 @@ var myFlyerProduceList = [
     { "type" : "produce", "id" : "BTBeets",         "soldout" : "false" },
     { "type" : "produce", "id" : "BTPickles",       "soldout" : "false" },
     { "type" : "produce", "id" : "BTMaplesyrup",    "soldout" : "false" }
+
 ];
