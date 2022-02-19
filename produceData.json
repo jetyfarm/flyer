@@ -156,8 +156,7 @@ var myProducesData = [
     "title" : "Kale",
     "pricing" : "$4.00 per 70g",
     "description_title": "Kale Microgreen 羽衣甘藍微綠",
-    "description": "Colour: Pale pink stems, green leaves <br><br>Flavour: Mild kale <br><br>Benefits: Protects against macular degeneration and cataracts, high in calcium, protects against osteoporosis, improves digestion, builds collagen."
-  },
+    "description": "Kale Microgreens are simply young versions of the same plant. However, they contain as much as 4 times the nutrient levels that Kale does. They are high in vitamins A, B, C, E, and K, as well as calcium, iron, magnesium, phosphorus, potassium, zinc, carotene, amino acids, and protein. <br><br> Kale microgreen has a nutty taste and robust—similiar to mustard, only less spicy."},
   {
     "id" : "MGKohlrabi",
     "produce_image" : "MGKohlrabi.jpg",
