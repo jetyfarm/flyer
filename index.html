@@ -125,6 +125,7 @@
       }
 
       function onBodyLoad() {
+        checkReminder();
         checkTutorial();
         loadFlyerText();
         loadProduces();
@@ -135,6 +136,15 @@
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220127", false, 30 );
           var t = document.getElementById("tutorial")
+          t.style.display="block";
+        }
+      }
+
+      function checkReminder() {
+        let dontshow = getCookie("dontShowReminder20220217");
+        if (dontshow == "" || dontshow == "false") {
+          setCookie( "dontShowReminder20220217", false, 30 );
+          var t = document.getElementById("reminder")
           t.style.display="block";
         }
       }
@@ -165,6 +175,28 @@
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
     <div style="background-color: rgb(74, 109, 58); text-align: center; height: 71vh; overflow-y: scroll;">
 
+      <!-- Reminder -->
+      <div id="reminder" class="modal" style="padding-top: 30vh;">
+        <div class="modal-content" style="text-align: center; background-color: rgb(63, 63, 63); width: 75vw; height:auto;">
+
+          <span id="reminderClose" class="close">&times;</span>
+          <div style="height: 3.5vh;"> </div>
+          <p id="reminderTxt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.3vh; color: rgb(223, 223, 223);"></p>
+          <div style="height: 2.5vh;"> </div>
+
+          <!-- Don't show again -->
+          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 35vw;">
+            <label class="switch" style="vertical-align: middle;">
+              <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
+              <span class="slider round" style="vertical-align: middle;"></span>
+            </label>
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #a5a5a5; font-size: 2vw;">
+              Don't show again
+            </label>
+          </div>
+        </div> 
+      </div>
+
       <!-- Tutorial -->
       <div id="tutorial" class="modal" style="padding-top: 10vh;">
         <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 88vw; height:auto;">
@@ -186,7 +218,8 @@
           <div style="height: 2vh;"> </div>
         </div> 
       </div>
-      
+
+
       <!-- Produce item Modal box -->
       <div id="produceModal" class="modal">
         <div class="modal-content-roundcorner">
@@ -362,14 +395,19 @@
       <script>
         // Get the modal
         var tutorial = document.getElementById("tutorial");
+        var reminder = document.getElementById("reminder");
         var modal = document.getElementById("produceModal");
         // Get the <span> element that closes the modal
         var tutorialClose = document.getElementById("tutorialClose");
+        var reminderClose = document.getElementById("reminderClose");
         var modalClose = document.getElementById("modalClose");
 
         // When the user clicks on <span> (x), close the modal
         tutorialClose.onclick = function(event) {
           tutorial.style.display = "none";
+        }
+        reminderClose.onclick = function(event) {
+          reminder.style.display = "none";
         }
         modalClose.onclick = function(event) {
           modal.style.display = "none";
@@ -381,6 +419,9 @@
           }
           if (event.target == tutorial) {
             tutorial.style.display = "none";
+          }
+          if (event.target == reminder) {
+            reminder.style.display = "none";
           }
         }
 
@@ -401,6 +442,10 @@
           let dontshow = getCookie("dontShowTutorial20220127");
         }
 
+        function handlerReminderDontShow(cb) {
+          setCookie( "dontShowReminder20220217", cb.checked, 30 );
+          let dontshow = getCookie("dontShowReminder20220217");
+        }
       </script>        
     </div>
    
@@ -418,6 +463,8 @@
           t2.innerHTML = myFlyerData[0].banner2Txt;
           var t3 = document.getElementById("flyerFootnoteTxt");
           t3.innerHTML = myFlyerData[0].footnoteTxt;
+          var r1 = document.getElementById("reminderTxt");
+          r1.innerHTML = myFlyerData[0].reminderTxt;
         }
     </script>
   </body>
