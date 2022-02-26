@@ -11,6 +11,20 @@ var myProducesData = [
   },
 
   // ===========================================
+  // Meat Chicken
+  // ===========================================
+  {
+    "id" : "MeatChicken",
+    "produce_image" : "MeatChicken.jpg",
+    "produce_div" : "narrow",
+    "image" : "MeatChicken_detail.jpg",
+    "title" : "",
+    "pricing" : "",
+    "description_title": "Meat Chicken 農場走地黃油雞",
+    "description": "We are now taking orders for MEAT CHICKEN in 2022 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked, cleaned, no head and no feet.<br><br>We are offering meat chickens ONCE A MONTH from June to Nov 2022, total of 6 deliveries. There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 6 monthly meat chicken order, $28/chicken (taxes and delivery fee included) which equals to $168 (PREPAID). If you would like to add additional chickens on any given month, we will still honour $28/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1 to receive a set of chicken feet and the internals (chicken heart, liver and heart).<br><br>Due to the regulation, there is a limitation on the number of meat chicken that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach the quote.<br><br>Thanks for your understanding and support."
+  },
+
+  // ===========================================
   // Mushroom
   // ===========================================
   {
@@ -40,7 +54,7 @@ var myProducesData = [
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
     "pricing" : "$7.50 per 150g",
-    "description_title": "Black Osyter 黑秀珍菇",
+    "description_title": "Black Osyter Mushroom MSGo黑秀珍菇",
     "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
   {
@@ -50,8 +64,8 @@ var myProducesData = [
     "image" : "MSGold_square.jpg",
     "title" : "Gold Osyter",
     "pricing" : "$7.50 per 150g",
-    "description_title": "Gold Osyter 黄金秀珍菇",
-    "description": "-"
+    "description_title": "Gold Osyter Mushroom 黄金秀珍菇",
+    "description": "Gold oyster mushrooms are native to eastern Russia, northern China, and Japan. They have a fruity aroma reminiscent of an aged red wine and are velvety, crisp, and chewy. When cooked, they have a balanced, nutty flavor similar to the flavor of cashews.<br><br>Gold oysters mushrooms contain copper, zinc, and essential amino acids in varying amounts including folic acid, lovastatin, and carotenoids."
   },
   {
     "id" : "MSPink",
@@ -189,13 +203,13 @@ var myProducesData = [
   },
   {
     "id" : "MGCorn",
-    "produce_image" : "MGCorn.jpg",
+    "produce_image" : "Empty.jpg",
     "produce_div" : "narrow",
-    "image" : "MGCorn_square.jpg",
-    "title" : "Corn",
-    "pricing" : "$4.00 per 70g",
-    "description_title": "Corn",
-    "description": "L-"
+    "image" : "Empty_square.jpg",
+    "title" : "Sweet Corn Microgreen",
+    "pricing" : "$4.00 per 50g",
+    "description_title": "Sweet Corn Microgreen 玉米微綠",
+    "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the sweetest tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEAT CORN MICROGREEN TO LIGHT!!! If you expose your sweet corn microgreens to light, they will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter."
   },
   
   // ===========================================
