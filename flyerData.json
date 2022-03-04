@@ -1,8 +1,8 @@
 var myFlyerData = [{
-    "banner1Txt" : "Flyer for Mar 3, 2022",
-//    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
-    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, March 1 @6pm. Thank you for your support and stay safe!",
+    "banner1Txt" : "Flyer for Mar 10, 2022",
+    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+//    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $10. The order cut-off time is Tue, March 8 @6pm. Thank you for your support and stay safe!",
     "reminderTxt" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
 }];
 
@@ -23,23 +23,23 @@ var myFlyerProduceList = [
         "soldoutText" : "Large eggs are available for ALL customers!!!" },
     
     { "type" : "divider", "id" : "Mushrooms" },
-//    { "type" : "produce", "id" : "MSBlack",         "soldout" : "true" },
-    { "type" : "produce", "id" : "MSGold",          "soldout" : "true" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+//    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
     
 
     { "type" : "divider", "id" : "Microgreens" },
-    { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "true" },
-    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "true" },
+    // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
+    // { "type" : "produce", "id" : "MGCabbage",       "soldout" : "false" },
     { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
- //   { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "false" },
-    { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "true" },
-    { "type" : "produce", "id" : "MGKale",          "soldout" : "true" },
-    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "true" },
-//    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "true" },
-//    { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
+    { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "false" },
+//    { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
+//    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
+//    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
+//    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
     
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
