@@ -54,7 +54,7 @@ var myProducesData = [
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
     "pricing" : "$7.50 per 150g",
-    "description_title": "Black Osyter Mushroom MSGo黑秀珍菇",
+    "description_title": "Black Osyter Mushroom 黑秀珍菇",
     "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
   {
@@ -140,7 +140,7 @@ var myProducesData = [
     "title" : "Bok Choy",
     "pricing" : "$4.00 per 70g",
     "description_title": "Bok Choy Microgreen 白菜微綠",
-    "description": "Leaf: Oval <br><br>Colour: Light green leafs and white stems <br><br>Flavour: Mild bok choy <br><br>Benefits: Aids in the prevention of cancer, fights inflammation, lower risk of heart disease"
+    "description": "Bok Choy Microgreens have white stems and green leaves, similar to the full-grown veggie. And it has a unique flavor; mild but at the same time a bit nutty, and a little bit sweet. This microgreen adds extra flavor to any salad and meal. Along with it being a tasty and crunchy green, it also full of fibers and antioxidants!<br><br> Bok Choy Microgreens are highly nutritious. They have a high concentration of vitamins (A, C, E & K) and minerals, but at the same time low in calories."
   },
   {
     "id" : "MGRadish",
@@ -203,9 +203,9 @@ var myProducesData = [
   },
   {
     "id" : "MGCorn",
-    "produce_image" : "Empty.jpg",
+    "produce_image" : "MGCorn.jpg",
     "produce_div" : "narrow",
-    "image" : "Empty_square.jpg",
+    "image" : "MGCorn_square.jpg",
     "title" : "Sweet Corn Microgreen",
     "pricing" : "$4.00 per 50g",
     "description_title": "Sweet Corn Microgreen 玉米微綠",
