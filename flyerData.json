@@ -23,7 +23,7 @@ var myFlyerProduceList = [
         "soldoutText" : "Large eggs are available for ALL customers!!!" },
     
     { "type" : "divider", "id" : "Mushrooms" },
-    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "true" },
 //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MSLion",          "soldout" : "false" },
     
@@ -34,12 +34,12 @@ var myFlyerProduceList = [
     { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
-    { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "false" },
+    { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
 //    { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
 //    { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
+    { "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
     
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
