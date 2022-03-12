@@ -43,7 +43,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSLion_square.jpg",
     "title" : "Lion's Mane",
-    "pricing" : "$7.50 per 150g",
+    "pricing" : "$8.00 per 120g",
     "description_title": "Lion's Mane 鮮猴頭菇",
     "description": "Lion's Mane is one of the healthiest mushrooms, medicinal, Can be eaten raw, cooked, dried, or steeped as a tea. It has a taste of lobster/crab.<br><br>Benefits: Protects against dementia. Reduces mild symptoms of anxiety and depression. Helps repair nerve damage. Strong anti-inflammatory. Helps with heart issues, cancer, ulcers, and diabetes."
   },
@@ -53,7 +53,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSBlack_square.jpg",
     "title" : "Black Osyter",
-    "pricing" : "$7.50 per 150g",
+    "pricing" : "$8.00 per 120g",
     "description_title": "Black Osyter Mushroom 黑秀珍菇",
     "description": "Black Oyster mushroom has a soft to darker black and creamy white color with donut shaped caps. The stems are crunchy outside but delicate inside. It has a delicate, and sweet flavor with a crispy texture that adds unique richness to fine foods. <br><br>It is a source of calcium to strengthen bones and teeth, and iron to build the protein hemoglobin for oxygen transport through the bloodstream."
   },
@@ -63,7 +63,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSGold_square.jpg",
     "title" : "Gold Osyter",
-    "pricing" : "$7.50 per 150g",
+    "pricing" : "$8.00 per 120g",
     "description_title": "Gold Osyter Mushroom 黄金秀珍菇",
     "description": "Gold oyster mushrooms are native to eastern Russia, northern China, and Japan. They have a fruity aroma reminiscent of an aged red wine and are velvety, crisp, and chewy. When cooked, they have a balanced, nutty flavor similar to the flavor of cashews.<br><br>Gold oysters mushrooms contain copper, zinc, and essential amino acids in varying amounts including folic acid, lovastatin, and carotenoids."
   },
@@ -73,7 +73,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSPink_square.jpg",
     "title" : "Pink Osyter",
-    "pricing" : "$7.50 per 150g",
+    "pricing" : "$8.00 per 120g",
     "description_title": "Pink Osyter 粉红秀珍菇",
     "description": "-"
   },
@@ -83,7 +83,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSKing_square.jpg",
     "title" : "King Osyter",
-    "pricing" : "$7.50 per 150g",
+    "pricing" : "$8.00 per 120g",
     "description_title": "King Osyter",
     "description": "-"
   },
@@ -98,7 +98,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGPeashoot_square.jpg",
     "title" : "Pea Shoot",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Pea Shoot Microgreen",
     "description": "Pea Shoot Microgreens are sweet and tender like the nicest sugar snap peas, munched raw right out of the pot. <br><br>Benefits: Fights Against Free Radicals, Lowers Blood Sugar Levels, Prevents Iron Deficiency and Anaemia, High in Protein."
   },
@@ -108,7 +108,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGSunflower_square.jpg",
     "title" : "Sunflower",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sunflower Microgreen 向日葵微綠",
     "description": "Sunflower Micorgreens produce seedlings that contain about 25% protein. They are big and succulent like mung bean sprouts, but with large, prominent cotyledons (first leaves). They have a surprisingly sweet and mild taste reminiscent of carrots. Add some of these delicious black oil sunflower microgreens to a salad or sandwich, or serve as a refreshing and nutritious side dish. <br><br> Benefits: High in Iron and Protein, Aids Brain Health, Reduces Blood Pressure, Skin Health, Promotes Healthy Bones and Teeth, Prevents Alzheimers, Promotes Heart Health, Boosts Immune System, Promotes Healthy Thyroids, Aids Digestion"
   },
@@ -118,7 +118,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGBroccoli_square.jpg",
     "title" : "Broccoli",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Broccoli Microgreen 西蘭花微綠",
     "description": "Add some crunchy Broccoli Microgreens to your salads, sandwiches and burgers or use them in nutrient-packed juices and smoothies. They go well with cheese and vegetable dishes and you can also garnish omelettes, poached eggs, dips or pasta sauces with broccoli microgreens for extra flavor and nutrients. <br><br>Broccoli Microgreens have up to 40 times the amount of vitamins and minerals than their mature counterparts (source). They have larger quantities of magnesium, manganese, copper, and zinc."    
   },
@@ -128,7 +128,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCabbage_square.jpg",
     "title" : "Cabbage",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Cabbage Microgreen 椰菜微綠",
     "description": "Cabbage Microgreens taste like a cross between cabbage and spinach, but more delicate. The leaves are tender and flavorful, making them perfect for salads, sandwiches, or wraps. You can also add them to soups or stir fry for an extra boost of flavor. <br><br>Our PURPLE Cabbage Microgreens contain high levels of vitamin C, carotenoids, and flavonoid antioxidants."
   },
@@ -138,7 +138,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGPokChoy_square.jpg",
     "title" : "Bok Choy",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Bok Choy Microgreen 白菜微綠",
     "description": "Bok Choy Microgreens have white stems and green leaves, similar to the full-grown veggie. And it has a unique flavor; mild but at the same time a bit nutty, and a little bit sweet. This microgreen adds extra flavor to any salad and meal. Along with it being a tasty and crunchy green, it also full of fibers and antioxidants!<br><br> Bok Choy Microgreens are highly nutritious. They have a high concentration of vitamins (A, C, E & K) and minerals, but at the same time low in calories."
   },
@@ -148,7 +148,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGRadish_square.jpg",
     "title" : "Radish",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Radish Microgreen 蘿蔔微綠",
     "description": "Radish microgreens add a fresh, crunchy, and spicy flavor to your foods. They have a pleasant peppery flavor similar to that of root radishes. <br><br>Radish microgreens have high levels of Vitamin B3 (Niacin), Vitamin B6, Vitamin C, Folate, and the mineral Manganese. They also contain Vitamin A, E, and K as well as potassium, iron, phosphorus, pantothenic acid, calcium, magnesium, zinc, and beta carotenes."
   },
@@ -158,7 +158,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGMizuna_square.jpg",
     "title" : "Mizuna",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Mizuna Microgreen",
     "description": "A Japanese mustard microgreen. It is an unique, mild-flavored mustard green.<br><br>Mizuna microgreen is an excellent source of vitamin K to promote faster wound healing and is rich in vitamins A and C, antioxidants that reduce inflammation."    
   },
@@ -168,7 +168,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKale_square.jpg",
     "title" : "Kale",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Kale Microgreen 羽衣甘藍微綠",
     "description": "Kale Microgreens are simply young versions of the same plant. However, they contain as much as 4 times the nutrient levels that Kale does. They are high in vitamins A, B, C, E, and K, as well as calcium, iron, magnesium, phosphorus, potassium, zinc, carotene, amino acids, and protein. <br><br> Kale microgreen has a nutty taste and robust—similiar to mustard, only less spicy."},
   {
@@ -177,7 +177,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKohlrabi_square.jpg",
     "title" : "Kohlrabi",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Kohlrabi Microgreen 苤藍微綠",
     "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes, fights cancer, improves heart health, lowers blood pressure, reduces C-reactive protein."
   },
@@ -187,7 +187,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKomatsuna_square.jpg",
     "title" : "Komatsuna",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Komatsuna Microgreen ",
     "description": "A Japanese mustard spinach. The name 'Komatsuna' means 'greens of Komatsu' in Japanese.<br><br>Flavour: Mild, heat at end <br><br>Benefits: Kills cancer stem cells, slows tumor growth, prevents diabetes, aids heart health, anti-aging, prevents anaemia, strengthens bones."
   },
@@ -197,7 +197,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGSorrel_square.jpg",
     "title" : "Sorrel",
-    "pricing" : "$4.00 per 70g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sorrel",
     "description": "-"
   },
@@ -207,7 +207,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCorn_square.jpg",
     "title" : "Sweet Corn Microgreen",
-    "pricing" : "$4.00 per 50g",
+    "pricing" : "$5.00 per 50g",
     "description_title": "Sweet Corn Microgreen 玉米微綠",
     "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the sweetest tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! If you expose your sweet corn microgreens to light, they will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter."
   },
@@ -221,7 +221,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
-    "pricing" : "$8.00 per 500ml",
+    "pricing" : "$9.00 per 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
@@ -231,7 +231,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$8.00 per 500ml",
     "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
   },
@@ -241,7 +241,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$8.00 per 500ml",
     "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
   },
@@ -251,7 +251,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
-    "pricing" : "$7.00 per 250ml",
+    "pricing" : "$9.00 per 250ml",
     "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. No added sugar, preservatives, colour, and artificial flavours."
   }
