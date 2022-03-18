@@ -253,6 +253,6 @@ var myProducesData = [
     "title" : "Maple Syrup",
     "pricing" : "$9.00 per 250ml",
     "description_title": "Maple Syrup",
-    "description": "Natural. Harvested and prepared from our Mannonite neighbour. No added sugar, preservatives, colour, and artificial flavours."
+    "description": "Natural. Harvested and prepared from our Mannonite neighbour. 100% Pure Maple Syrup, no added sugar, preservatives, colour, and artificial flavours."
   }
 ];
