@@ -141,7 +141,8 @@
       }
 
       function checkReminder() {
-        let dontshow = getCookie("dontShowReminder20220317");
+//        let dontshow = getCookie("dontShowReminder20220317");
+        let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20220317", false, 30 );
           var t = document.getElementById("reminder")
