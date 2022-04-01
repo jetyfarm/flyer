@@ -7,7 +7,7 @@ var myProducesData = [
     "title" : "Free Range Farm Eggs",
     "pricing" : "-",
     "description_title": "Free Range Farm Eggs",
-    "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. Bi-weekly subscription orders are highly recommended. <BR><BR>*Eggs are unwashed, please wash before consuming."
+    "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>*Our farm eggs are unwashed, please wash before consuming."
   },
 
   // ===========================================
