@@ -38,7 +38,7 @@ var myFlyerProduceList = [
     // { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "false" },
     // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
     // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
-    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
     // { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
     
