@@ -250,9 +250,16 @@
             d.id = _id;
             d.addEventListener( "click", function(){ showModal(this.id)} );
 
+            var produce_index=0;
+            $.each(myProducesData, function(i, item) {
+              if( myProducesData[i].id == _id ) {
+                produce_index = i;
+              }
+            });
+
             // create image
             var p = document.createElement('img');
-            var imgPath = "images/produces/"+_id+".jpg";
+            var imgPath = "images/produces/"+myProducesData[produce_index].produce_image;
             p.src = imgPath;
             d.appendChild(p);   
 
