@@ -23,14 +23,14 @@ var myFlyerProduceList = [
         "soldoutText" : "SPECIAL PRICE for 4 dozens large eggs!!!" 
     },
     
-//    { "type" : "divider", "id" : "Mushrooms" },
-//    { "type" : "produce", "id" : "MSBlack",         "soldout" : "true" },
+    { "type" : "divider", "id" : "Mushrooms" },
+    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
 //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
 //    { "type" : "produce", "id" : "MSLion",          "soldout" : "true" },
     
 
     { "type" : "divider", "id" : "Microgreens" },
-     { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
+     { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "true" },
     // { "type" : "produce", "id" : "MGCabbage",       "soldout" : "false" },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
     // { "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
