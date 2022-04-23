@@ -33,9 +33,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MSShiitake_square.jpg",
     "title" : "Shiitake",
-    "pricing" : "$7.50 per 150g",
-    "description_title": "Shiitake",
-    "description": "Can be eaten raw with a mild Flavour. When Cooked, the taste is more pronounced. <br>Tastes: Earthy, Woody, Savory, Meaty, Buttery when Cooked.<br>Benefits: Reduces Cholesterol Levels. Promotes Heart Health. Supports Healthy Blood Vessels and Bones, Supports Immune System, Reduce Inflammation."
+    "pricing" : "$8.00 per 120g",
+    "description_title": "Shiitake 鲜香菇",
+    "description": "Shiitake mushrooms are one of the most popular edible mushrooms in the world, native to East Asia. They are slender and light brown, with a tough, inedible stem. This variety has been cultivated in Japan and China for centuries.<br><br>Shiitake mushrooms taste rich, meaty, and buttery when cooked. While you can eat shiitakes raw, their flavor is much more pronounced and developed when they’re cooked.<br><br>Compounds in Shiitake may help fight cancer, boost immunity, and support healthy blood vessels and bones. Shiitake are low in calories. They also offer good amounts of fiber, as well as B vitamins and some minerals."
   },
   {
     "id" : "MSLion",
