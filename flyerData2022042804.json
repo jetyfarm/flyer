@@ -39,9 +39,9 @@ var myFlyerProduceList = [
      { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
     // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
-    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
-     { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
+     { "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
     
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
     { "type" : "produce", "id" : "BTSalsa",         "soldout" : "false" },
