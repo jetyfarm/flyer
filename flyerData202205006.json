@@ -1,8 +1,8 @@
 var myFlyerData = [{
-    "banner1Txt" : "Flyer for May 12, 2022",
-//    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
-    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, May 10 @6pm. Thank you for your support and stay safe!",
+    "banner1Txt" : "Flyer for May 19, 2022",
+    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+//    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, May 17 @6pm. Thank you for your support and stay safe!",
     "reminderTxt" : "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
 }];
 
@@ -23,22 +23,22 @@ var myFlyerProduceList = [
         "soldoutText" : "SPECIAL PRICE for 4 dozens large eggs!!!" 
     },
     
-    { "type" : "divider", "id" : "Mushrooms" },
+//    { "type" : "divider", "id" : "Mushrooms" },
 //    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
 //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
-    { "type" : "produce", "id" : "MSLion",            "soldout" : "true" },
+//    { "type" : "produce", "id" : "MSLion",            "soldout" : "true" },
 //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
     
 
     { "type" : "divider", "id" : "Microgreens" },
-     { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
-    // { "type" : "produce", "id" : "MGCabbage",       "soldout" : "true" },
+    // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
+    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "false" },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
     // { "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
     // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
-    { "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
+    //{ "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
-    { "type" : "produce", "id" : "MGKale",          "soldout" : "true" },
+    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
     // { "type" : "produce", "id" : "MGBroccoli",      "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
     // { "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
