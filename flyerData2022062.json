@@ -34,7 +34,7 @@ var myFlyerProduceList = [
     
     // ================================================================
     { "type" : "divider", "id" : "Cucumbers" },
-    { "type" : "produce", "id" : "CUQuirk",       "soldout" : "false" },
+    { "type" : "produce", "id" : "CUQuirk",       "soldout" : "true" },
     { "type" : "produce", "id" : "CUItachi",       "soldout" : "false" },
     { "type" : "produce", "id" : "CUCucumber",       "soldout" : "false" },
     { "type" : "produce", "id" : "CUEnglish",       "soldout" : "false" },
@@ -42,7 +42,7 @@ var myFlyerProduceList = [
     // ================================================================
     { "type" : "divider", "id" : "Microgreens" },
     // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "false" },
+    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
     // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
