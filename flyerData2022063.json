@@ -34,7 +34,7 @@ var myFlyerProduceList = [
     
     // ================================================================
     { "type" : "divider", "id" : "Cucumbers" },
-    { "type" : "produce", "id" : "CUQuirk",       "soldout" : "true" },
+    { "type" : "produce", "id" : "CUQuirk",       "soldout" : "false" },
     { "type" : "produce", "id" : "CUItachi",       "soldout" : "false" },
     { "type" : "produce", "id" : "CUCucumber",       "soldout" : "false" },
     { "type" : "produce", "id" : "CUEnglish",       "soldout" : "false" },
@@ -51,7 +51,7 @@ var myFlyerProduceList = [
     // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
+    { "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
     
     // ================================================================
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
