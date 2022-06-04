@@ -1,7 +1,7 @@
 var myProducesData = [
   {
     "id" : "egg",
-    "produce_image" : "egg_special.jpg",
+    "produce_image" : "egg_special02.jpg",
     "produce_div" : "static",
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",

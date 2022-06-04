@@ -1,8 +1,8 @@
 var myFlyerData = [{
-    "banner1Txt" : "Flyer for June 2, 2022",
-    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-//    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
-    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, May 31 @6pm. Thank you for your support and stay safe!",
+    "banner1Txt" : "Flyer for June 9, 2022",
+//    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+    "footnoteTxt" : "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, June 9 @6pm. Thank you for your support and stay safe!",
     "reminderTxt" : "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
 }];
 
@@ -20,9 +20,9 @@ var myFlyerProduceList = [
     { "type" : "divider", "id" : "Eggs" },
     { "type" : "produce", 
         "id" : "egg",             
-        "soldout" : "false",     
+        "soldout" : "true",     
 //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        "soldoutText" : "SPECIAL PRICE for 4 dozens large eggs!!!" 
+        "soldoutText" : "SPECIAL PRICE for 4 dozens small eggs!!!" 
     },
     
     // ================================================================
@@ -40,9 +40,9 @@ var myFlyerProduceList = [
     { "type" : "produce", "id" : "CUEnglish",       "soldout" : "false" },
 
     // ================================================================
-    { "type" : "divider", "id" : "Microgreens" },
+    //{ "type" : "divider", "id" : "Microgreens" },
     // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGCabbage",       "soldout" : "true" },
+    //{ "type" : "produce", "id" : "MGCabbage",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
     // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
@@ -51,7 +51,7 @@ var myFlyerProduceList = [
     // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGBroccoli",      "soldout" : "false" },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
-    { "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
+    //{ "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
     
     // ================================================================
     { "type" : "divider", "id" : "From our Mennonite neighbours..." },
