@@ -35,7 +35,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUQuirk_square.jpg",
     "title" : "Quirk Cucumber",
-    "pricing" : "$5.00 per 220g",
+    "pricing" : "$7.00 per 450g",
     "description_title": "Quirk Cucumber",
     "description": "Quirk is an attention-grabbing mini with a striking contrast between bright green and gleaming white. It is an excellent fruit uniformity and flavor. The 2-inch seedless fruits are burpless (meaning they contain no cucurbitacin, the compound that causes bitterness), making them ideal for snacking and pickling."
   },
