@@ -27,6 +27,34 @@ var myProducesData = [
   },
 
   // ===========================================
+  // Fruits
+  // ===========================================
+  {
+    "id" : "FTStrawberry",
+    "produce_image" : "FTStrawberry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTStrawberry_square.jpg",
+    "title" : "Strawberry",
+    "pricing" : "$5.00 per 450g",
+    "description_title": "Strawberry",
+    "description": ""
+  },
+
+  // ===========================================
+  // Vegetables
+  // ===========================================
+  {
+    "id" : "VGAsianLettuce",
+    "produce_image" : "VGAsianLettuce.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGAsianLettuce_square.jpg",
+    "title" : "Asian Lettuce",
+    "pricing" : "$2.50 per 200g",
+    "description_title": "Asian Lettuce 唐生菜",
+    "description": ""
+  },
+
+  // ===========================================
   // Cucumbers
   // ===========================================
   {
