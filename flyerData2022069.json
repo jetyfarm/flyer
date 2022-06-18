@@ -1,0 +1,154 @@
+var myFlyerData = [
+    {
+        "banner1Txt": "Flyer for June 23, 2022",
+        //    "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        //    "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the meat chicken orders",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, June 21 @6pm. Thank you for your support and stay safe!",
+        "reminderTxt": "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
+    }
+];
+
+
+var myFlyerProduceList = [
+    //    {
+    //        "type" : "note", 
+    //        "note" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
+    //    },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Meat Chicken"
+    },
+    {
+        "type": "produce",
+        "id": "MeatChicken",
+        "soldout": "true",
+        "soldoutText": "Deliver this week!!!"
+    },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Eggs"
+    },
+    {
+        "type": "produce",
+        "id": "egg",
+        "soldout": "true",
+        //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
+        "soldoutText": "SPECIAL PRICE for 4 dozens small eggs!!!"
+    },
+    // ================================================================
+    //    { "type" : "divider", "id" : "Mushrooms" },
+    //    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
+    //    { "type" : "produce", "id" : "MSLion",            "soldout" : "true" },
+    //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Vegetables"
+    },
+    {
+        "type": "produce",
+        "id": "VGAsianLettuce",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Cucumbers"
+    },
+    {
+        "type": "produce",
+        "id": "CUQuirk",
+        "soldout": "true",
+        "soldoutText": "<br>ON SALE!!!"
+    },
+    {
+        "type": "produce",
+        "id": "CUItachi",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "CUCucumber",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "CUEnglish",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Fruits"
+    },
+    {
+        "type": "produce",
+        "id": "FTStrawberry",
+        "soldout": "true",
+        "soldoutText": ""
+    },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Microgreens"
+    },
+    // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
+    {
+        "type": "produce",
+        "id": "MGCabbage",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
+    //{ "type" : "produce", "id" : "MGMizuna",     "soldout" : "false" },
+    // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
+    //{ "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
+    // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
+    // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "true",
+        "soldoutText": ""
+    },
+    // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
+    //{ "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "From our Mennonite neighbours..."
+    },
+    {
+        "type": "produce",
+        "id": "BTSalsa",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTBeets",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTPickles",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTMaplesyrup",
+        "soldout": "false",
+        "soldoutText": ""
+    }
+];
