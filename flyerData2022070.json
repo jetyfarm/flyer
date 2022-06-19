@@ -65,24 +65,25 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "CUQuirk",
         "soldout": "true",
-        "soldoutText": "<br>ON SALE!!!"
+        "soldoutText": ""
+//        "soldoutText": "<br>ON SALE!!!"
     },
     {
         "type": "produce",
         "id": "CUItachi",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "CUCucumber",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "CUEnglish",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // ================================================================
@@ -105,7 +106,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGCabbage",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
