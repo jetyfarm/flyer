@@ -48,6 +48,18 @@ var myFlyerProduceList = [
     // ================================================================
     {
         "type": "divider",
+        "id": "Tomatoes"
+    },
+    {
+        "type": "produce",
+        "id": "TMCherry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
+    // ================================================================
+    {
+        "type": "divider",
         "id": "Vegetables"
     },
     {
@@ -95,12 +107,6 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "FTStrawberry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "TMCherry",
         "soldout": "false",
         "soldoutText": ""
     },
