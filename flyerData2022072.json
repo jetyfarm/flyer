@@ -44,6 +44,7 @@ var myFlyerProduceList = [
     //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
     //    { "type" : "produce", "id" : "MSLion",            "soldout" : "true" },
     //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
+
     // ================================================================
     {
         "type": "divider",
@@ -97,6 +98,13 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
+    {
+        "type": "produce",
+        "id": "TMCherry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
     // ================================================================
     // {
     //     "type": "divider",

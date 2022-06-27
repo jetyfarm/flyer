@@ -41,6 +41,20 @@ var myProducesData = [
   },
 
   // ===========================================
+  // Cherry Tomatoes
+  // ===========================================
+  {
+    "id" : "TMCherry",
+    "produce_image" : "TMCherry.jpg",
+    "produce_div" : "narrow",
+    "image" : "TMCherry_square.jpg",
+    "title" : "Cherry Tomatoes",
+    "pricing" : "$4.00 per 240g",
+    "description_title": "Cherry Tomatoes",
+    "description": ""
+  },
+
+  // ===========================================
   // Vegetables
   // ===========================================
   {
