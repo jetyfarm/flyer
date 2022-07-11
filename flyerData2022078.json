@@ -59,7 +59,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMBigBeef",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
 
@@ -83,13 +83,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGYouChoy",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "VGTWPakChoy",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
@@ -176,7 +176,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Honey",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
 
