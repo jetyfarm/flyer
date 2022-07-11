@@ -53,6 +53,16 @@ var myProducesData = [
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
+  {
+    "id" : "TMBigBeef",
+    "produce_image" : "TMBigBeef.jpg",
+    "produce_div" : "narrow",
+    "image" : "TMBigBeef_square.jpg",
+    "title" : "Big Beef Tomatoes",
+    "pricing" : "$3.00 per 500g",
+    "description_title": "Big Beef Tomatoes",
+    "description": " It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
+  },
 
   // ===========================================
   // Vegetables
@@ -85,6 +95,26 @@ var myProducesData = [
     "title" : "Spring Mix Salad",
     "pricing" : "$5.50 per 250g",
     "description_title": "Spring Mix Salad",
+    "description": ""
+  },
+  {
+    "id" : "VGYouChoy",
+    "produce_image" : "VGYouChoy.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGYouChoy_square.jpg",
+    "title" : "Yu Choy",
+    "pricing" : "$3.00 per 250g",
+    "description_title": "Yu Choy 油菜",
+    "description": ""
+  },
+  {
+    "id" : "VGTWPakChoy",
+    "produce_image" : "VGTWPakChoy.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGTWPakChoy_square.jpg",
+    "title" : "Taiwan Pak Choy",
+    "pricing" : "$3.00 per 250g",
+    "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
 
@@ -320,7 +350,21 @@ var myProducesData = [
     "description_title": "Sweet Corn Microgreen 玉米微綠",
     "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the sweetest tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! If you expose your sweet corn microgreens to light, they will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter."
   },
-  
+
+  // ===========================================
+  // HONEY
+  // ===========================================
+  {
+    "id" : "Honey",
+    "produce_image" : "Honey.jpg",
+    "produce_div" : "narrow",
+    "image" : "Honey_square.jpg",
+    "title" : "Honey",
+    "pricing" : "$9.50 per 250ml",
+    "description_title": "Honey",
+    "description": "Our Honey is harvested directly from the bee hives into jars, it's 100% raw unpasturized bee honey without any additives or processed."
+  },
+
   // ===========================================
   // BOTTLE
   // ===========================================

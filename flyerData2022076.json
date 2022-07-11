@@ -56,6 +56,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
+    {
+        "type": "produce",
+        "id": "TMBigBeef",
+        "soldout": "false",
+        "soldoutText": ""
+    },
 
     // ================================================================
     {
@@ -74,6 +80,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
+    {
+        "type": "produce",
+        "id": "VGYouChoy",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGTWPakChoy",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "VGSalad",
@@ -149,6 +167,19 @@ var myFlyerProduceList = [
     // },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Honey"
+    },
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
     // ================================================================
     {
         "type": "divider",
