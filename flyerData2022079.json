@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for July 14, 2022",
-        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        "banner1Txt": "Flyer for July 21, 2022",
+//        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
 //        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
-        // "banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the meat chicken orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, July 12 @6pm. Thank you for your support and stay safe!",
+         "banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the meat chicken orders",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, July 19 @6pm. Thank you for your support and stay safe!",
         "reminderTxt": "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
     }
 ];
@@ -23,8 +23,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "false",
-//        "soldoutText": "Deliver on July 21!!!"
+        "soldout": "true",
+        "soldoutText": "Last Chance!!!"
     },
     // ================================================================
     {
@@ -59,7 +59,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMBigBeef",
-        "soldout": "true",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "TMJapaneseBlack",
+        "soldout": "false",
         "soldoutText": ""
     },
 
@@ -80,18 +86,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGYouChoy",
-        "soldout": "true",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "VGTWPakChoy",
-        "soldout": "true",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGYouChoy",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGTWPakChoy",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "VGSalad",
@@ -142,11 +148,15 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens"
-    // },
-    // { "type" : "produce", "id" : "MGPeashoot",      "soldout" : "false" },
+    {
+        "type": "divider",
+        "id": "Microgreens"
+    },
+    {   
+        "type" : "produce", 
+        "id" : "MGPeashoot",      
+        "soldout" : "false" 
+    },
     // {
     //     "type": "produce",
     //     "id": "MGCabbage",
@@ -158,15 +168,15 @@ var myFlyerProduceList = [
     // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
-    // { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
-    // {
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
-    //{ "type" : "produce", "id" : "MGRadish",     "soldout" : "true" },
+    { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
 
     // ================================================================
     {
@@ -176,7 +186,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Honey",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
 

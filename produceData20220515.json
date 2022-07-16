@@ -61,7 +61,17 @@ var myProducesData = [
     "title" : "Big Beef Tomatoes",
     "pricing" : "$3.00 per 500g",
     "description_title": "Big Beef Tomatoes",
-    "description": " It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
+    "description": "It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
+  },
+  {
+    "id" : "TMJapaneseBlack",
+    "produce_image" : "TMJapaneseBlack.jpg",
+    "produce_div" : "narrow",
+    "image" : "TMJapaneseBlack_square.jpg",
+    "title" : "Japanese Black Trifele",
+    "pricing" : "$6.00 per 500g",
+    "description_title": "Japanese Black Trifele Tomato",
+    "description": "A beautiful mahogany pear shaped fruit. These medium to large sized tomatoes have very tasty flesh with a meaty core. Excellent choice for sandwiches, salads and cooking."
   },
 
   // ===========================================
