@@ -98,6 +98,18 @@
         float: left;
         clear: none;
       }
+
+      @keyframes hideMe{
+        0%{
+            opacity: 1;
+        }
+        90%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+      }
     </style>
     <script>
       function setCookie(cname,cvalue,exdays) {
@@ -132,9 +144,9 @@
       }
 
       function checkTutorial() {
-        let dontshow = getCookie("dontShowTutorial20220127");
+        let dontshow = getCookie("dontShowTutorial20220729");
         if (dontshow == "" || dontshow == "false") {
-          setCookie( "dontShowTutorial20220127", false, 30 );
+          setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
           t.style.display="block";
         }
@@ -153,7 +165,7 @@
     </script>
 
     <script type="text/javascript" src="produceData20220515.json"></script>
-    <script type="text/javascript" src="flyerData2022079.json"></script>
+    <script type="text/javascript" src="flyerData2022080.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -200,12 +212,42 @@
       </div>
 
       <!-- Tutorial -->
-      <div id="tutorial" class="modal" style="padding-top: 10vh;">
+      <div id="tutorial" class="modal" style="padding-top: 10vh; animation: hideMe 60s forwards;">
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date().getTime()+52000;
+
+          // Update the count down every 1 second
+          var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            //var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            //var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = "This tutorial will be closed in " + seconds + " sec";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("demo").innerHTML = "CLOSING...";
+            }
+          }, 1000);
+        </script>
+
         <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 88vw; height:auto;">
 
           <span id="tutorialClose" class="close">&times;</span>
           <p style="text-align: center; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 4.5vw;">How to navigate Jety Farm flyer...</p>
-          <img src="images/tutorial.jpg" class="center" style="width: auto; height: 60vh;">
+          <img src="images/jetyTutorial.png" class="center" style="width: auto; height: 60vh; object-fit: contain;">
          
           <!-- Don't show again -->
           <div style="width:30vw; height: 5vw; text-align: right; margin-left: 45vw;">
@@ -216,6 +258,10 @@
             <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
               Don't show again
             </label>
+          </div>
+          <div style="width:40vw; height: 5vw; text-align: right; margin-left: 35vw;">
+            <p id="demo" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
+            </p>
           </div>
           <div style="height: 2vh;"> </div>
         </div> 
@@ -472,8 +518,8 @@
         }
 
         function handleClickDontShow(cb) {
-          setCookie( "dontShowTutorial20220127", cb.checked, 30 );
-          let dontshow = getCookie("dontShowTutorial20220127");
+          setCookie( "dontShowTutorial20220729", cb.checked, 30 );
+          let dontshow = getCookie("dontShowTutorial20220729");
         }
 
         function handlerReminderDontShow(cb) {

@@ -59,7 +59,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMBigBeef",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
@@ -168,11 +168,16 @@ var myFlyerProduceList = [
     // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
     //{ "type" : "produce", "id" : "MGPokChoy",       "soldout" : "true" },
     // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
-    { "type" : "produce", "id" : "MGKale",          "soldout" : "false" },
+    { 
+        "type" : "produce", 
+        "id" : "MGKale",          
+        "soldout" : "true" ,
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // { "type" : "produce", "id" : "MGKohlrabi",      "soldout" : "false" },
