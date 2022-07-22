@@ -49,7 +49,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
-    "pricing" : "$4.00 per 240g",
+    "pricing" : "$4.00 per 240g; $8 per 600g",
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
