@@ -127,6 +127,26 @@ var myProducesData = [
     "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
+  {
+    "id" : "VGZucchini",
+    "produce_image" : "VGZucchini.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGZucchini_square.jpg",
+    "title" : "Zucchini",
+    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
+    "description_title": "Zucchini",
+    "description": ""
+  },
+  {
+    "id" : "VGBellPepper",
+    "produce_image" : "VGBellPepper.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGBellPepper_square.jpg",
+    "title" : "Mixed Bell Pepper",
+    "pricing" : "$6.00 per 400g",
+    "description_title": "Mixed Bell Pepper",
+    "description": ""
+  },
 
   // ===========================================
   // Cucumbers

@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for July 28, 2022",
-        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-//        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner1Txt": "Flyer for August 4, 2022",
+//        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 //         "banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the meat chicken orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, July 26 @6pm. Thank you for your support and stay safe!",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, August 2 @6pm. Thank you for your support and stay safe!",
         "reminderTxt": "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
     }
 ];
@@ -80,12 +80,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGGaiLan",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGGaiLan",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGYouChoy",
@@ -101,6 +101,18 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGSalad",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGZucchini",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGBellPepper",
         "soldout": "false",
         "soldoutText": ""
     },
