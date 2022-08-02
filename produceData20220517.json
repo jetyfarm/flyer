@@ -148,6 +148,52 @@ var myProducesData = [
     "description": ""
   },
 
+  {
+    "id" : "VGSnowPea",
+    "produce_image" : "VGSnowPea.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGSnowPea_square.jpg",
+    "title" : "Snow Pea",
+    "pricing" : "6.50 per 250g",
+    "description_title": "Snow Pea",
+    "description": ""
+  },
+  {
+    "id" : "VGOkra",
+    "produce_image" : "VGOkra.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGOkra_square.jpg",
+    "title" : "Okra",
+    "pricing" : "$4.00 per 250g",
+    "description_title": "Okra",
+    "description": ""
+  },
+  {
+    "id" : "VGCarrot",
+    "produce_image" : "VGCarrot.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGCarrot_square.jpg",
+    "title" : "Mixed Gourmet Carrots",
+    "pricing" : "$3.50 per bunch",
+    "description_title": "Mixed Gourmet Carrots",
+    "description": "Assorted gourmet carrots. Each bunch contains approx. 6-8 carrots."
+  },
+
+  // ===========================================
+  // Eggplamts
+  // ===========================================
+  {
+    "id" : "EGFairyTale",
+    "produce_image" : "EGFairyTale.jpg",
+    "produce_div" : "narrow",
+    "image" : "EGFairyTale_square.jpg",
+    "title" : "Fairytale Mini Eggplant",
+    "pricing" : "$4.00 per 450g",
+    "description_title": "Fairytale Mini Eggplant",
+    "description": "FairyTale is a lovely mini eggplant, only 3-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
+  },
+
+
   // ===========================================
   // Cucumbers
   // ===========================================

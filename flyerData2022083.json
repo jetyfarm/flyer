@@ -83,7 +83,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGGaiLan",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -101,7 +101,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGSalad",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
@@ -113,6 +113,30 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBellPepper",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGSnowPea",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "VGOkra",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "EGFairyTale",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "VGCarrot",
         "soldout": "false",
         "soldoutText": ""
     },
