@@ -150,8 +150,8 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "CUQuirk",
         "soldout": "true",
-//        "soldoutText": ""
-        "soldoutText": "<br> ON SALE!!!"
+        "soldoutText": ""
+//        "soldoutText": "<br> ON SALE!!!"
     },
     // {
     //     "type": "produce",
