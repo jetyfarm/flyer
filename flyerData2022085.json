@@ -54,18 +54,18 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "TMCherry",
         "soldout": "true",
-        "soldoutText": "NEW BULK PRICE!"
+        "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "TMBigBeef",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "TMJapaneseBlack",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
 
