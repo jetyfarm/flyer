@@ -113,7 +113,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBellPepper",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
