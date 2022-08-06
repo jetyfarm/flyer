@@ -15,7 +15,7 @@ var myProducesData = [
   // ===========================================
   {
     "id" : "MeatChicken",
-    "produce_image" : "MeatChicken4.jpg",
+    "produce_image" : "MeatChickenAug.jpg",
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
    // "title" : "Meat Chicken",
@@ -24,6 +24,18 @@ var myProducesData = [
     "pricing" : "",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2022 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We are offering meat chickens ONCE A MONTH from June to November 2022, total of 6 deliveries. The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 6 monthly meat chicken order for $162.00 (taxes and delivery fee included) which equals to $27 per chicken. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to the regulation, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
+  },
+  {
+    "id" : "MatureChicken",
+    "produce_image" : "MatureChicken.jpg",
+    "produce_div" : "narrow",
+    "image" : "MatureChicken_square.jpg",
+   // "title" : "Meat Chicken",
+   // "pricing" : "Deliver on June 23<br>$30.00 per chicken<br>$27.00 on subscription",
+    "title" : "",
+    "pricing" : "",
+    "description_title": "Fresh Mature Chicken<br>農場走地老雞",
+    "description": "We will deliver FRESH MATURE CHICKEN from August to November.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>The scheduled delivery dates are: August 18, September 15, October 6, and November 24"
   },
 
   // ===========================================
@@ -180,7 +192,7 @@ var myProducesData = [
   },
 
   // ===========================================
-  // Eggplamts
+  // Eggplants
   // ===========================================
   {
     "id" : "EGFairyTale",
@@ -191,6 +203,26 @@ var myProducesData = [
     "pricing" : "$4.00 per 450g",
     "description_title": "Fairytale Mini Eggplant",
     "description": "FairyTale is a lovely mini eggplant, only 3-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
+  },
+  {
+    "id" : "EGAsian",
+    "produce_image" : "EGAsian.jpg",
+    "produce_div" : "narrow",
+    "image" : "EGAsian_square.jpg",
+    "title" : "Asian Eggplant",
+    "pricing" : "$3.50 per 450g",
+    "description_title": "Asian Eggplant",
+    "description": ""
+  },
+  {
+    "id" : "EGDark",
+    "produce_image" : "EGDark.jpg",
+    "produce_div" : "narrow",
+    "image" : "EGDark_square.jpg",
+    "title" : "Purple Asian Eggplant",
+    "pricing" : "$3.50 per 450g",
+    "description_title": "Purple Asian Eggplant",
+    "description": ""
   },
 
 
@@ -203,7 +235,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUQuirk_square.jpg",
     "title" : "Quirk Cucumber",
-    "pricing" : "$4.50 per 450g<br><s>$7.00 per 450g</s>",
+//    "pricing" : "$4.50 per 450g<br><s>$7.00 per 450g</s>",
+    "pricing" : "$4.50 per 450g<br>",
     "description_title": "Quirk Cucumber",
     "description": "Quirk is an attention-grabbing mini with a striking contrast between bright green and gleaming white. It is an excellent fruit uniformity and flavor. The 2-inch seedless fruits are burpless (meaning they contain no cucurbitacin, the compound that causes bitterness), making them ideal for snacking and pickling."
   },
