@@ -123,34 +123,11 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "VGSnowPea",
-        "soldout": "true",
-        "soldoutText": "New Pricing!!!"
-    },    
+  
     {
         "type": "produce",
         "id": "VGOkra",
         "soldout": "true",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "EGFairyTale",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "EGAsian",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "EGDark",
-        "soldout": "false",
         "soldoutText": ""
     },    
     {
@@ -163,12 +140,60 @@ var myFlyerProduceList = [
     // ================================================================
     {
         "type": "divider",
+        "id": "Eggplant"
+    },
+    {
+        "type": "produce",
+        "id": "EGDark",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "EGAsian",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "EGFairyTale",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Peas and Beans"
+    },
+    {
+        "type": "produce",
+        "id": "VGLongBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGSnowPea",
+        "soldout": "true",
+        "soldoutText": "New Pricing!!!"
+    },  
+
+    // ================================================================
+    {
+        "type": "divider",
         "id": "Cucumbers"
     },
     {
         "type": "produce",
         "id": "CUQuirk",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
 //        "soldoutText": "<br> ON SALE!!!"
     },

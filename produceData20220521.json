@@ -192,6 +192,31 @@ var myProducesData = [
   },
 
   // ===========================================
+  // Beans & Peas
+  // ===========================================
+  {
+    "id" : "VGBean",
+    "produce_image" : "VGBean.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGBean_square.jpg",
+    "title" : "Green Beans",
+    "pricing" : "$3.50 per 450g",
+    "description_title": "Green Bean",
+    "description": ""
+  },
+  {
+    "id" : "VGLongBean",
+    "produce_image" : "VGLongBean.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGLongBean_square.jpg",
+    "title" : "Long Green Bean",
+    "pricing" : "$4.50 per 450g",
+    "description_title": "Long Green Bean",
+    "description": ""
+  },
+
+
+  // ===========================================
   // Eggplants
   // ===========================================
   {
