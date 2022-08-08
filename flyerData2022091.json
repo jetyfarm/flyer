@@ -175,7 +175,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     {
