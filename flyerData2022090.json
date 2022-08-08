@@ -169,7 +169,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGLongBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     {
