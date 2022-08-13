@@ -95,7 +95,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGAsianLettuce_square.jpg",
     "title" : "Asian Lettuce",
-    "pricing" : "$2.50 per 200g",
+    "pricing" : "$3.00 per 240g",
     "description_title": "Asian Lettuce 唐生菜",
     "description": ""
   },
@@ -105,7 +105,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGGaiLan_square.jpg",
     "title" : "Gai Lan",
-    "pricing" : "$2.50 per 250g",
+    "pricing" : "$3.00 per 240g",
     "description_title": "Gai Lan 芥蘭",
     "description": ""
   },
@@ -115,7 +115,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGSalad_square.jpg",
     "title" : "Spring Mix Salad",
-    "pricing" : "$5.50 per 250g",
+    "pricing" : "$5.50 per 240g",
     "description_title": "Spring Mix Salad",
     "description": ""
   },
@@ -125,7 +125,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGYouChoy_square.jpg",
     "title" : "Yu Choy",
-    "pricing" : "$3.00 per 250g",
+    "pricing" : "$3.00 per 240g",
     "description_title": "Yu Choy 油菜",
     "description": ""
   },
@@ -135,7 +135,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGTWPakChoy_square.jpg",
     "title" : "Taiwan Pak Choy",
-    "pricing" : "$3.00 per 250g",
+    "pricing" : "$3.00 per 240g",
     "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
@@ -155,28 +155,19 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBellPepper_square.jpg",
     "title" : "Mixed Bell Pepper",
-    "pricing" : "$6.00 per 400g",
+    "pricing" : "$6.00 per 450g",
     "description_title": "Mixed Bell Pepper",
     "description": ""
   },
 
-  {
-    "id" : "VGSnowPea",
-    "produce_image" : "VGSnowPea.jpg",
-    "produce_div" : "narrow",
-    "image" : "VGSnowPea_square.jpg",
-    "title" : "Snow Pea",
-    "pricing" : "6.50 per 450g",
-    "description_title": "Snow Pea",
-    "description": ""
-  },
+
   {
     "id" : "VGOkra",
     "produce_image" : "VGOkra.jpg",
     "produce_div" : "narrow",
     "image" : "VGOkra_square.jpg",
     "title" : "Okra",
-    "pricing" : "$4.00 per 250g",
+    "pricing" : "$4.00 per 240g",
     "description_title": "Okra",
     "description": ""
   },
@@ -214,7 +205,16 @@ var myProducesData = [
     "description_title": "Long Green Bean",
     "description": ""
   },
-
+  {
+    "id" : "VGSnowPea",
+    "produce_image" : "VGSnowPea.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGSnowPea_square.jpg",
+    "title" : "Snow Pea",
+    "pricing" : "6.00 per 450g",
+    "description_title": "Snow Pea",
+    "description": ""
+  },
 
   // ===========================================
   // Eggplants
