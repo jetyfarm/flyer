@@ -191,9 +191,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGFuzzySquash_square.jpg",
     "title" : "Mo Qua",
-    "pricing" : "$4.00 per 1kg",
+    "pricing" : "$3.00 each",
     "description_title": "Mo Qua 毛瓜",
-    "description": ""
+    "description": "Each Mo Qua is approcxiately 750g to 1kg"
   },
 
   // ===========================================
