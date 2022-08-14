@@ -139,16 +139,7 @@ var myProducesData = [
     "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
-  {
-    "id" : "VGZucchini",
-    "produce_image" : "VGZucchini.jpg",
-    "produce_div" : "narrow",
-    "image" : "VGZucchini_square.jpg",
-    "title" : "Zucchini",
-    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
-    "description_title": "Zucchini",
-    "description": ""
-  },
+
   {
     "id" : "VGBellPepper",
     "produce_image" : "VGBellPepper.jpg",
@@ -180,6 +171,29 @@ var myProducesData = [
     "pricing" : "$3.50 per bunch",
     "description_title": "Mixed Gourmet Carrots",
     "description": "Assorted gourmet carrots. Each bunch contains approx. 6-8 carrots."
+  },
+  // ===========================================
+  // Squash
+  // ===========================================
+  {
+    "id" : "VGZucchini",
+    "produce_image" : "VGZucchini.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGZucchini_square.jpg",
+    "title" : "Zucchini",
+    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
+    "description_title": "Zucchini",
+    "description": ""
+  },
+  {
+    "id" : "VGFuzzySquash",
+    "produce_image" : "VGFuzzySquash.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGFuzzySquash_square.jpg",
+    "title" : "Mo Qua",
+    "pricing" : "$4.00 per 1kg",
+    "description_title": "Mo Qua 毛瓜",
+    "description": ""
   },
 
   // ===========================================
