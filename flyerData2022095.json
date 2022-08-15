@@ -24,7 +24,7 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "MeatChicken",
         "soldout": "true",
-        "soldoutText": "LAST CALL!!!"
+        "soldoutText": "SOLD OUT!!!"
     },
     {
         "type": "produce",
@@ -223,7 +223,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "CUEnglish",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // ================================================================
