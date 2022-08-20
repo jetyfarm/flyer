@@ -1,7 +1,7 @@
 var myProducesData = [
   {
     "id" : "egg",
-    "produce_image" : "egg0.jpg",
+    "produce_image" : "egg_special03.jpg",
     "produce_div" : "static",
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
@@ -185,6 +185,18 @@ var myProducesData = [
     "description_title": "Zucchini",
     "description": ""
   },
+  {
+    "id" : "VGYellowZucchini",
+    "produce_image" : "VGYellowZucchini.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGYellowZucchini_square.jpg",
+    "title" : "Yellow Zucchini",
+    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
+    "description_title": "Yellow Zucchini",
+    "description": ""
+  },
+
+
   {
     "id" : "VGFuzzySquash",
     "produce_image" : "VGFuzzySquash.jpg",
