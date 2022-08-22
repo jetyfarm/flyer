@@ -120,7 +120,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGOkra",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -138,14 +138,14 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGZucchini",
-        "soldout": "false",
-        "soldoutText": ""
+        "soldout": "true",
+        "soldoutText": "Regular size is SOLD OUT!"
     },
     {
         "type": "produce",
         "id": "VGYellowZucchini",
-        "soldout": "false",
-        "soldoutText": ""
+        "soldout": "true",
+        "soldoutText": "Regular size is SOLD OUT!"
     },
     // {
     //     "type": "produce",
@@ -229,7 +229,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "CUEnglish",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // ================================================================
