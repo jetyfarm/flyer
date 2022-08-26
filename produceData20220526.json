@@ -37,6 +37,16 @@ var myProducesData = [
     "description_title": "Fresh Mature Chicken<br>農場走地老雞",
     "description": "We will deliver FRESH MATURE CHICKEN from August to November.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>The scheduled delivery dates are: August 18, September 15, October 6, and November 24"
   },
+  {
+    "id" : "Turkey",
+    "produce_image" : "Turkey.jpg",
+    "produce_div" : "narrow",
+    "image" : "Turkey_square.jpg",
+    "title" : "Thanksgiving Turkey",
+    "pricing" : "$5.00 per lb, $25.00 deposit",
+    "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
+    "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH Thanksgiving Turkeys to sell for this Thanksgiving season. The turkeys will be delivered on Oct 6. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 16-22lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Thanksgiving season. Many Thanks."
+  },
 
   // ===========================================
   // Fruits
@@ -237,11 +247,40 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGSnowPea_square.jpg",
     "title" : "Snow Pea",
-    "pricing" : "6.00 per 450g",
+    "pricing" : "$6.00 per 450g",
     "description_title": "Snow Pea",
     "description": ""
   },
-
+  {
+    "id" : "VGBitterMelon",
+    "produce_image" : "VGBitterMelon.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGBitterMelon_square.jpg",
+    "title" : "Bitter Melon",
+    "pricing" : "$2.50 each",
+    "description_title": "Bitter Melon",
+    "description": ""
+  },
+  {
+    "id" : "VGWhiteBitterMelon",
+    "produce_image" : "VGWhiteBitterMelon.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGWhiteBitterMelon_square.jpg",
+    "title" : "White Bitter Melon",
+    "pricing" : "$4.00 each",
+    "description_title": "White Bitter Melon",
+    "description": ""
+  },
+  {
+    "id" : "VGBeet",
+    "produce_image" : "VGBeet.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGBeet_square.jpg",
+    "title" : "Beets",
+    "pricing" : "$7.00 for 2kg",
+    "description_title": "Beets",
+    "description": "$7.00 for 2kg, approx 3 beets."
+  },
   // ===========================================
   // Eggplants
   // ===========================================
