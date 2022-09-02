@@ -15,7 +15,7 @@ var myProducesData = [
   // ===========================================
   {
     "id" : "MeatChicken",
-    "produce_image" : "MeatChickenAug.jpg",
+    "produce_image" : "MeatChickenSept.jpg",
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
    // "title" : "Meat Chicken",
@@ -27,7 +27,7 @@ var myProducesData = [
   },
   {
     "id" : "MatureChicken",
-    "produce_image" : "MatureChicken.jpg",
+    "produce_image" : "MatureChickenSept.jpg",
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
    // "title" : "Meat Chicken",
