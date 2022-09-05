@@ -95,6 +95,17 @@ var myProducesData = [
     "description_title": "Japanese Black Trifele Tomato",
     "description": "A beautiful mahogany pear shaped fruit. These medium to large sized tomatoes have very tasty flesh with a meaty core. Excellent choice for sandwiches, salads and cooking."
   },
+  {
+    "id" : "TMGoldenBerry",
+    "produce_image" : "TMGoldenBerry.jpg",
+    "produce_div" : "narrow",
+    "image" : "TMGoldenBerry_square.jpg",
+    "title" : "Golden Berry",
+    "pricing" : "$3.50 pack of 12",
+    "description_title": "Golden Berry",
+    "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
+  },
+
 
   // ===========================================
   // Vegetables
@@ -205,8 +216,6 @@ var myProducesData = [
     "description_title": "Yellow Zucchini",
     "description": ""
   },
-
-
   {
     "id" : "VGFuzzySquash",
     "produce_image" : "VGFuzzySquash.jpg",
@@ -242,6 +251,16 @@ var myProducesData = [
     "description": ""
   },
   {
+    "id" : "VGStringBean",
+    "produce_image" : "VGStringBean.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGStringBean_square.jpg",
+    "title" : "String Bean",
+    "pricing" : "$3.50 per 450g",
+    "description_title": "String Bean 四季豆",
+    "description": ""
+  },
+  {
     "id" : "VGSnowPea",
     "produce_image" : "VGSnowPea.jpg",
     "produce_div" : "narrow",
@@ -269,6 +288,16 @@ var myProducesData = [
     "title" : "White Bitter Melon",
     "pricing" : "$4.00 each",
     "description_title": "White Bitter Melon",
+    "description": ""
+  },
+  {
+    "id" : "VGGasshoMelon",
+    "produce_image" : "VGGasshoMelon.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGGasshoMelon_square.jpg",
+    "title" : "Prickly Chayote Squash",
+    "pricing" : "$2.00 each",
+    "description_title": "Prickly Chayote Squash 合掌瓜",
     "description": ""
   },
   {
