@@ -43,7 +43,7 @@ var myFlyerProduceList = [
         "id": "egg",
         "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        "soldoutText": "SPECIAL PRICE for 4 dozens small eggs!!!"
+        "soldoutText": "SPECIAL PRICE for Medium and Small eggs!"
     },
     // ================================================================
     //    { "type" : "divider", "id" : "Mushrooms" },
@@ -225,12 +225,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },  
-    {
-        "type": "produce",
-        "id": "VGBean",
-        "soldout": "false",
-        "soldoutText": ""
-    },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGBean",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
     {
         "type": "produce",
         "id": "VGStringBean",
