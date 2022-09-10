@@ -226,6 +226,16 @@ var myProducesData = [
     "description_title": "Mo Qua 毛瓜",
     "description": "Each Mo Qua is approximately 750g to 1kg"
   },
+  {
+    "id" : "Squash",
+    "produce_image" : "Squash.jpg",
+    "produce_div" : "narrow",
+    "image" : "Squash_square.jpg",
+    "title" : "",
+    "pricing" : "",
+    "description_title": "Squash",
+    "description": ""
+  },
 
   // ===========================================
   // Beans & Peas
