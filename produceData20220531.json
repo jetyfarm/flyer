@@ -43,7 +43,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
     "title" : "Thanksgiving Turkey",
-    "pricing" : "$5.00 per lb, $25.00 deposit",
+    "pricing" : "$5.00 per lb, $25.00 deposit<br>Deliver on Oct 6",
     "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
     "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH Thanksgiving Turkeys to sell for this Thanksgiving season. The turkeys will be delivered on Oct 6. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 16-22lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Thanksgiving season. Many Thanks."
   },
