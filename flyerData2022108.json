@@ -132,7 +132,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGOkra",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
