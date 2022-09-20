@@ -311,6 +311,18 @@ var myProducesData = [
     "description": ""
   },
   {
+    "id" : "VGSingGua",
+    "produce_image" : "VGSingGua.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGSingGua_square.jpg",
+    "title" : "Sing Gua",
+    "pricing" : "$4.00 each",
+    "description_title": "Sing Gua 絲瓜",
+    "description": ""
+  },
+
+  
+  {
     "id" : "VGBeet",
     "produce_image" : "VGBeet.jpg",
     "produce_div" : "narrow",

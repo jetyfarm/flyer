@@ -148,22 +148,22 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Squash"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "VGZucchini",
-    //     "soldout": "false",
-    //     "soldoutText": "Regular size is SOLD OUT!"
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGYellowZucchini",
-    //     "soldout": "false",
-    //     "soldoutText": "Regular size is SOLD OUT!"
-    // },
+    {
+        "type": "produce",
+        "id": "VGZucchini",
+        "soldout": "false",
+        "soldoutText": "Regular size is SOLD OUT!"
+    },
+    {
+        "type": "produce",
+        "id": "VGYellowZucchini",
+        "soldout": "false",
+        "soldoutText": "Regular size is SOLD OUT!"
+    },
     {
         "type": "produce",
         "id": "VGGasshoMelon",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
@@ -181,6 +181,12 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBitterMelon",
+        "soldout": "true",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGSingGua",
         "soldout": "false",
         "soldoutText": ""
     },
