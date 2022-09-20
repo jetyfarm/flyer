@@ -73,7 +73,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMGoldenBerry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -157,8 +157,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGYellowZucchini",
-        "soldout": "false",
-        "soldoutText": "Regular size is SOLD OUT!"
+        "soldout": "true",
+        "soldoutText": ""
     },
     {
         "type": "produce",
