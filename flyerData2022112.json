@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for September 22, 2022",
-        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-        //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner1Txt": "Flyer for September 29, 2022",
+        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, September 20 @6pm. Thank you for your support and stay safe!",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, September 27 @6pm. Thank you for your support and stay safe!",
         "reminderTxt": "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
     }
 ];
@@ -26,18 +26,18 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "MeatChicken",
-    //     "soldout": "true",
-    //     "soldoutText": "<br>SOLD OUT!"
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "MatureChicken",
-    //     "soldout": "true",
-    //     "soldoutText": "<br>LAST CALL!"
-    // },
+    {
+        "type": "produce",
+        "id": "MeatChicken",
+        "soldout": "true",
+        "soldoutText": "<br>SOLD OUT!"
+    },
+    {
+        "type": "produce",
+        "id": "MatureChicken",
+        "soldout": "false",
+        "soldoutText": "<br>LAST CALL!"
+    },
 
     // ================================================================
     {
@@ -47,10 +47,10 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         // "soldoutText": "SPECIAL PRICE for Medium and Small eggs!"
-        "soldoutText": "<br>Large eggs are sold out!"
+        // "soldoutText": "<br>Large eggs are sold out!"
     },
     // ================================================================
     //    { "type" : "divider", "id" : "Mushrooms" },
@@ -73,7 +73,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMGoldenBerry",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     // {
@@ -94,12 +94,12 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Vegetables"
     },
-    {
-        "type": "produce",
-        "id": "VGAsianLettuce",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGAsianLettuce",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGGaiLan",
@@ -118,12 +118,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGSalad",
-        "soldout": "true",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSalad",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "VGBellPepper",
@@ -133,7 +133,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGOkra",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     {
@@ -154,16 +154,16 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": "Regular size is SOLD OUT!"
     },
+    // {
+    //     "type": "produce",
+    //     "id": "VGYellowZucchini",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
-        "id": "VGYellowZucchini",
-        "soldout": "true",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "VGGasshoMelon",
-        "soldout": "true",
+        "id": "VGPricklyChayote",
+        "soldout": "false",
         "soldoutText": ""
     },
     {
@@ -178,18 +178,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGBitterMelon",
-        "soldout": "true",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "VGSingGua",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBitterMelon",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSingGua",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "Squash",
@@ -220,30 +220,30 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },    
-    {
-        "type": "produce",
-        "id": "EGFairyTale",
-        "soldout": "true",
-        "soldoutText": ""
-    },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGFairyTale",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },    
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Peas and Beans"
-    // },
+    {
+        "type": "divider",
+        "id": "Peas and Beans"
+    },
     // {
     //     "type": "produce",
     //     "id": "VGLongBean",
     //     "soldout": "true",
     //     "soldoutText": ""
     // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGBean",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGStringBean",
@@ -300,28 +300,28 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens"
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens"
+    },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
     //     "soldout" : "false" 
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGCabbage",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGCabbage",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
-    // { 
-    //     "type" : "produce", 
-    //     "id" : "MGMizuna",     
-    //     "soldout" : "false",
-    //     "soldoutText": "" 
-    // },
+    { 
+        "type" : "produce", 
+        "id" : "MGMizuna",     
+        "soldout" : "false",
+        "soldoutText": "" 
+    },
     // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
     // { 
     //     "type" : "produce", 
@@ -336,12 +336,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
@@ -358,8 +358,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Honey",
-        "soldout": "false",
-        "soldoutText": ""
+        "soldout": "true",
+        "soldoutText": "Last harvest of the season"
     },
 
     // ================================================================
