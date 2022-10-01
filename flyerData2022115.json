@@ -95,12 +95,12 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Vegetables"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "VGAsianLettuce",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGAsianLettuce",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGGaiLan",
@@ -119,12 +119,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGSalad",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGSalad",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "VGBellPepper",
