@@ -209,12 +209,12 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Eggplant"
     },
-    {
-        "type": "produce",
-        "id": "EGDark",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGDark",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
     {
         "type": "produce",
         "id": "EGAsian",
