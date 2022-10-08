@@ -67,7 +67,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
-    "pricing" : "$4.00 per 240g; $8 per 600g",
+//    "pricing" : "$4.00 per 240g; $8 per 600g",
+    "pricing" : "$4.00 per 240g",
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
@@ -162,9 +163,10 @@ var myProducesData = [
     "produce_image" : "VGBellPepper.jpg",
     "produce_div" : "narrow",
     "image" : "VGBellPepper_square.jpg",
-    "title" : "Mixed Bell Pepper",
+//    "title" : "Mixed Bell Pepper",
+    "title" : "Green Bell Pepper",
     "pricing" : "$6.00 per 450g",
-    "description_title": "Mixed Bell Pepper",
+    "description_title": "Green Bell Pepper",
     "description": ""
   },
 
