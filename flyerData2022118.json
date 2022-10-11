@@ -68,7 +68,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMCherry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
@@ -279,13 +279,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "CUCucumber",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "CUEnglish",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // ================================================================
