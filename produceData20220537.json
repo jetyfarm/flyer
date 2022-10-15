@@ -265,7 +265,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGStringBean_square.jpg",
     "title" : "String Bean",
-    "pricing" : "$3.50 per 450g",
+    "pricing" : "$2.00 per 240g",
     "description_title": "String Bean 四季豆",
     "description": ""
   },
