@@ -227,7 +227,7 @@ var myProducesData = [
   },
   {
     "id" : "Squash",
-    "produce_image" : "Squash2.jpg",
+    "produce_image" : "Squash3.jpg",
     "produce_div" : "narrow",
     "image" : "Squash_square.jpg",
     "title" : "",

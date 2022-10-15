@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for October 13, 2022",
-        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner1Txt": "Flyer for October 20, 2022",
+        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        // "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
         //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, Newmarket<br>and all the CHICKEN and TURKEY orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, October 11 @6pm. Thank you for your support and stay safe!",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, October 18 @6pm. Thank you for your support and stay safe!",
         "reminderTxt": "The Meat Chicken delivery dates are finally confirmed.<br><br>The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24.<br><br>Thank you!"
     }
 ];
@@ -61,22 +61,22 @@ var myFlyerProduceList = [
     //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Tomatoes"
-    },
-    {
-        "type": "produce",
-        "id": "TMCherry",
-        "soldout": "true",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "TMGoldenBerry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Tomatoes"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "TMCherry",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "TMGoldenBerry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "TMBigBeef",
@@ -119,12 +119,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGSalad",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSalad",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "VGBellPepper",
@@ -194,8 +194,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Squash",
-        "soldout": "false",
-        "soldoutText": "Sunshine squash is sold out"
+        "soldout": "true",
+        "soldoutText": "New pricing for all squashes!"
     },
     // {
     //     "type": "produce",
@@ -279,13 +279,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "CUCucumber",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "CUEnglish",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     // ================================================================
@@ -380,12 +380,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "BTBeets",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "BTBeets",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "BTPickles",
