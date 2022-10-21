@@ -19,7 +19,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
-    "pricing" : "$30.00 per chicken<br>$27.00 on subscription<br>Deliver on Oct 6",
+    "pricing" : "$30.00 per chicken<br>$27.00 on subscription<br>Deliver on Nov 24",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2022 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We are offering meat chickens ONCE A MONTH from June to November 2022, total of 6 deliveries. The scheduled delivery dates are: June 23, July 21, August 18, September 15, October 6, and November 24<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 6 monthly meat chicken order for $162.00 (taxes and delivery fee included) which equals to $27 per chicken. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to the regulation, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
   },
@@ -29,7 +29,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
     "title" : "Mature Chicken",
-    "pricing" : "$10.00 per chicken<br>Deliver on Oct 6",
+    "pricing" : "$10.00 per chicken<br>Deliver on Nov 24",
     "description_title": "Fresh Mature Chicken<br>農場走地老雞",
     "description": "We will deliver FRESH MATURE CHICKEN from August to November.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>The scheduled delivery dates are: August 18, September 15, October 6, and November 24"
   },
@@ -38,10 +38,10 @@ var myProducesData = [
     "produce_image" : "Turkey.jpg",
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
-    "title" : "Thanksgiving Turkey",
-    "pricing" : "$5.00 per lb, $25.00 deposit<br>Deliver on Oct 6",
-    "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
-    "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH Thanksgiving Turkeys to sell for this Thanksgiving season. The turkeys will be delivered on Oct 6. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 16-22lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Thanksgiving season. Many Thanks."
+    "title" : "Christmas Turkey",
+    "pricing" : "$5.00 per lb, $25.00 deposit<br>Deliver on Dec 22",
+    "description_title": "Fresh Christmas Turkey<br>農場走地火雞",
+    "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH (NEVER FROZEN) Christmas Turkeys to sell for this Christmas. The turkeys will be delivered on DEC 22. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 10-16lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Christmas Holiday season. Many Thanks."
   },
 
   // ===========================================
@@ -163,10 +163,10 @@ var myProducesData = [
     "produce_image" : "VGBellPepper.jpg",
     "produce_div" : "narrow",
     "image" : "VGBellPepper_square.jpg",
-//    "title" : "Mixed Bell Pepper",
-    "title" : "Green Bell Pepper",
+    "title" : "Mixed Bell Pepper",
+//    "title" : "Green Bell Pepper",
     "pricing" : "$6.00 per 450g",
-    "description_title": "Green Bell Pepper",
+    "description_title": "Mixed Bell Pepper",
     "description": ""
   },
 
@@ -394,7 +394,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUCucumber_square.jpg",
     "title" : "Cucumber",
-    "pricing" : "$1.00 each; $2.50 for 3",
+    "pricing" : "$1.00 each",
     "description_title": "Cucumber",
     "description": "Sweet flavor and non-bitter cucumber with a crisp texture. This cucumber is approximate 4 to 6 inches, it has tender skin with firm crispness, excellent for salad or dipping."
   },
@@ -405,7 +405,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUEnglish_square.jpg",
     "title" : "English Cucumber",
-    "pricing" : "$1.50 each; $4.00 for 3",
+    "pricing" : "$1.50 each",
     "description_title": "English Cucumber",
     "description": "Our English Cucumber is 12 inches long, sweet, slender, straight and have fewer, less noticeable seeds than others."
   },
@@ -606,9 +606,9 @@ var myProducesData = [
     "produce_image" : "Honey.jpg",
     "produce_div" : "narrow",
     "image" : "Honey_square.jpg",
-    "title" : "Honey",
+    "title" : "Raw Honey",
     "pricing" : "$9.50 per 250ml, $17.50 per 500ml<br>$25.00 per 750ml",
-    "description_title": "Honey",
+    "description_title": "Raw Honey",
     "description": "Our Honey is harvested directly from the bee hives into jars, it's 100% raw unpasturized bee honey without any additives or processed."
   },
 
