@@ -74,7 +74,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMGoldenBerry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -248,7 +248,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGStringBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     // {
