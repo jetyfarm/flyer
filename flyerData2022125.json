@@ -140,7 +140,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGCarrot",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
 
@@ -248,7 +248,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGStringBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     // {
