@@ -330,12 +330,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "MGKomatsuna",
-        "soldout": "false",
-        "soldoutText": "" 
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "MGKomatsuna",
+    //     "soldout": "false",
+    //     "soldoutText": "" 
+    // },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKale",          
@@ -348,12 +348,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // { 
-    //     "type" : "produce", 
-    //     "id" : "MGKohlrabi",      
-    //     "soldout" : "false",
-    //     "soldoutText": ""
-    // },
+    { 
+        "type" : "produce", 
+        "id" : "MGKohlrabi",      
+        "soldout" : "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "MGRadish",
