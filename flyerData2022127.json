@@ -1,12 +1,12 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for November 3, 2022",
-        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-        //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner1Txt": "Flyer for November 10, 2022",
+        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
         //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, Newmarket<br>and all the CHICKEN and TURKEY orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, November 1 @6pm. Thank you for your support and stay safe!",
-        "reminderTxt": "Couple important dates for the rest of 2022 delivery<br><br>Nov 24, 2022<br>- Last meat chicken and mature chicken delivery for 2022<br>- All meat chickens are sold out<br><br>Dec 22, 2022<br>- FINAL DELIVERY OF THE YEAR<br>- Christmas Turkey delivery<br>- We will deliver to ALL service areas<br><br>Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>"
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, November 8 @6pm. Thank you for your support and stay safe!",
+        "reminderTxt": "Couple important dates for the 2022 delivery<br><br>Nov 24, 2022<br>- Last meat chicken and mature chicken delivery for 2022<br>- All meat chickens are sold out<br><br>Dec 22, 2022<br>- FINAL DELIVERY OF THE YEAR<br>- Christmas Turkey delivery<br>- We will deliver to ALL service areas<br><br>Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>"
     }
 ];
 
@@ -48,10 +48,10 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         // "soldoutText": "SPECIAL PRICE for Medium and Small eggs!"
-        // "soldoutText": "<br>Large eggs are sold out!"
+        "soldoutText": "<br>Large eggs are sold out!"
     },
     // ================================================================
     //    { "type" : "divider", "id" : "Mushrooms" },
@@ -61,16 +61,16 @@ var myFlyerProduceList = [
     //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Tomatoes"
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "TMCherry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Tomatoes"
+    },
+    {
+        "type": "produce",
+        "id": "TMCherry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMGoldenBerry",
@@ -140,7 +140,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGCarrot",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
 
@@ -209,12 +209,12 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Eggplant"
     },
-    {
-        "type": "produce",
-        "id": "EGDark",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGDark",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
     {
         "type": "produce",
         "id": "EGAsian",
@@ -248,7 +248,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGStringBean",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },  
     // {
@@ -305,11 +305,11 @@ var myFlyerProduceList = [
         "type": "divider",
         "id": "Microgreens"
     },
-    // {   
-    //     "type" : "produce", 
-    //     "id" : "MGPeashoot",      
-    //     "soldout" : "false" 
-    // },
+    {   
+        "type" : "produce", 
+        "id" : "MGPeashoot",      
+        "soldout" : "false" 
+    },
     // {
     //     "type": "produce",
     //     "id": "MGCabbage",
@@ -317,20 +317,25 @@ var myFlyerProduceList = [
     //     "soldoutText": ""
     // },
     // // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
-    { 
-        "type" : "produce", 
-        "id" : "MGMizuna",     
-        "soldout" : "true",
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGMizuna",     
+    //     "soldout" : "true",
+    //     "soldoutText": "" 
+    // },
+    // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGPokChoy",       
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    {
+        "type": "produce",
+        "id": "MGKomatsuna",
+        "soldout": "false",
         "soldoutText": "" 
     },
-    // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
-    { 
-        "type" : "produce", 
-        "id" : "MGPokChoy",       
-        "soldout" : "false",
-        "soldoutText": ""
-    },
-    // { "type" : "produce", "id" : "MGKomatsuna",     "soldout" : "false" },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKale",          
@@ -349,7 +354,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    // { "type" : "produce", "id" : "MGRadish",     "soldout" : "false" },
+    {
+        "type": "produce",
+        "id": "MGRadish",
+        "soldout": "false",
+        "soldoutText": "" 
+    },
 
     // ================================================================
     {
