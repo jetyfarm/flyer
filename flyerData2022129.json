@@ -248,7 +248,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGStringBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     // {
@@ -308,7 +308,8 @@ var myFlyerProduceList = [
     {   
         "type" : "produce", 
         "id" : "MGPeashoot",      
-        "soldout" : "false" 
+        "soldout" : "true",
+        "soldoutText": ""
     },
     // {
     //     "type": "produce",
@@ -351,13 +352,13 @@ var myFlyerProduceList = [
     { 
         "type" : "produce", 
         "id" : "MGKohlrabi",      
-        "soldout" : "false",
+        "soldout" : "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "MGRadish",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": "" 
     },
 
