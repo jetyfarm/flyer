@@ -68,7 +68,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMCherry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -346,7 +346,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // { 
