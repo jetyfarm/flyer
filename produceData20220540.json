@@ -1,7 +1,7 @@
 var myProducesData = [
   {
     "id" : "egg",
-    "produce_image" : "egg_special03.jpg",
+    "produce_image" : "egg_special05.jpg",
     "produce_div" : "static",
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
@@ -603,11 +603,11 @@ var myProducesData = [
   // ===========================================
   {
     "id" : "Honey",
-    "produce_image" : "Honey.jpg",
+    "produce_image" : "Honey2.jpg",
     "produce_div" : "narrow",
     "image" : "Honey_square.jpg",
     "title" : "Raw Honey",
-    "pricing" : "$9.50 per 250ml, $17.50 per 500ml<br>$25.00 per 750ml",
+    "pricing" : "<s>$9.50</s> $8.50 per 250ml<br><s>$17.50</s> $16.00 per 500ml<br><s>$25.00</s> $22.00 per 750ml",
     "description_title": "Raw Honey",
     "description": "Our Honey is harvested directly from the bee hives into jars, it's 100% raw unpasturized bee honey without any additives or processed."
   },
@@ -621,7 +621,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
-    "pricing" : "$9.00 per 500ml",
+    "pricing" : "<s>$9.00</s> $8.00 per 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
@@ -631,7 +631,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
-    "pricing" : "$8.00 per 500ml",
+    "pricing" : "<s>$8.00</s> $7.00 per 500ml",
     "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
   },
@@ -641,7 +641,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
-    "pricing" : "$8.00 per 500ml",
+    "pricing" : "<s>$8.00</s> $7.00 per 500ml",
     "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
   },
@@ -651,7 +651,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
-    "pricing" : "$9.00 per 250ml",
+    "pricing" : "<s>$9.00</s> $8.00 per 250ml",
     "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. 100% Pure Maple Syrup, no added sugar, preservatives, colour, and artificial flavours."
   }
