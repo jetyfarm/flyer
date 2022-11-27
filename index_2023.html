@@ -164,7 +164,7 @@
     </script>
 
     <script type="text/javascript" src="produceData20220541.json"></script>
-    <script type="text/javascript" src="flyerData2022134.json"></script>
+    <script type="text/javascript" src="flyerData2022135.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -188,7 +188,7 @@
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(97, 93, 78); text-align: center; height: 71vh; overflow: hidden; overflow-y: scroll;">
+    <div style="background-color: rgb(97, 93, 78); text-align: center; height: auto; overflow: hidden; overflow-y: scroll;">
 
       <!-- Reminder -->
       <div id="reminder" class="modal" style="padding-top: 30vh;">
@@ -374,8 +374,17 @@
               t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.2vw; font-family: Caveat; margin:auto; height: auto; line-height: 1.0;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
               dt.appendChild(t2);
+              d.appendChild(dt);
             }
-            d.appendChild(dt);
+
+            if(_soldout=="true") {
+              if(_soldoutText=="")
+              {
+                var m = document.createElement('div');
+                m.setAttribute("style","position:absolute; top:0%; left:0%; margin:auto; width:100vw; height:100vw; margin:auto; background-color:#0000007d;" );
+                d.appendChild(m);   
+              }
+            }
 
             if(_soldout=="true") {
               if(_soldoutText=="")
