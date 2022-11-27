@@ -11,5 +11,12 @@
             "url": "file:///C:/src/JFM/flyer2/flyer/index.html",
             "webRoot": "${workspaceFolder}"
         }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch 2023",
+            "url": "file:///C:/src/JFM/flyer2/flyer/index_2023.html",
+            "webRoot": "${workspaceFolder}"
+        }
     ]
 }
