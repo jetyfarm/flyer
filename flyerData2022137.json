@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Flyer for December 8, 2022",
-        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
-        "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+        "banner1Txt": "Flyer for December 15, 2022",
+        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
+        //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
         //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, Newmarket<br>and all the CHICKEN and TURKEY orders",
-        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, December 6 @6pm. Thank you for your support and stay safe!",
+        "footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, December 13 @6pm. Thank you for your support and stay safe!",
         "reminderTxt": "Couple important dates for the 2022 delivery<br><br>Dec 22, 2022<br>- FINAL DELIVERY OF THE YEAR<br>- Christmas Turkey delivery<br>- We will deliver to ALL service areas<br><br>Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>"
     }
 ];
@@ -97,12 +97,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Vegetables",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Vegetables",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGAsianLettuce",
@@ -133,12 +133,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGBellPepper",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBellPepper",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGOkra",
@@ -319,12 +319,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Microgreens",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Microgreens",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
@@ -345,12 +345,12 @@ var myFlyerProduceList = [
     //     "soldoutText": "" 
     // },
     // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
-    { 
-        "type" : "produce", 
-        "id" : "MGPokChoy",       
-        "soldout" : "false",
-        "soldoutText": ""
-    },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGPokChoy",       
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "MGKomatsuna",
@@ -363,12 +363,12 @@ var myFlyerProduceList = [
     //     "soldout" : "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "MGBroccoli",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "MGBroccoli",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
