@@ -39,7 +39,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
     "title" : "Fresh Christmas Turkey",
-    "pricing" : "$5.00 per lb<br>$25.00 deposit<br>Deliver on Dec 22",
+    "pricing" : "$5.00 per lb<br>$25.00 deposit",
     "description_title": "Fresh Christmas Turkey<br>農場走地火雞",
     "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH (NEVER FROZEN) Christmas Turkeys to sell for this Christmas. The turkeys will be delivered on DEC 22. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 10-16lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Christmas Holiday season. Many Thanks."
   },
