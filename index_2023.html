@@ -18,6 +18,11 @@
       @font-face { font-family: LithosExtraLight; src: url('Lithos Pro Extra Light.otf'); }
       @font-face { font-family: LithosLight; src: url('Lithos Pro Light.otf'); }
 
+      @font-face { font-family: ArticulatLight; src: url('ArticulatCF-Light.otf'); }
+      @font-face { font-family: Articulat; src: url('ArticulatCF-Regular.otf'); }
+      @font-face { font-family: ArticulatBold; src: url('ArticulatCF-DemiBold.otf'); }
+      @font-face { font-family: ArticulatMedium; src: url('ArticulatCF-Medium.otf'); }
+
       * {
         box-sizing: border-box
       }
@@ -153,8 +158,8 @@
       }
 
       function checkTutorial() {
-        //let dontshow = getCookie("dontShowTutorial20220729");
-        let dontshow = "true"
+        let dontshow = getCookie("dontShowTutorial20220729");
+        //let dontshow = "true"
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
@@ -163,8 +168,8 @@
       }
 
       function checkReminder() {
-        // let dontshow = getCookie("dontShowReminder20221103");
-        let dontshow = "true";
+        let dontshow = getCookie("dontShowReminder20221103");
+        //let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20221103", false, 30 );
           var t = document.getElementById("reminder")
@@ -185,16 +190,16 @@
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
 
-    <header style="height: 9vh;">
-      <div style="height: 9vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
-        <div style="width: auto; height: 9vh; float: left; background-color: rgb(143, 138, 118); ">
-          <img src="images/JetyLogo.png" class="center" style="width: auto; height: 7vh; margin-top: 1vh;">
+    <header style="height: 10vh;">
+      <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
+        <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
+          <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
         </div>
-        <div style="position: relative; margin-left: 35vw; margin-right: 2vh; height: 9vh; padding: 0.5vh;">
+        <div style="position: relative; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 0.5vh;">
 
           <div class="vertical-center">
-            <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;  padding-right: 0.75vh;"></p>
-            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.1vh; color: rgb(242, 237, 229); letter-spacing:0px;  padding-right: 0.75vh;"></p>  
+            <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;"></p>
+            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.2vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
           </div>
 
         </div>
@@ -208,7 +213,9 @@
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
     <div style="background-color: rgb(65, 63, 53); text-align: center; height: 77vh; overflow-y: scroll;">
 
-      <!-- Reminder -->
+      <!------------------------------------------------------------------------------->
+      <!--------------------------------- Reminder ------------------------------------>
+      <!------------------------------------------------------------------------------->
       <div id="reminder" class="modal" style="padding-top: 30vh;">
         <div class="modal-content" style="text-align: center; background-color: rgb(63, 63, 63); width: 75vw; height:auto;">
 
@@ -218,12 +225,12 @@
           <div style="height: 2.5vh;"> </div>
 
           <!-- Don't show again -->
-          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 35vw;">
+          <div style="width:40vw; height: 5vw; text-align: right; margin-left: 25vw;">
             <label class="switch" style="vertical-align: middle;">
               <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
               <span class="slider round" style="vertical-align: middle;"></span>
             </label>
-            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #a5a5a5; font-size: 2vw;">
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Lithos; color: #b7b7b7; font-size: 2.5vw;">              
               Don't show again
             </label>
           </div>
@@ -231,7 +238,9 @@
         </div> 
       </div>
 
-      <!-- Tutorial -->
+      <!------------------------------------------------------------------------------->
+      <!--------------------------------- Tutorial ------------------------------------>
+      <!------------------------------------------------------------------------------->
       <div id="tutorial" class="modal" style="padding-top: 10vh; animation: hideMe 60s forwards;">
         <script>
           // Set the date we're counting down to
@@ -266,7 +275,7 @@
         <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 88vw; height:auto;">
 
           <span id="tutorialClose" class="close">&times;</span>
-          <p style="text-align: center; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 4.5vw;">How to navigate Jety Farm flyer...</p>
+          <p style="text-align: center; vertical-align: middle; font-family: Lithos; color: #707070; letter-spacing: -1px; font-size: 5vw;">How to navigate Jety Farm flyer...</p>
           <img src="images/jetyTutorial.png" class="center" style="width: 80vw; height: 60vh; object-fit: contain;">
          
           <!-- Don't show again -->
@@ -275,12 +284,12 @@
               <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
               <span class="slider round" style="vertical-align: middle;"></span>
             </label>
-            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Lithos; color: #707070; font-size: 2vw;">
               Don't show again
             </label>
           </div>
-          <div style="width:40vw; height: 5vw; text-align: right; margin-left: 35vw;">
-            <p id="demo" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
+          <div style="width:50vw; height: 5vw; text-align: right; margin-left: 25vw;">
+            <p id="demo" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: LithosExtraLight; color: #707070; font-size: 2vw;">
             </p>
           </div>
           <div style="height: 2vh;"> </div>
@@ -309,6 +318,7 @@
         <script>
           var pl = document.getElementById("produceList");
 
+          // ==========================================================================
           // eggs
           function createProduceStatic(_id,_soldout,_soldoutText) {
             var d = document.createElement('div');
@@ -329,6 +339,23 @@
             p.src = imgPath;
             d.appendChild(p);   
 
+            {
+              // create div for text
+              var dt = document.createElement('div');
+              dt.setAttribute("style","position:absolute; vertical-align:middle; top:3vh; left:40vw; tmargin:auto; width:60vw;" );
+
+              var t1 = document.createElement("P");                 // Create a <p> element
+              t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
+              t1.innerHTML = myProducesData[produce_index].title;   
+              dt.appendChild(t1);
+
+              var t2 = document.createElement("P");                 // Create a <p> element
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.25vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
+              t2.innerHTML = myProducesData[produce_index].pricing; 
+              dt.appendChild(t2);
+              d.appendChild(dt);
+            }
+
             if(_soldout=="true") {
               var sd = document.createElement('div');
               sd.setAttribute("style","position:absolute; top:20%; left:-5%; transform: translate(-4%,-50%); margin:auto; height:30vw; width:30vw;" );
@@ -343,8 +370,7 @@
               st.setAttribute("style","position:absolute; top:20%; left:20%; text-align:center; height:65%; width:65%;" );
 
               var t = document.createElement("P");                 // Create a <p> element
-//              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
-              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.5vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
+              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.5vw; font-family: ArticulatMedium; margin:auto; height: auto; line-height: 1.0;" );
               t.innerHTML = _soldoutText; 
               st.appendChild(t);   
               sd.appendChild(st);   
@@ -358,6 +384,7 @@
             pl.appendChild(l);  
           }
 
+          // ==========================================================================
           // Create produce item
           function createProduce(_id,_soldout,_soldoutText) {
             var d = document.createElement('div');
@@ -381,7 +408,7 @@
             {
               // create div for text
               var dt = document.createElement('div');
-              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:45%; transform: translate(-4%,-50%); margin:auto; width:55vw;" );
+              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:46%; transform: translate(-4%,-50%); margin:auto; width:55vw;" );
 
               var t1 = document.createElement("P");                 // Create a <p> element
               t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
@@ -389,7 +416,7 @@
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
-              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.2vw; font-family: Lithos; margin:auto; height: auto; line-height: 1.0; letter-spacing:-1px;" );
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.5vw; height: auto; line-height: 1.0; letter-spacing:0.5px;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
               dt.appendChild(t2);
               d.appendChild(dt);
@@ -429,8 +456,8 @@
                 st.setAttribute("style","position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%;" );
 
                 var t = document.createElement("P");                 // Create a <p> element
-  //              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
-                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
+
+                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
                 t.innerHTML = _soldoutText; 
                 st.appendChild(t);   
                 sd.appendChild(st);   
@@ -450,7 +477,7 @@
             var p = document.createElement('div');
             p.setAttribute("style","text-align:center; position:relative; height: auto; background-color: rgb(65, 63, 53); padding-top:1.8vh; padding-bottom:1.2vh;" );
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Lithos; margin:auto; letter-spacing:-1px; transform: translate(-1.5vw, 0vw); " );
+            t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Lithos; margin:auto; letter-spacing:-1px; transform: translate(0, 1px); " );
             t.innerHTML = dividerTitle;                // Insert text
             p.appendChild(t); 
             // {
@@ -571,7 +598,7 @@
         <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
         
         <div style="margin: auto; text-align: center; height: 7vh; width: 90vw; ">
-            <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: LithosExtraLight; text-align:center; color: rgb(242, 237, 229); transform: translate(-1.5vw, 0vw); letter-spacing:-0.5px; "></p>
+            <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: ArticulatMedium; letter-spacing: 0.25px;text-align:center; color: rgb(242, 237, 229);"></p>
         </div>
 
         <!-- hitwebcounter Code START -->
