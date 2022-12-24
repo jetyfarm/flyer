@@ -13,6 +13,10 @@
       @font-face { font-family: Raleway; src: url('Raleway-VariableFont_wght.ttf'); }
       @font-face { font-family: Caveat; src: url('Caveat-Medium.ttf'); }
       @font-face { font-family: Pacifico; src: url('Pacifico-Regular.ttf'); }
+      @font-face { font-family: Lithos; src: url('LithosPro-Regular.otf'); }
+      @font-face { font-family: LithosBold; src: url('Lithos Pro Bold.otf'); }
+      @font-face { font-family: LithosExtraLight; src: url('Lithos Pro Extra Light.otf'); }
+      @font-face { font-family: LithosLight; src: url('Lithos Pro Light.otf'); }
 
       * {
         box-sizing: border-box
@@ -30,7 +34,7 @@
       }
       /* Style the header */
       header {
-        background-color: rgb(97, 93, 78);
+        background-color: rgb(65, 63, 53);
         text-align: center;
         color: rgb(242, 237, 229);
         height: 16vh;
@@ -46,7 +50,7 @@
         background-color: rgb(242, 237, 229);
       }
       bottom {
-        background-color: rgb(97, 93, 78);
+        background-color: rgb(65, 63, 53);
         text-align: center;
         color: rgb(242, 237, 229);
         width: 100%;
@@ -92,7 +96,13 @@
         margin-right: auto;
         width: 50%;
       }
-
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
       .main div {
         float: left;
         clear: none;
@@ -143,7 +153,8 @@
       }
 
       function checkTutorial() {
-        let dontshow = getCookie("dontShowTutorial20220729");
+        //let dontshow = getCookie("dontShowTutorial20220729");
+        let dontshow = "true"
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
@@ -152,8 +163,8 @@
       }
 
       function checkReminder() {
-        let dontshow = getCookie("dontShowReminder20221103");
-//        let dontshow = "true";
+        // let dontshow = getCookie("dontShowReminder20221103");
+        let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20221103", false, 30 );
           var t = document.getElementById("reminder")
@@ -164,7 +175,7 @@
     </script>
 
     <script type="text/javascript" src="produceData20220543.json"></script>
-    <script type="text/javascript" src="flyerData2022138.json"></script>
+    <script type="text/javascript" src="flyerData2023001.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -174,18 +185,28 @@
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
 
-    <header>
-      <div style="height: 8vh; padding: 0.5vh;">
-        <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
+    <header style="height: 9vh;">
+      <div style="height: 9vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
+        <div style="width: auto; height: 9vh; float: left; background-color: rgb(143, 138, 118); ">
+          <img src="images/JetyLogo.png" class="center" style="width: auto; height: 7vh; margin-top: 1vh;">
+        </div>
+        <div style="position: relative; margin-left: 35vw; margin-right: 2vh; height: 9vh; padding: 0.5vh;">
+
+          <div class="vertical-center">
+            <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;  padding-right: 0.75vh;"></p>
+            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.1vh; color: rgb(242, 237, 229); letter-spacing:0px;  padding-right: 0.75vh;"></p>  
+          </div>
+
+        </div>
       </div>
-      <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
+      <!-- <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
         <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(242, 237, 229);"></p>
         <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.4vh; color: rgb(242, 237, 229);"></p>
-      </div>
+      </div> -->
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(97, 93, 78); text-align: center; height: 70vh; overflow-y: scroll;">
+    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 77vh; overflow-y: scroll;">
 
       <!-- Reminder -->
       <div id="reminder" class="modal" style="padding-top: 30vh;">
@@ -360,15 +381,15 @@
             {
               // create div for text
               var dt = document.createElement('div');
-              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:47%; transform: translate(-4%,-50%); margin:auto; width:45vw;" );
+              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:45%; transform: translate(-4%,-50%); margin:auto; width:55vw;" );
 
               var t1 = document.createElement("P");                 // Create a <p> element
-              t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 4vw; font-family: Pacifico; margin:auto; height:auto; line-height: 1.5;" );
+              t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
               t1.innerHTML = myProducesData[produce_index].title;   
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
-              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.2vw; font-family: Caveat; margin:auto; height: auto; line-height: 1.0;" );
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.2vw; font-family: Lithos; margin:auto; height: auto; line-height: 1.0; letter-spacing:-1px;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
               dt.appendChild(t2);
               d.appendChild(dt);
@@ -424,12 +445,12 @@
             l.setAttribute("style","text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);" );
             pl.appendChild(l);   
           }
-
+          
           function createDivider(dividerTitle,_soldout,_soldoutText) {
             var p = document.createElement('div');
-            p.setAttribute("style","text-align:center; position:relative; height: auto; background-color: rgb(97, 93, 78); padding-top:1.2vh; padding-bottom:1.2vh;" );
+            p.setAttribute("style","text-align:center; position:relative; height: auto; background-color: rgb(65, 63, 53); padding-top:1.8vh; padding-bottom:1.2vh;" );
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Pacifico; margin:auto;" );
+            t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Lithos; margin:auto; letter-spacing:-1px; transform: translate(-1.5vw, 0vw); " );
             t.innerHTML = dividerTitle;                // Insert text
             p.appendChild(t); 
             // {
@@ -452,7 +473,7 @@
             var p = document.createElement('div');
             p.setAttribute("style","text-align:center; height: auto; background-color: rgb(54, 54, 54); padding-top:1.2vh; padding-bottom:1.2vh;" );
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style","margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.3vh; color: rgb(223, 223, 223);" );
+            t.setAttribute("style","margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: LithosExtraLight; font-size: 1.3vh; color: rgb(223, 223, 223);" );
  
 
             t.innerHTML = noteContent;                // Insert text
@@ -546,17 +567,17 @@
     </div>
    
     <footer style="position: sticky; position: -webkit-sticky; bottom: 0;">
-      <div style="background-color: rgb(97, 93, 78); height: 10vh; margin: auto;">
+      <div style="background-color: rgb(105, 102, 87); height: 10vh; margin: auto;">
         <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
         
         <div style="margin: auto; text-align: center; height: 7vh; width: 90vw; ">
-            <p class="footnotetext" id="flyerFootnoteTxt" style="text-align:center; color: rgb(242, 237, 229);"></p>
+            <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: LithosExtraLight; text-align:center; color: rgb(242, 237, 229); transform: translate(-1.5vw, 0vw); letter-spacing:-0.5px; "></p>
         </div>
 
         <!-- hitwebcounter Code START -->
         <div style="margin-left: 48vw; margin-right: auto; height: 2vh; align-content: right;">
-            <a href="https://www.hitwebcounter.com" target="_blank">
-                <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter"   border="0" /></a>   
+            <!-- <a href="https://www.hitwebcounter.com" target="_blank">
+              <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter"   border="0" /></a>    -->
         </div>
     </div>
     </footer>
