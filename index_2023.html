@@ -83,15 +83,15 @@
           font-size: 8px
         }
       }
-      @media screen and (min-width: 601px) {
+      @media screen and (min-width: 540px) {
         p.footnotetext {
-          font-size: 1vh;
+          font-size: 1.8vw;
         }
       }
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 539px) {
         p.footnotetext {
-          font-size: 1.2vh;
+          font-size: 2w;
         }
       }
 
@@ -158,8 +158,8 @@
       }
 
       function checkTutorial() {
-        let dontshow = getCookie("dontShowTutorial20220729");
-        //let dontshow = "true"
+        // let dontshow = getCookie("dontShowTutorial20220729");
+        let dontshow = "true"
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
@@ -168,8 +168,8 @@
       }
 
       function checkReminder() {
-        let dontshow = getCookie("dontShowReminder20221103");
-        //let dontshow = "true";
+        //let dontshow = getCookie("dontShowReminder20221103");
+        let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20221103", false, 30 );
           var t = document.getElementById("reminder")
@@ -190,6 +190,10 @@
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
 
+
+    <!--  ============================================  -->
+    <!--                      HEADER                    -->
+    <!--  ============================================  -->
     <header style="height: 10vh;">
       <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
         <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
@@ -199,7 +203,7 @@
 
           <div class="vertical-center">
             <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;"></p>
-            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.2vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
+            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
           </div>
 
         </div>
@@ -211,7 +215,7 @@
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 77vh; overflow-y: scroll;">
+    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 82vh; overflow-y: scroll;">
 
       <!------------------------------------------------------------------------------->
       <!--------------------------------- Reminder ------------------------------------>
@@ -350,7 +354,7 @@
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
-              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3.25vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
               dt.appendChild(t2);
               d.appendChild(dt);
@@ -593,20 +597,41 @@
       </script>        
     </div>
    
-    <footer style="position: sticky; position: -webkit-sticky; bottom: 0;">
-      <div style="background-color: rgb(105, 102, 87); height: 10vh; margin: auto;">
+    <footer style="position: absolute; position: -webkit-sticky; bottom: 0;">
+      <div style="background-color: rgb(105, 102, 87); width: 100vw; height: auto; margin: auto;">
         <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
         
-        <div style="margin: auto; text-align: center; height: 7vh; width: 90vw; ">
-            <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: ArticulatMedium; letter-spacing: 0.25px;text-align:center; color: rgb(242, 237, 229);"></p>
+        <div style="margin: auto; text-align: center; width: 95vw; height: auto; width: 98vw; ">
+            <!-- <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: ArticulatMedium; letter-spacing: 0.25px;text-align:left; color: rgb(242, 237, 229);"></p> -->
+
+            <table class="footnotetext" cellspacing="0" border-collapse="collapse" style="font-family: ArticulatMedium; font-size: 2.5vw; height: auto; letter-spacing: 0.25px; text-align:left; color: rgb(242, 237, 229); vertical-align: top; padding-top: 0.5vh;">
+              <tr>
+                <td style="text-align: right; width: 28%; vertical-align: top;">Submit orders to:</td>
+                <td style="text-align: left; vertical-align: top;">WhatsApp group, Jety Farm WeChat group, Signal group, or direct message</td>
+              </tr>
+              <tr>
+                <td style="text-align: right; vertical-align: top;">Minimum order:</td>
+                <td style="text-align: left; vertical-align: top;">$13.00</td>
+              </tr>
+              <tr>
+                <td style="text-align: right; vertical-align: top;">Order cut-off time:</td>
+                <td style="text-align: left; vertical-align: top;"> 
+                  <p style="text-align: left; vertical-align: top; margin: auto;"> Tue, Jan 24 @6pm</p>
+                </td>
+              </tr>
+            </table>
+
+
         </div>
 
         <!-- hitwebcounter Code START -->
-        <div style="margin-left: 48vw; margin-right: auto; height: 2vh; align-content: right;">
-            <!-- <a href="https://www.hitwebcounter.com" target="_blank">
-              <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter"   border="0" /></a>    -->
+        <div style="width: auto; height: auto; background-color: rgb(143, 138, 118); margin-top: 0.5vh;">
+          <div style="margin-left: 48vw; margin-right: auto; padding-top:0.5vh; height: 2vh; align-content: right; ">
+            <a href="https://www.hitwebcounter.com" target="_blank">
+              <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter" border="0" /></a>   
+          </div>
         </div>
-    </div>
+      </div>
     </footer>
 
     <script>
@@ -615,8 +640,8 @@
           t1.innerHTML = myFlyerData[0].banner1Txt; 
           var t2 = document.getElementById("flyerBanner2Txt");
           t2.innerHTML = myFlyerData[0].banner2Txt;
-          var t3 = document.getElementById("flyerFootnoteTxt");
-          t3.innerHTML = myFlyerData[0].footnoteTxt;
+          // var t3 = document.getElementById("cutofftimeTxt");
+          // t3.innerHTML = myFlyerData[0].cutofftimeTxt;
           var r1 = document.getElementById("reminderTxt");
           r1.innerHTML = myFlyerData[0].reminderTxt;
         }
