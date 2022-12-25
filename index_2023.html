@@ -158,8 +158,8 @@
       }
 
       function checkTutorial() {
-        // let dontshow = getCookie("dontShowTutorial20220729");
-        let dontshow = "true"
+        let dontshow = getCookie("dontShowTutorial20220729");
+        // let dontshow = "true"
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
@@ -168,8 +168,8 @@
       }
 
       function checkReminder() {
-        //let dontshow = getCookie("dontShowReminder20221103");
-        let dontshow = "true";
+        let dontshow = getCookie("dontShowReminder20221103");
+        //let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20221103", false, 30 );
           var t = document.getElementById("reminder")
@@ -221,7 +221,7 @@
       <!--------------------------------- Reminder ------------------------------------>
       <!------------------------------------------------------------------------------->
       <div id="reminder" class="modal" style="padding-top: 30vh;">
-        <div class="modal-content" style="text-align: center; background-color: rgb(63, 63, 63); width: 75vw; height:auto;">
+        <div class="modal-content" style="text-align: center; background-color: rgb(96, 89, 78); width: 75vw; height:auto;">
 
           <span id="reminderClose" class="close">&times;</span>
           <div style="height: 3.5vh;"> </div>
@@ -310,8 +310,8 @@
                 <img id="modalImage" style="width: auto; height: 28vw;">
             </div>
             <div style="text-align: left; padding-bottom: 1vh;">
-              <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw; font-family: Raleway; line-height: 100%;" id="modalTitle"></p> </p>
-              <p style="text-align:justify; color: rgb(44, 44, 44); font-size: 3vw; font-family: Raleway;" id="modalText"></p> </p>
+              <p style="text-align:left; color: rgb(94, 89, 80); font-size: 5vw; font-family: LithosBold; line-height: 100%;" id="modalTitle"></p> </p>
+              <p style="text-align:justify; color: rgb(131, 122, 107); font-size: 3vw; font-family: ArticulatMedium;" id="modalText"></p> </p>
             </div>
           </div>
         </div>
