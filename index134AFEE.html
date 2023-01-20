@@ -168,10 +168,10 @@
       }
 
       function checkReminder() {
-        let dontshow = getCookie("dontShowReminder20221103");
+        let dontshow = getCookie("dontShowReminder20230126");
         //let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
-          setCookie( "dontShowReminder20221103", false, 30 );
+          setCookie( "dontShowReminder20230126", false, 30 );
           var t = document.getElementById("reminder")
           t.style.display="block";
         }
@@ -593,8 +593,8 @@
         }
 
         function handlerReminderDontShow(cb) {
-          setCookie( "dontShowReminder20221103", cb.checked, 30 );
-          let dontshow = getCookie("dontShowReminder20221103");
+          setCookie( "dontShowReminder20230126", cb.checked, 30 );
+          let dontshow = getCookie("dontShowReminder20230126");
         }
       </script>        
     </div>
