@@ -16,7 +16,7 @@ var myFlyerData = [
 
         "cutofftimeTxt": "Tue, Jan 24 @6pm",
         
-        "reminderTxt": "Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>Feb 2, 2023<br>-Our biweekly delivery starts for North York, Scarborough,<br>and Vaughan"
+        "reminderTxt": "Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>Feb 2, 2023<br>- Our biweekly delivery starts for North York, Scarborough,<br>and Vaughan"
     }
 ];
 
