@@ -5,7 +5,7 @@ var myProducesData = [
     "produce_div" : "static",
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
-    "pricing" : "<s>Large $6.50/doz</s><br>Medium $5.50/doz<br>Small $4.50/doz or $15.00/doz",
+    "pricing" : "<s>Large $6.50/doz</s><br>Medium $5.50/doz<br>Small $4.50/doz or $15.00/4 doz",
     "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>*Our farm eggs are unwashed, please wash before consuming."
   },
