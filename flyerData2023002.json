@@ -419,12 +419,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "BTSalsa",
-        "soldout": "false",
-        "soldoutText": "<br>$1.00 OFF!"
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "BTSalsa",
+    //     "soldout": "false",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // },
     // {
     //     "type": "produce",
     //     "id": "BTBeets",
