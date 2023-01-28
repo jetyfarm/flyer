@@ -1,7 +1,8 @@
 var myFlyerData = [
     {
-        "banner1Txt": "Have A Happy Holiday!",
-        "banner2Txt": "We will resume the delivery on Jan 26, 2023",
+       "banner1Txt": "Feb 2, 2023",
+    //    "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+        "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -9,9 +10,13 @@ var myFlyerData = [
         //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
         //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, Newmarket<br>and all the CHICKEN and TURKEY orders",
-        "footnoteTxt": "",
-        //"footnoteTxt": "Please place your order through one of the following: Jety Farm WeChat group, WhatsApp group, Signal group, or direct message.  Minimum order is $13. The order cut-off time is Tue, December 19 @6pm. Thank you for your support and stay safe!",
-        "reminderTxt": "Couple important dates for the 2022 delivery<br><br>Dec 22, 2022<br>- FINAL DELIVERY OF THE YEAR<br>- Christmas Turkey delivery<br>- We will deliver to ALL service areas<br><br>Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>"
+        //"footnoteTxt": "",
+        "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
+        "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
+
+        "cutofftimeTxt": "Tue, Jan 31 @6pm",
+        
+        "reminderTxt": "Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>Feb 2, 2023<br>- Our biweekly delivery starts for North York, Scarborough,<br>and Vaughan"
     }
 ];
 
@@ -48,20 +53,20 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Eggs",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "egg",
-    //     "soldout": "false",
-    //     //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-    //     // "soldoutText": "SPECIAL PRICE for Medium and Small eggs!"
-    //     "soldoutText": "<br>Large eggs are sold out!"
-    // },
+    {
+        "type": "divider",
+        "id": "Eggs",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "egg",
+        "soldout": "true",
+        //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
+        // "soldoutText": "SPECIAL PRICE for Medium and Small eggs!"
+        "soldoutText": "<br>Large eggs are sold out!"
+    },
     // ================================================================
     //    { "type" : "divider", "id" : "Mushrooms" },
     //    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
@@ -324,24 +329,24 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
     //     "soldout" : "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGCabbage",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGCabbage",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
     // { 
     //     "type" : "produce", 
@@ -368,12 +373,12 @@ var myFlyerProduceList = [
     //     "soldout" : "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
@@ -388,54 +393,54 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-//     {
-//         "type": "divider",
-//         "id": "Honey",
-//         "soldout": "false",
-//         "soldoutText": ""
-//     },
-//     {
-//         "type": "produce",
-//         "id": "Honey",
-//         "soldout": "false",
-// //        "soldoutText": "Last harvest of the season"
-//     },
+    {
+        "type": "divider",
+        "id": "Honey",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "false",
+//        "soldoutText": "Last harvest of the season"
+    },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "From our Mennonite neighbours...",
-    //     "soldout": "true",
-    //     "soldoutText": "<br>$1.00 OFF!"
-    // },
+    {
+        "type": "divider",
+        "id": "From our Mennonite neighbours",
+        "soldout": "true",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
     // {
     //     "type": "produce",
     //     "id": "Turkey",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "BTSalsa",
-    //     "soldout": "false",
-    //     "soldoutText": "<br>$1.00 OFF!"
-    // },
+    {
+        "type": "produce",
+        "id": "BTSalsa",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
     // {
     //     "type": "produce",
     //     "id": "BTBeets",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "BTPickles",
-    //     "soldout": "false",
-    //     "soldoutText": "<br>$1.00 OFF!"
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "BTMaplesyrup",
-    //     "soldout": "false",
-    //     "soldoutText": "<br>$1.00 OFF!"
-    // }
+    {
+        "type": "produce",
+        "id": "BTPickles",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    {
+        "type": "produce",
+        "id": "BTMaplesyrup",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    }
 ];

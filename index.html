@@ -13,6 +13,15 @@
       @font-face { font-family: Raleway; src: url('Raleway-VariableFont_wght.ttf'); }
       @font-face { font-family: Caveat; src: url('Caveat-Medium.ttf'); }
       @font-face { font-family: Pacifico; src: url('Pacifico-Regular.ttf'); }
+      @font-face { font-family: Lithos; src: url('LithosPro-Regular.otf'); }
+      @font-face { font-family: LithosBold; src: url('Lithos Pro Bold.otf'); }
+      @font-face { font-family: LithosExtraLight; src: url('Lithos Pro Extra Light.otf'); }
+      @font-face { font-family: LithosLight; src: url('Lithos Pro Light.otf'); }
+
+      @font-face { font-family: ArticulatLight; src: url('ArticulatCF-Light.otf'); }
+      @font-face { font-family: Articulat; src: url('ArticulatCF-Regular.otf'); }
+      @font-face { font-family: ArticulatBold; src: url('ArticulatCF-DemiBold.otf'); }
+      @font-face { font-family: ArticulatMedium; src: url('ArticulatCF-Medium.otf'); }
 
       * {
         box-sizing: border-box
@@ -30,9 +39,9 @@
       }
       /* Style the header */
       header {
-        background-color: #274e13ff;
+        background-color: rgb(65, 63, 53);
         text-align: center;
-        color: white;
+        color: rgb(242, 237, 229);
         height: 16vh;
         padding: 0;
         margin: 0;
@@ -43,12 +52,12 @@
         font-family: Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: white;
+        background-color: rgb(242, 237, 229);
       }
       bottom {
-        background-color: #274e13ff;
+        background-color: rgb(65, 63, 53);
         text-align: center;
-        color: rgb(223, 223, 223);
+        color: rgb(242, 237, 229);
         width: 100%;
         height: 8vh;
         padding: 0;
@@ -57,9 +66,8 @@
       img {
         padding: 0;
         display: block;
-        margin: 0 auto;
         max-height: auto;
-        max-width: 80vw;
+        max-width: 100vw;
         -webkit-user-drag: none;
         -khtml-user-drag: none;
         -moz-user-drag: none;
@@ -75,15 +83,15 @@
           font-size: 8px
         }
       }
-      @media screen and (min-width: 601px) {
+      @media screen and (min-width: 540px) {
         p.footnotetext {
-          font-size: 1vh;
+          font-size: 1.8vw;
         }
       }
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 539px) {
         p.footnotetext {
-          font-size: 1.2vh;
+          font-size: 2w;
         }
       }
 
@@ -93,7 +101,13 @@
         margin-right: auto;
         width: 50%;
       }
-
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
       .main div {
         float: left;
         clear: none;
@@ -145,6 +159,7 @@
 
       function checkTutorial() {
         let dontshow = getCookie("dontShowTutorial20220729");
+        // let dontshow = "true"
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowTutorial20220729", false, 30 );
           var t = document.getElementById("tutorial")
@@ -153,10 +168,10 @@
       }
 
       function checkReminder() {
-//        let dontshow = getCookie("dontShowReminder20221103");
-        let dontshow = "true";
+        let dontshow = getCookie("dontShowReminder20230126");
+        //let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
-          setCookie( "dontShowReminder20221103", false, 30 );
+          setCookie( "dontShowReminder20230126", false, 30 );
           var t = document.getElementById("reminder")
           t.style.display="block";
         }
@@ -164,8 +179,8 @@
 
     </script>
 
-    <script type="text/javascript" src="produceData20220543.json"></script>
-    <script type="text/javascript" src="flyerData2022139.json"></script>
+    <script type="text/javascript" src="produceData2023002.json"></script>
+    <script type="text/javascript" src="flyerData2023002.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -175,36 +190,51 @@
   <!--  ============================================  -->
   <body onload="onBodyLoad()">
 
-    <header>
-      <div style="height: 8vh; padding: 0.5vh;">
-        <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh;">
-      </div>
-      <div style="background-color: #0c343dff; height: 8vh; padding: 1.4vh;">
-        <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(223, 223, 223);"></p>
-        <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.4vh; color: rgb(223, 223, 223);"></p>
 
+    <!--  ============================================  -->
+    <!--                      HEADER                    -->
+    <!--  ============================================  -->
+    <header style="height: 10vh;">
+      <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
+        <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
+          <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
+        </div>
+        <div style="position: relative; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 0.5vh;">
+
+          <div class="vertical-center">
+            <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;"></p>
+            <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
+          </div>
+
+        </div>
       </div>
+      <!-- <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
+        <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(242, 237, 229);"></p>
+        <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.4vh; color: rgb(242, 237, 229);"></p>
+      </div> -->
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(74, 109, 58); text-align: center; height: 71vh; overflow-y: scroll;">
+    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 82vh; overflow-y: scroll;">
 
-      <!-- Reminder -->
+      <!------------------------------------------------------------------------------->
+      <!--------------------------------- Reminder ------------------------------------>
+      <!------------------------------------------------------------------------------->
       <div id="reminder" class="modal" style="padding-top: 30vh;">
-        <div class="modal-content" style="text-align: center; background-color: rgb(63, 63, 63); width: 75vw; height:auto;">
+        <div class="modal-content" style="text-align: center; background-color: rgb(96, 89, 78); width: 75vw; height:auto;">
 
           <span id="reminderClose" class="close">&times;</span>
           <div style="height: 3.5vh;"> </div>
-          <p id="reminderTxt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.45vh; color: rgb(223, 223, 223);"></p>
+          <p id="reminderTxt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.45vh; color: rgb(242, 237, 229);"></p>
           <div style="height: 2.5vh;"> </div>
 
           <!-- Don't show again -->
-          <div style="width:30vw; height: 5vw; text-align: right; margin-left: 35vw;">
+          <div style="width:40vw; height: 5vw; text-align: right; margin-left: 25vw;">
             <label class="switch" style="vertical-align: middle;">
               <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
               <span class="slider round" style="vertical-align: middle;"></span>
             </label>
-            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #a5a5a5; font-size: 2vw;">
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Lithos; color: #b7b7b7; font-size: 2.5vw;">              
               Don't show again
             </label>
           </div>
@@ -212,7 +242,9 @@
         </div> 
       </div>
 
-      <!-- Tutorial -->
+      <!------------------------------------------------------------------------------->
+      <!--------------------------------- Tutorial ------------------------------------>
+      <!------------------------------------------------------------------------------->
       <div id="tutorial" class="modal" style="padding-top: 10vh; animation: hideMe 60s forwards;">
         <script>
           // Set the date we're counting down to
@@ -247,8 +279,8 @@
         <div class="modal-content" style="text-align: center; background-color: #fefefe; width: 88vw; height:auto;">
 
           <span id="tutorialClose" class="close">&times;</span>
-          <p style="text-align: center; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 4.5vw;">How to navigate Jety Farm flyer...</p>
-          <img src="images/jetyTutorial.png" class="center" style="width: auto; height: 60vh; object-fit: contain;">
+          <p style="text-align: center; vertical-align: middle; font-family: Lithos; color: #707070; letter-spacing: -1px; font-size: 5vw;">How to navigate Jety Farm flyer...</p>
+          <img src="images/jetyTutorial.png" class="center" style="width: 80vw; height: 60vh; object-fit: contain;">
          
           <!-- Don't show again -->
           <div style="width:30vw; height: 5vw; text-align: right; margin-left: 45vw;">
@@ -256,12 +288,12 @@
               <input id="dontshow" type="checkbox" style="vertical-align: middle;" onclick="handleClickDontShow(this);">
               <span class="slider round" style="vertical-align: middle;"></span>
             </label>
-            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
+            <label for="dontshow" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Lithos; color: #707070; font-size: 2vw;">
               Don't show again
             </label>
           </div>
-          <div style="width:40vw; height: 5vw; text-align: right; margin-left: 35vw;">
-            <p id="demo" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: Raleway; color: #707070; font-size: 2vw;">
+          <div style="width:50vw; height: 5vw; text-align: right; margin-left: 25vw;">
+            <p id="demo" style="margin-left: 0.5vw; text-align: right; vertical-align: middle; font-family: LithosExtraLight; color: #707070; font-size: 2vw;">
             </p>
           </div>
           <div style="height: 2vh;"> </div>
@@ -278,8 +310,8 @@
                 <img id="modalImage" style="width: auto; height: 28vw;">
             </div>
             <div style="text-align: left; padding-bottom: 1vh;">
-              <p style="text-align:left; color: rgb(44, 44, 44); font-size: 5vw; font-family: Raleway; line-height: 100%;" id="modalTitle"></p> </p>
-              <p style="text-align:justify; color: rgb(44, 44, 44); font-size: 3vw; font-family: Raleway;" id="modalText"></p> </p>
+              <p style="text-align:left; color: rgb(94, 89, 80); font-size: 5vw; font-family: LithosBold; line-height: 100%;" id="modalTitle"></p> </p>
+              <p style="text-align:justify; color: rgb(131, 122, 107); font-size: 3vw; font-family: ArticulatMedium;" id="modalText"></p> </p>
             </div>
           </div>
         </div>
@@ -290,59 +322,11 @@
         <script>
           var pl = document.getElementById("produceList");
 
+          // ==========================================================================
           // eggs
           function createProduceStatic(_id,_soldout,_soldoutText) {
             var d = document.createElement('div');
-            d.setAttribute("style","text-align:center; position:relative; margin:auto; height:auto; width:80vw;" );
-            d.id = _id;
-            d.addEventListener( "click", function(){ showModal(this.id)} );
-
-            var produce_index=0;
-            $.each(myProducesData, function(i, item) {
-              if( myProducesData[i].id == _id ) {
-                produce_index = i;
-              }
-            });
-
-            // create image
-            var p = document.createElement('img');
-            var imgPath = "images/produces/"+myProducesData[produce_index].produce_image;
-            p.src = imgPath;
-            d.appendChild(p);   
-
-            if(_soldout=="true") {
-              var sd = document.createElement('div');
-              sd.setAttribute("style","position:absolute; top:20%; left:-5%; transform: translate(-4%,-50%); margin:auto; height:30vw; width:30vw;" );
-
-              var s = document.createElement('img');
-              s.setAttribute("style","height:100%; width:100%;" );
-              var soldoutImgPath = "images/soldoutStatic.png";
-              s.src = soldoutImgPath;
-              sd.appendChild(s);   
-
-              var st = document.createElement('div');
-              st.setAttribute("style","position:absolute; top:20%; left:20%; text-align:center; height:65%; width:65%;" );
-
-              var t = document.createElement("P");                 // Create a <p> element
-//              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
-              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3.5vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
-              t.innerHTML = _soldoutText; 
-              st.appendChild(t);   
-              sd.appendChild(st);   
-              d.appendChild(sd);   
-            }
-            pl.appendChild(d);   
-
-            // create a line
-            var l = document.createElement('div');
-            l.setAttribute("style","text-align:center; margin:auto; height:0.3vh; width:80vw; background-color:#0c343d;" );
-            pl.appendChild(l);  
-          }
-
-          // Create produce item
-          function createProduce(_id,_soldout,_soldoutText) {
-            var d = document.createElement('div');
-            d.setAttribute("style","text-align:center; position:relative; margin:auto; height:auto; width:80vw;" );
+            d.setAttribute("style","text-align:center; position:relative; height:auto;" );
             d.id = _id;
             d.addEventListener( "click", function(){ showModal(this.id)} );
 
@@ -362,20 +346,98 @@
             {
               // create div for text
               var dt = document.createElement('div');
-              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:47%; transform: translate(-4%,-50%); margin:auto; width:45vw;" );
+              dt.setAttribute("style","position:absolute; vertical-align:middle; top:3vh; left:40vw; tmargin:auto; width:60vw;" );
 
               var t1 = document.createElement("P");                 // Create a <p> element
-              t1.setAttribute("style","text-align:left; color: white; font-size: 4vw; font-family: Pacifico; margin:auto; height:auto; line-height: 1.5;" );
+              t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
               t1.innerHTML = myProducesData[produce_index].title;   
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
-              t2.setAttribute("style","margin: auto; text-align:left; color: white; font-size: 3.2vw; font-family: Caveat; margin:auto; height: auto; line-height: 1.0;" );
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
               dt.appendChild(t2);
               d.appendChild(dt);
             }
-       
+
+            if(_soldout=="true") {
+              var sd = document.createElement('div');
+              sd.setAttribute("style","position:absolute; top:20%; left:-5%; transform: translate(-4%,-50%); margin:auto; height:30vw; width:30vw;" );
+
+              var s = document.createElement('img');
+              s.setAttribute("style","height:100%; width:100%;" );
+              var soldoutImgPath = "images/soldoutStatic.png";
+              s.src = soldoutImgPath;
+              sd.appendChild(s);   
+
+              var st = document.createElement('div');
+              st.setAttribute("style","position:absolute; top:20%; left:20%; text-align:center; height:65%; width:65%;" );
+
+              var t = document.createElement("P");                 // Create a <p> element
+              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+
+
+              t.innerHTML = _soldoutText; 
+              st.appendChild(t);   
+              sd.appendChild(st);   
+              d.appendChild(sd);   
+            }
+            pl.appendChild(d);   
+
+            // create a line
+            var l = document.createElement('div');
+            l.setAttribute("style","text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);" );
+            pl.appendChild(l);  
+          }
+
+          // ==========================================================================
+          // Create produce item
+          function createProduce(_id,_soldout,_soldoutText) {
+            var d = document.createElement('div');
+            d.setAttribute("style","text-align:center; position:relative; height:auto; " );
+            d.id = _id;
+            d.addEventListener( "click", function(){ showModal(this.id)} );
+
+            var produce_index=0;
+            $.each(myProducesData, function(i, item) {
+              if( myProducesData[i].id == _id ) {
+                produce_index = i;
+              }
+            });
+
+            // create image
+            var p = document.createElement('img');
+            var imgPath = "images/produces/"+myProducesData[produce_index].produce_image;
+            p.src = imgPath;
+            d.appendChild(p);   
+
+            {
+              // create div for text
+              var dt = document.createElement('div');
+              dt.setAttribute("style","position:absolute; vertical-align:middle; top:50%; left:46%; transform: translate(-4%,-50%); margin:auto; width:55vw;" );
+
+              var t1 = document.createElement("P");                 // Create a <p> element
+              t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
+              t1.innerHTML = myProducesData[produce_index].title;   
+              dt.appendChild(t1);
+
+              var t2 = document.createElement("P");                 // Create a <p> element
+              t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
+
+              t2.innerHTML = myProducesData[produce_index].pricing; 
+              dt.appendChild(t2);
+              d.appendChild(dt);
+            }
+
+            if(_soldout=="true") {
+              if(_soldoutText=="")
+              {
+                var m = document.createElement('div');
+                m.setAttribute("style","position:absolute; top:0%; left:0%; margin:auto; width:100vw; height:100vw; margin:auto; background-color:#0000007d;" );
+                d.appendChild(m);   
+              }
+            }
+
             if(_soldout=="true") {
               if(_soldoutText=="")
               {
@@ -401,8 +463,8 @@
                 st.setAttribute("style","position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%;" );
 
                 var t = document.createElement("P");                 // Create a <p> element
-  //              t.setAttribute("style","position:absolute; top:10%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
-                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: white; font-size: 3.8vw; font-family: Architects; margin:auto; height: auto; line-height: 1.0;" );
+
+                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
                 t.innerHTML = _soldoutText; 
                 st.appendChild(t);   
                 sd.appendChild(st);   
@@ -414,15 +476,15 @@
 
             // create a line
             var l = document.createElement('div');
-            l.setAttribute("style","text-align:center; margin:auto; height:0.3vh; width:80vw; background-color:#0c343d;" );
+            l.setAttribute("style","text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);" );
             pl.appendChild(l);   
           }
-
+          
           function createDivider(dividerTitle,_soldout,_soldoutText) {
             var p = document.createElement('div');
-            p.setAttribute("style","text-align:center;  position:relative; margin:auto; height: auto; width:80vw; background-color:#274e13; padding-top:1.2vh; padding-bottom:1.2vh;" );
+            p.setAttribute("style","text-align:center; position:relative; height: auto; background-color: rgb(65, 63, 53); padding-top:1.8vh; padding-bottom:1.2vh;" );
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style","text-align:center; color: rgb(223, 223, 223); font-size: 5.1vw; font-family: Pacifico; margin:auto;" );
+            t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Lithos; margin:auto; letter-spacing:-1px; transform: translate(0, 1px); " );
             t.innerHTML = dividerTitle;                // Insert text
             p.appendChild(t); 
             // {
@@ -437,15 +499,15 @@
 
             // create a line
             var d = document.createElement('div');
-            d.setAttribute("style","text-align:center; margin:auto; height:0.3vh; width:80vw; background-color:#0c343d;" );
+            d.setAttribute("style","text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);" );
             pl.appendChild(d);   
           }
 
           function createNote(noteContent) {
             var p = document.createElement('div');
-            p.setAttribute("style","text-align:center; margin:auto; height: auto; width:80vw; background-color: rgb(54, 54, 54); padding-top:1.2vh; padding-bottom:1.2vh;" );
+            p.setAttribute("style","text-align:center; height: auto; background-color: rgb(54, 54, 54); padding-top:1.2vh; padding-bottom:1.2vh;" );
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style","margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: Raleway; font-size: 1.3vh; color: rgb(223, 223, 223);" );
+            t.setAttribute("style","margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:justify; font-family: LithosExtraLight; font-size: 1.3vh; color: rgb(223, 223, 223);" );
  
 
             t.innerHTML = noteContent;                // Insert text
@@ -454,7 +516,7 @@
 
             // create a line
             var d = document.createElement('div');
-            d.setAttribute("style","text-align:center; margin:auto; height:0.3vh; width:80vw; background-color:#0c343d;" );
+            d.setAttribute("style","text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);" );
             pl.appendChild(d);   
           }
 
@@ -532,21 +594,50 @@
         }
 
         function handlerReminderDontShow(cb) {
-          setCookie( "dontShowReminder20221103", cb.checked, 30 );
-          let dontshow = getCookie("dontShowReminder20221103");
+          setCookie( "dontShowReminder20230126", cb.checked, 30 );
+          let dontshow = getCookie("dontShowReminder20230126");
         }
       </script>        
     </div>
    
-    <div style="background-color: #274e13ff; height: auto; max-height: 12vh; padding: 0.1vh; margin: 0;">
-      <div style="margin: auto; text-align: center; width: 90vw; ">
-        <p class="footnotetext" id="flyerFootnoteTxt" style="text-align:center; color: rgb(223, 223, 223);"></p>
-      </div>
+    <footer style="position: fixed; bottom: 0;">
+      <div style="background-color: rgb(105, 102, 87); width: 100vw; height: auto; margin: auto;">
+        <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
+        
+        <div style="margin: auto; text-align: center; width: auto; height: auto;">
+            <!-- <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: ArticulatMedium; letter-spacing: 0.25px;text-align:left; color: rgb(242, 237, 229);"></p> -->
 
-      <!-- hitwebcounter Code START -->
-      <a href="https://www.hitwebcounter.com" target="_blank">
-        <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter"   border="0" /></a>   
-    </div>
+            <table class="footnotetext" cellspacing="0" border-collapse="collapse" style="margin: auto; font-family: ArticulatMedium; font-size: 2.5vw; height: auto; letter-spacing: 0.25px; text-align:left; color: rgb(242, 237, 229); vertical-align: top; padding-top: 0.5vh;">
+              <tr>
+                <td style="text-align: right; width: 28%; vertical-align: top;">Submit orders to:</td>
+                <td style="text-align: left; vertical-align: top;">WhatsApp group, WeChat group, Signal group, or DM</td>
+              </tr>
+              <tr>
+                <td style="text-align: right; vertical-align: top;">Order cut-off time:</td>
+                <td style="text-align: left; vertical-align: top;"> 
+                  <p style="text-align: left; vertical-align: top; margin: auto;"> Tue, Jan 24 @6pm</p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td style="text-align: right; vertical-align: top;">Minimum order:</td>
+                <td style="text-align: left; vertical-align: top;">$13.00</td>
+              </tr>
+            </table>
+
+
+        </div>
+
+        <!-- hitwebcounter Code START -->
+        <div style="width: auto; height: auto; background-color: rgb(143, 138, 118); margin-top: 0.5vh;">
+          <div style="margin-left: 48vw; margin-right: auto; padding-top:0.5vh; height: 2vh; align-content: right; ">
+            <a href="https://www.hitwebcounter.com" target="_blank">
+              <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter" border="0" /></a>   
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script>
         function loadFlyerText() {
@@ -554,8 +645,8 @@
           t1.innerHTML = myFlyerData[0].banner1Txt; 
           var t2 = document.getElementById("flyerBanner2Txt");
           t2.innerHTML = myFlyerData[0].banner2Txt;
-          var t3 = document.getElementById("flyerFootnoteTxt");
-          t3.innerHTML = myFlyerData[0].footnoteTxt;
+          // var t3 = document.getElementById("cutofftimeTxt");
+          // t3.innerHTML = myFlyerData[0].cutofftimeTxt;
           var r1 = document.getElementById("reminderTxt");
           r1.innerHTML = myFlyerData[0].reminderTxt;
         }
