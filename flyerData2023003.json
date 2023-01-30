@@ -344,7 +344,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGCabbage",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
@@ -376,7 +376,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // { 
