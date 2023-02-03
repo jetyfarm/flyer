@@ -1,8 +1,9 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Feb 2, 2023",
-    //    "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-        "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner1Txt": "Feb 9, 2023",
+       "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //    "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -14,7 +15,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, Jan 31 @6pm",
+        "cutofftimeTxt": "Tue, Feb 7 @6pm",
         
         "reminderTxt": "Jan 26, 2023<br>- Our FIRST delivery for 2023<br>- We will deliver to ALL service areas<br><br>Feb 2, 2023<br>- Our biweekly delivery starts for North York, Scarborough,<br>and Vaughan"
     }
@@ -344,7 +345,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGCabbage",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     // // { "type" : "produce", "id" : "MGCorn",          "soldout" : "false" },
@@ -376,7 +377,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     // { 
