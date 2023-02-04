@@ -7,7 +7,7 @@ var myProducesData = [
     "title" : "Free Range Farm Eggs",
     "pricing" : "<s>Large $6.50/doz</s><br>Medium $5.50/doz<br>Small $4.50/doz",
     "description_title": "Free Range Farm Eggs",
-    "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>*Our farm eggs are unwashed, please wash before consuming."
+    "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>Also, you are welcome to join our eggs subscription. We will deliver the eggs to you on a bi-weekly basis. And you can modify or cancel your subscription by a 7 days advance notice.<BR><BR>*Our farm eggs are unwashed, please wash before consuming."
   },
 
   // ===========================================
