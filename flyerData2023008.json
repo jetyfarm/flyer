@@ -1,9 +1,9 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Feb 16, 2023",
+       "banner1Txt": "Feb 23, 2023",
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -15,7 +15,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, Feb 14 @6pm",
+        "cutofftimeTxt": "Tue, Feb 21 @6pm",
         
         "reminderTxt": "A friendly reminder...<br><br>Starting March 2, there will be new pricing for our eggs.<br><br>&emsp;Large eggs: $7.00 per dozen<br>&emsp;Medium eggs: $6.00 per dozen<br>&emsp;Small eggs: $5.00 per dozen<br><br>"
     }
@@ -28,24 +28,24 @@ var myFlyerProduceList = [
     //        "note" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
     //    },
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Poultry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Poultry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "Turkey",
     //     "soldout": "true",
     //     "soldoutText": "<br>LAST CALL!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MeatChicken",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MeatChicken",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "MatureChicken",
@@ -330,18 +330,24 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {   
-    //     "type" : "produce", 
-    //     "id" : "MGPeashoot",      
-    //     "soldout" : "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {   
+        "type" : "produce", 
+        "id" : "MGPeashoot",      
+        "soldout" : "false",
+        "soldoutText": ""
+    },
+    {   
+        "type" : "produce", 
+        "id" : "MGSunflower",      
+        "soldout" : "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "MGCabbage",
