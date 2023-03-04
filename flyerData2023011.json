@@ -359,7 +359,7 @@ var myFlyerProduceList = [
     { 
         "type" : "produce", 
         "id" : "MGMizuna",     
-        "soldout" : "false",
+        "soldout" : "true",
         "soldoutText": "" 
     },
     // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
