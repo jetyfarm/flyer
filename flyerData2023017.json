@@ -3,8 +3,8 @@ var myFlyerData = [
        "banner1Txt": "April 13, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -403,7 +403,7 @@ var myFlyerProduceList = [
     // ================================================================
     {
         "type": "divider",
-        "id": "Honey",
+        "id": "Looking for something sweet...",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -415,12 +415,12 @@ var myFlyerProduceList = [
     },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "From our Mennonite neighbours",
-        "soldout": "true",
-        "soldoutText": "<br>$1.00 OFF!"
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "From our Mennonite neighbours",
+    //     "soldout": "true",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // },
     // {
     //     "type": "produce",
     //     "id": "Turkey",
