@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "April 6, 2023",
+       "banner1Txt": "April 13, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -16,9 +16,9 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, Apr 4 @3pm",
+        "cutofftimeTxt": "Tue, Apr 11 @3pm",
         
-        "reminderTxt": "A friendly reminder...<br><br>Starting March 2, there will be new pricing for our eggs.<br><br>&emsp;Large eggs: $7.00 per dozen<br>&emsp;Medium eggs: $6.00 per dozen<br>&emsp;Small eggs: $5.00 per dozen<br><br>"
+        "reminderTxt": "<br><br>There will be no delivery on May 11, and May 18.<br><br>"
     }
 ];
 
@@ -381,12 +381,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "MGBroccoli",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "MGBroccoli",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      

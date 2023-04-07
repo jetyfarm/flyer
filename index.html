@@ -168,10 +168,10 @@
       }
 
       function checkReminder() {
-        // let dontshow = getCookie("dontShowReminder20230216");
-        let dontshow = "true";
+        let dontshow = getCookie("dontShowReminder20230413");
+        //let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
-          setCookie( "dontShowReminder20230216", false, 30 );
+          setCookie( "dontShowReminder20230413", false, 30 );
           var t = document.getElementById("reminder")
           t.style.display="block";
         }
@@ -180,7 +180,7 @@
     </script>
 
     <script type="text/javascript" src="produceData2023008.json"></script>
-    <script type="text/javascript" src="flyerData2023015.json"></script>
+    <script type="text/javascript" src="flyerData2023016.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -594,8 +594,8 @@
         }
 
         function handlerReminderDontShow(cb) {
-          setCookie( "dontShowReminder20230216", cb.checked, 30 );
-          let dontshow = getCookie("dontShowReminder20230216");
+          setCookie( "dontShowReminder20230413", cb.checked, 30 );
+          let dontshow = getCookie("dontShowReminder20230413");
         }
       </script>        
     </div>
