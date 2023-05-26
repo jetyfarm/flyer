@@ -168,8 +168,8 @@
       }
 
       function checkReminder() {
-        let dontshow = getCookie("dontShowReminder20230413");
-        //let dontshow = "true";
+        //let dontshow = getCookie("dontShowReminder20230413");
+        let dontshow = "true";
         if (dontshow == "" || dontshow == "false") {
           setCookie( "dontShowReminder20230413", false, 30 );
           var t = document.getElementById("reminder")
@@ -179,8 +179,8 @@
 
     </script>
 
-    <script type="text/javascript" src="produceData2023008.json"></script>
-    <script type="text/javascript" src="flyerData2023021.json"></script>
+    <script type="text/javascript" src="produceData2023009.json"></script>
+    <script type="text/javascript" src="flyerData2023022.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -464,7 +464,9 @@
 
                 var t = document.createElement("P");                 // Create a <p> element
 
-                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
+//                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
+                t.setAttribute("style","position:absolute; top:37%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+
                 t.innerHTML = _soldoutText; 
                 st.appendChild(t);   
                 sd.appendChild(st);   
