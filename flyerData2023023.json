@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jun 1, 2023",
+       "banner1Txt": "Jun 8, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -16,7 +16,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, May 30 @3pm",
+        "cutofftimeTxt": "Tue, June 6 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -331,18 +331,18 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {   
-    //     "type" : "produce", 
-    //     "id" : "MGPeashoot",      
-    //     "soldout" : "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {   
+        "type" : "produce", 
+        "id" : "MGPeashoot",      
+        "soldout" : "false",
+        "soldoutText": ""
+    },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGSunflower",      
@@ -381,12 +381,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
@@ -407,12 +407,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "Honey",
-        "soldout": "false",
-//        "soldoutText": "Last harvest of the season"
-    },
+//     {
+//         "type": "produce",
+//         "id": "Honey",
+//         "soldout": "false",
+// //        "soldoutText": "Last harvest of the season"
+//     },
 
     // ================================================================
     // {
