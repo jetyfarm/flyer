@@ -593,9 +593,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCorn_square.jpg",
     "title" : "Sweet Corn Microgreen",
-    "pricing" : "$5.00 per 50g",
+    "pricing" : "$5.00 per 30g",
     "description_title": "Sweet Corn Microgreen 玉米微綠",
-    "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the sweetest tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! If you expose your sweet corn microgreens to light, they will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter."
+    "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the SWEETEST tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! <br><br>If the sweet corn microgreens is exposed to light, it will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter. Take the micogreens out from the fridge when it's ready to be consumed."
   },
 
   // ===========================================
