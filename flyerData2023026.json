@@ -360,7 +360,7 @@ var myFlyerProduceList = [
     { 
         "type" : "produce", 
         "id" : "MGCorn",          
-        "soldout" : "false",
+        "soldout" : "true",
         "soldoutText": ""
     },
     // { 
