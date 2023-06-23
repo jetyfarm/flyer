@@ -1,10 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jun 22, 2023",
+       "banner1Txt": "Jun 29, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -16,7 +17,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, June 20 @3pm",
+        "cutofftimeTxt": "Tue, June 22 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -287,37 +288,37 @@ var myFlyerProduceList = [
     // },  
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Cucumbers",
-        // "soldout": "false",
-        // "soldoutText": ""
-    // },
-//     {
-//         "type": "produce",
-//         "id": "CUQuirk",
-//         "soldout": "false",
-//         "soldoutText": ""
-// //        "soldoutText": "<br> ON SALE!!!"
-//     },
+    {
+        "type": "divider",
+        "id": "Cucumbers",
+        "soldout": "true",
+        "soldoutText": "Limited Supply"
+    },
+    {
+        "type": "produce",
+        "id": "CUQuirk",
+        "soldout": "false",
+        "soldoutText": "Limited Supply"
+//        "soldoutText": "<br> ON SALE!!!"
+    },
     // {
     //     "type": "produce",
     //     "id": "CUItachi",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "CUCucumber",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "CUEnglish",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "CUCucumber",
+        "soldout": "false",
+        "soldoutText": "Limited Supply"
+    },
+    {
+        "type": "produce",
+        "id": "CUEnglish",
+        "soldout": "false",
+        "soldoutText": "Limited Supply"
+    },
     // ================================================================
     // {
     //     "type": "divider",
@@ -360,7 +361,7 @@ var myFlyerProduceList = [
     { 
         "type" : "produce", 
         "id" : "MGCorn",          
-        "soldout" : "true",
+        "soldout" : "false",
         "soldoutText": ""
     },
     // { 

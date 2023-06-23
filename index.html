@@ -179,8 +179,8 @@
 
     </script>
 
-    <script type="text/javascript" src="produceData2023010.json"></script>
-    <script type="text/javascript" src="flyerData2023026.json"></script>
+    <script type="text/javascript" src="produceData2023011.json"></script>
+    <script type="text/javascript" src="flyerData2023027.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
@@ -465,7 +465,15 @@
                 var t = document.createElement("P");                 // Create a <p> element
 
 //                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
-                t.setAttribute("style","position:absolute; top:37%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+                let length = _soldoutText.length;
+                if( length > 20 )
+                {
+                  t.setAttribute("style","position:absolute; top:37%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+                }
+                else
+                {
+                  t.setAttribute("style","position:absolute; top:47%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+                }
 
                 t.innerHTML = _soldoutText; 
                 st.appendChild(t);   
@@ -489,6 +497,41 @@
             t.setAttribute("style","text-align:center; color: rgb(242, 237, 229); font-size: 5.1vw; font-family: Lithos; margin:auto; letter-spacing:-1px; transform: translate(0, 1px); " );
             t.innerHTML = dividerTitle;                // Insert text
             p.appendChild(t); 
+
+            {
+              if(_soldout=="true") {
+                var sd = document.createElement('div');
+                sd.setAttribute("style","position:absolute; vertical-align:middle; top:40%; left:70%; transform: translate(-4%,-65%); margin:auto; width:30vw;" );
+
+                var s = document.createElement('img');
+                s.setAttribute("style","height:100%; width:100%;" );
+                var soldoutImgPath = "images/soldout3.png";
+                s.src = soldoutImgPath;
+                sd.appendChild(s);   
+
+                var st = document.createElement('div');
+                st.setAttribute("style","position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%;" );
+
+                var t = document.createElement("P");                 // Create a <p> element
+
+//                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
+                let length = _soldoutText.length;
+                if( length > 20 )
+                {
+                  t.setAttribute("style","position:absolute; top:37%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+                }
+                else
+                {
+                  t.setAttribute("style","position:absolute; top:47%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;" );
+                }
+
+                t.innerHTML = _soldoutText; 
+                st.appendChild(t);   
+                sd.appendChild(st);   
+                p.appendChild(sd);  
+              }
+            }
+              
             // {
             //     var s = document.createElement('img');
             //     s.setAttribute("style","position:absolute; top:30%; left:70%; transform: translate(-4%,-65%); margin:auto; height:30vw; width:30vw;" );

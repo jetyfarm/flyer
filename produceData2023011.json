@@ -394,7 +394,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUCucumber_square.jpg",
     "title" : "Cucumber",
-    "pricing" : "$1.00 each",
+    "pricing" : "$3.00 (3 pack)",
     "description_title": "Cucumber",
     "description": "Sweet flavor and non-bitter cucumber with a crisp texture. This cucumber is approximate 4 to 6 inches, it has tender skin with firm crispness, excellent for salad or dipping."
   },
@@ -405,7 +405,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUEnglish_square.jpg",
     "title" : "English Cucumber",
-    "pricing" : "$1.50 each",
+    "pricing" : "$3.00 (2 pack)",
     "description_title": "English Cucumber",
     "description": "Our English Cucumber is 12 inches long, sweet, slender, straight and have fewer, less noticeable seeds than others."
   },
@@ -593,7 +593,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCorn_square.jpg",
     "title" : "Sweet Corn Microgreen",
-    "pricing" : "$5.00 per 30g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sweet Corn Microgreen 玉米微綠",
     "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the SWEETEST tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! <br><br>If the sweet corn microgreens is exposed to light, it will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter. Take the micogreens out from the fridge when it's ready to be consumed."
   },
