@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jun 29, 2023",
+       "banner1Txt": "Jul 6, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -17,7 +17,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, June 22 @3pm",
+        "cutofftimeTxt": "Tue, Jul 4 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -46,7 +46,7 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "MeatChicken",
         "soldout": "true",
-        "soldoutText": "June29 delivery is sold out"
+        "soldoutText": "Next delivery is on July 20"
     },
     // {
     //     "type": "produce",
@@ -65,11 +65,11 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        //        "soldoutText": "SPECIAL PRICE for Small eggs!"
+        "soldoutText": "SPECIAL PRICE for Small eggs!"
         //"soldoutText": "<br>Large eggs are sold out!"
-        "soldoutText": ""
+        //"soldoutText": ""
         
     },
     // ================================================================
@@ -291,7 +291,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Cucumbers",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": "Limited Supply"
     },
     {
@@ -301,12 +301,12 @@ var myFlyerProduceList = [
         "soldoutText": "Limited Supply"
 //        "soldoutText": "<br> ON SALE!!!"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "CUItachi",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "CUItachi",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "CUCucumber",
@@ -334,12 +334,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Microgreens",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Microgreens",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
@@ -358,12 +358,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    { 
-        "type" : "produce", 
-        "id" : "MGCorn",          
-        "soldout" : "false",
-        "soldoutText": ""
-    },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGCorn",          
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGMizuna",     
