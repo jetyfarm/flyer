@@ -230,24 +230,24 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Eggplant",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Eggplant",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "EGDark",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },    
-    // {
-    //     "type": "produce",
-    //     "id": "EGAsian",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },    
+    {
+        "type": "produce",
+        "id": "EGAsian",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
     // {
     //     "type": "produce",
     //     "id": "EGFairyTale",
