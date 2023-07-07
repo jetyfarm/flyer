@@ -338,9 +338,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGFairyTale_square.jpg",
     "title" : "Fairytale Mini Eggplant",
-    "pricing" : "$4.00 per 450g",
+    "pricing" : "$4.00 (450g)",
     "description_title": "Fairytale Mini Eggplant",
-    "description": "FairyTale is a lovely mini eggplant, only 3-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
+    "description": "FairyTale is a lovely mini eggplant, only 2-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
   },
   {
     "id" : "EGAsian",
@@ -348,20 +348,20 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGAsian_square.jpg",
     "title" : "Asian Eggplant",
-    "pricing" : "$3.50 per 450g",
+    "pricing" : "$3.00 (450g)",
     "description_title": "Asian Eggplant",
     "description": ""
   },
-  {
-    "id" : "EGDark",
-    "produce_image" : "EGDark.jpg",
-    "produce_div" : "narrow",
-    "image" : "EGDark_square.jpg",
-    "title" : "Purple Asian Eggplant",
-    "pricing" : "$3.50 per 450g",
-    "description_title": "Purple Asian Eggplant",
-    "description": ""
-  },
+  // {
+  //   "id" : "EGDark",
+  //   "produce_image" : "EGDark.jpg",
+  //   "produce_div" : "narrow",
+  //   "image" : "EGDark_square.jpg",
+  //   "title" : "Purple Asian Eggplant",
+  //   "pricing" : "$3.50 per 450g",
+  //   "description_title": "Purple Asian Eggplant",
+  //   "description": ""
+  // },
 
 
   // ===========================================
@@ -394,7 +394,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUCucumber_square.jpg",
     "title" : "Cucumber",
-    "pricing" : "$3.00 (3 pack)",
+    "pricing" : "$3.00 (5 pack)",
     "description_title": "Cucumber",
     "description": "Sweet flavor and non-bitter cucumber with a crisp texture. This cucumber is approximate 4 to 6 inches, it has tender skin with firm crispness, excellent for salad or dipping."
   },
