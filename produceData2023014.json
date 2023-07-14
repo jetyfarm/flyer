@@ -57,6 +57,16 @@ var myProducesData = [
     "description_title": "Strawberry",
     "description": ""
   },
+  {
+    "id" : "FTRaspberry",
+    "produce_image" : "FTRaspberry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTRaspberry_square.jpg",
+    "title" : "Mix Raspberries",
+    "pricing" : "$5.00 per 1/2 pint",
+    "description_title": "Mix Raspberries",
+    "description": ""
+  },
 
   // ===========================================
   // Cherry Tomatoes
