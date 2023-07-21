@@ -1,12 +1,12 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jul 20 2023",
+       "banner1Txt": "Jul 27, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
        // "banner2Txt" : "North York, Scarborough and Vaughan",
-       "banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
+       //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        // "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, Jul 18 @3pm",
+        "cutofftimeTxt": "Tue, Jul 25 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -47,7 +47,7 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "MeatChicken",
         "soldout": "true",
-        "soldoutText": "Deliver on this Thursday!"
+        "soldoutText": "Next delivery is on Aug 10"
     },
     // {
     //     "type": "produce",
@@ -66,7 +66,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         "soldoutText": "SPECIAL PRICE for Small eggs!"
         //"soldoutText": "<br>Large eggs are sold out!"
@@ -252,24 +252,24 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Eggplant",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Eggplant",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "EGDark",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },    
-    // {
-    //     "type": "produce",
-    //     "id": "EGAsian",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },    
+    {
+        "type": "produce",
+        "id": "EGAsian",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
     // {
     //     "type": "produce",
     //     "id": "EGFairyTale",
