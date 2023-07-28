@@ -29,9 +29,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
     "title" : "Mature Chicken",
-    "pricing" : "$10.00 per chicken<br>Deliver on Nov 24",
+    "pricing" : "$10.00 per chicken<br>Deliver on August 17",
     "description_title": "Fresh Mature Chicken<br>農場走地老雞",
-    "description": "We will deliver FRESH MATURE CHICKEN from August to November.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>The scheduled delivery dates are: August 18, September 15, October 6, and November 24"
+    "description": "We will deliver FRESH MATURE CHICKEN on August 17.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
   },
   {
     "id" : "Turkey",
@@ -67,6 +67,18 @@ var myProducesData = [
     "description_title": "Mix Raspberries",
     "description": ""
   },
+  {
+    "id" : "FTRedRaspberry",
+    "produce_image" : "FTRedRaspberry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTRedRaspberry_square.jpg",
+    "title" : "Large Red Raspberries",
+    "pricing" : "$5.00 per 1/2 pint",
+    "description_title": "Large Red Raspberries",
+    "description": ""
+  },
+
+
 
   // ===========================================
   // Cherry Tomatoes
@@ -187,7 +199,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGOkra_square.jpg",
     "title" : "Okra",
-    "pricing" : "$4.00 per 240g",
+    "pricing" : "$3.00 / 0.5lb",
     "description_title": "Okra",
     "description": ""
   },
@@ -348,7 +360,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGFairyTale_square.jpg",
     "title" : "Fairytale Mini Eggplant",
-    "pricing" : "$5.00 / 1lb",
+    "pricing" : "$4.50 / 1lb",
     "description_title": "Fairytale Mini Eggplant",
     "description": "FairyTale is a lovely mini eggplant, only 2-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
   },

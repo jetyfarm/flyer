@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jul 27, 2023",
+       "banner1Txt": "August 3, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       // "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, Jul 25 @3pm",
+        "cutofftimeTxt": "Tue, August 1 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -49,12 +49,12 @@ var myFlyerProduceList = [
         "soldout": "true",
         "soldoutText": "Next delivery is on Aug 10"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "MatureChicken",
-    //     "soldout": "true",
-    //     "soldoutText": "<br>LAST CALL!"
-    // },
+    {
+        "type": "produce",
+        "id": "MatureChicken",
+        "soldout": "false",
+        "soldoutText": ""
+    },
 
     // ================================================================
     {
@@ -87,9 +87,15 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTRaspberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
-        "id": "FTRaspberry",
+        "id": "FTRedRaspberry",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -134,12 +140,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Vegetables",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Vegetables",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGAsianLettuce",
@@ -176,12 +182,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGOkra",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGOkra",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGCarrot",
@@ -270,12 +276,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },    
-    // {
-    //     "type": "produce",
-    //     "id": "EGFairyTale",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },    
+    {
+        "type": "produce",
+        "id": "EGFairyTale",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
 
     // ================================================================
     // {
