@@ -349,12 +349,12 @@ var myFlyerProduceList = [
     },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
@@ -379,12 +379,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    // { 
-    //     "type" : "produce", 
-    //     "id" : "MGMizuna",     
-    //     "soldout" : "true",
-    //     "soldoutText": "" 
-    // },
+    { 
+        "type" : "produce", 
+        "id" : "MGMizuna",     
+        "soldout" : "false",
+        "soldoutText": "" 
+    },
     // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
     // { 
     //     "type" : "produce", 
@@ -404,12 +404,12 @@ var myFlyerProduceList = [
     //     "soldout" : "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
