@@ -213,6 +213,39 @@ var myProducesData = [
     "description_title": "Mixed Gourmet Carrots",
     "description": "Assorted gourmet carrots. Each bunch contains approx. 6-8 carrots."
   },
+  {
+    "id" : "VGChineseCabbage",
+    "produce_image" : "VGChineseCabbage.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGChineseCabbage_square.jpg",
+    "title" : "Chinese Cabbage",
+    "pricing" : "$4.00 each",
+    "description_title": "Chinese Cabbage",
+    "description": ""
+  },
+  {
+    "id" : "VGChineseCauliflower",
+    "produce_image" : "VGChineseCauliflower.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGChineseCauliflower_square.jpg",
+    "title" : "Chinese Caulifower",
+    "pricing" : "$3.50 each",
+    "description_title": "Chinese Caulifower",
+    "description": ""
+  },
+  {
+    "id" : "VGCorn",
+    "produce_image" : "VGCorn.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGCorn_square.jpg",
+    "title" : "Sweet Corn",
+    "pricing" : "$5.00 for 6; $9.00 for 12",
+    "description_title": "Sweet Corn",
+    "description": ""
+  },
+
+
+
   // ===========================================
   // Squash
   // ===========================================
@@ -372,6 +405,16 @@ var myProducesData = [
     "title" : "Asian Eggplant",
     "pricing" : "$4.50 / 1lb",
     "description_title": "Asian Eggplant",
+    "description": ""
+  },
+  {
+    "id" : "EGGreen",
+    "produce_image" : "EGGreen.jpg",
+    "produce_div" : "narrow",
+    "image" : "EGGreen_square.jpg",
+    "title" : "Green Eggplant",
+    "pricing" : "$5.50 / 1lb",
+    "description_title": "Green Asian Eggplant",
     "description": ""
   },
   // {
