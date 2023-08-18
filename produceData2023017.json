@@ -29,7 +29,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
     "title" : "Frozen Mature Chicken",
-    "pricing" : "$10.00 per chicken",
+    "pricing" : "$8.00 per chicken",
     "description_title": "Frozen Mature Chicken<br>農場走地老雞",
     "description": "Our mature chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
   },
