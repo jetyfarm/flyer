@@ -19,7 +19,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
-    "pricing" : "$30.00/chicken (on demand)<br>$27.00/chicken (subscription)<br>Accepting reservations",
+    "pricing" : "$30.00/chicken (on demand)<br>$27.00/chicken (subscription)<br>Deliver on: Sept 7 (SOLD OUT),<br>Oct 5, Oct 26 and Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2023 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We have 7 deliveries for the 2023 season: Jun 29, Jul 20, Aug 10, Sep 7, Oct 5, Oct 26 and Nov 23.<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 7 meat chicken deliveries for $189.00 (taxes and delivery fee included) which equals to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
   },
@@ -28,10 +28,10 @@ var myProducesData = [
     "produce_image" : "MatureChicken03.jpg",
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
-    "title" : "Mature Chicken",
-    "pricing" : "$10.00 per chicken<br>Deliver on August 17",
-    "description_title": "Fresh Mature Chicken<br>農場走地老雞",
-    "description": "We will deliver FRESH MATURE CHICKEN on August 17.<br><br>Our chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
+    "title" : "Frozen Mature Chicken",
+    "pricing" : "$10.00 per chicken",
+    "description_title": "Frozen Mature Chicken<br>農場走地老雞",
+    "description": "Our mature chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
   },
   {
     "id" : "Turkey",
@@ -89,8 +89,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
-//    "pricing" : "$4.00 per 240g; $8 per 600g",
-    "pricing" : "$4.00 per 240g",
+    "pricing" : "$4.00 / 0.5lb<br>$8.00 / 1.2lb",
+//    "pricing" : "$4.00 per 240g",
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
@@ -239,7 +239,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
     "title" : "Sweet Corn",
-    "pricing" : "$5.00 for 6; $9.00 for 12",
+    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz",
     "description_title": "Sweet Corn",
     "description": ""
   },

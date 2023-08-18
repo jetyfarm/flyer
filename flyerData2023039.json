@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "August 17, 2023",
+       "banner1Txt": "August 24, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, August 15 @3pm",
+        "cutofftimeTxt": "Tue, August 22 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -46,13 +46,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": "Sept 7 delivery is sold out"
     },
     {
         "type": "produce",
         "id": "MatureChicken",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": "Last Call!"
     },
 
@@ -210,7 +210,7 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "VGCorn",
         "soldout": "false",
-        "soldoutText": ""
+        "soldoutText": "From another neighbouring Mennonites"
     },
 
     // ================================================================
