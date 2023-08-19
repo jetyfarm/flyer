@@ -197,13 +197,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGChineseCabbage",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
         "type": "produce",
         "id": "VGChineseCauliflower",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     {
