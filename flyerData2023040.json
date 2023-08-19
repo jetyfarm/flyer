@@ -197,7 +197,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGChineseCabbage",
-        "soldout": "true",
+        "soldout": "falses",
         "soldoutText": ""
     },
     {
