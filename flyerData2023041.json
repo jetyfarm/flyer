@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "August 24, 2023",
+       "banner1Txt": "August 31, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, August 22 @3pm",
+        "cutofftimeTxt": "Tue, August 29 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -170,12 +170,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGSalad",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGSalad",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGBellPepper",
@@ -200,12 +200,12 @@ var myFlyerProduceList = [
         "soldout": "falses",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "VGChineseCauliflower",
-        "soldout": "true",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGChineseCauliflower",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "VGCorn",
@@ -308,24 +308,36 @@ var myFlyerProduceList = [
     },    
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Peas and Beans",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Beans",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGLongBean",
     //     "soldout": "true",
     //     "soldoutText": ""
     // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGBean",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGPurpleBroccolini",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGYellowBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGStringBean",
@@ -373,12 +385,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Microgreens",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Microgreens",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
@@ -422,18 +434,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "" 
     // },
-    // { 
-    //     "type" : "produce", 
-    //     "id" : "MGKale",          
-    //     "soldout" : "false",
-    //     "soldoutText": ""
-    // },
-    //{
-    //     "type": "produce",
-    //     "id": "MGBroccoli",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    { 
+        "type" : "produce", 
+        "id" : "MGKale",          
+        "soldout" : "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "MGBroccoli",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      

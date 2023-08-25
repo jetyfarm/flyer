@@ -155,7 +155,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGSalad_square.jpg",
     "title" : "Spring Mix Salad",
-    "pricing" : "$5.50 per 240g",
+    "pricing" : "$5.50 / 0.5lb",
     "description_title": "Spring Mix Salad",
     "description": ""
   },
@@ -234,6 +234,16 @@ var myProducesData = [
     "description": ""
   },
   {
+    "id" : "VGPurpleBroccolini",
+    "produce_image" : "VGPurpleBroccolini.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGPurpleBroccolini_square.jpg",
+    "title" : "Purple Broccolini",
+    "pricing" : "$3.50 each",
+    "description_title": "Purple Broccolini",
+    "description": ""
+  },
+  {
     "id" : "VGCorn",
     "produce_image" : "VGCorn.jpg",
     "produce_div" : "narrow",
@@ -300,8 +310,18 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBean_square.jpg",
     "title" : "Green Beans",
-    "pricing" : "$3.50 per 450g",
+    "pricing" : "$3.50 / 1lb",
     "description_title": "Green Bean",
+    "description": ""
+  },
+  {
+    "id" : "VGYellowBean",
+    "produce_image" : "VGYellowBean.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGYellowBean_square.jpg",
+    "title" : "Yellow Beans",
+    "pricing" : "$3.50 / 1lb",
+    "description_title": "Yellow Bean",
     "description": ""
   },
   {
