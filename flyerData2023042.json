@@ -323,7 +323,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGPurpleBroccolini",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     {
@@ -443,7 +443,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // { 
