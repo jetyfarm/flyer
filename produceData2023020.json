@@ -239,7 +239,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGPurpleBroccolini_square.jpg",
     "title" : "Purple Broccolini",
-    "pricing" : "$3.50 each",
+    "pricing" : "$3.50 / bunch (approx 6oz)",
     "description_title": "Purple Broccolini",
     "description": ""
   },
