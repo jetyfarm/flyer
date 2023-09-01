@@ -249,7 +249,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
     "title" : "Sweet Corn",
-    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz<br>$9.00 / doz",
+//    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz<br>$9.00 / doz",
+    "pricing" : "$5.00 / half doz<br>$9.00 / doz",
     "description_title": "Sweet Corn",
     "description": ""
   },
@@ -299,6 +300,16 @@ var myProducesData = [
     "pricing" : "",
     "description_title": "Squash",
     "description": ""
+  },
+  {
+    "id" : "SQOpo",
+    "produce_image" : "SQOpo.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQOpo_square.jpg",
+    "title" : "Taiwan Opo Squash",
+    "pricing" : "$3.50 each",
+    "description_title": "Taiwan Opo Squash 台灣瓠瓜",
+    "description": "Opo squash has a lengthy, cylindrical-shape. It is approximately 1 to 1.5 ft in length.<br><br>Its smooth skin varies from a light green to chartreuse and encases a creamy white flesh and petite seeds. Opo squash offers a mild flavor reminiscent to a blend of summer squash and cucumber with a firm yet tender to the bite texture."
   },
 
   // ===========================================

@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "August 31, 2023",
+       "banner1Txt": "September 7, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, August 29 @3pm",
+        "cutofftimeTxt": "Tue, September 5 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -46,8 +46,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "false",
-        "soldoutText": "Sept 7 delivery is sold out"
+        "soldout": "true",
+        "soldoutText": "Deliver on Thursday!"
     },
     {
         "type": "produce",
@@ -66,10 +66,10 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
-        "soldoutText": "<br>Large eggs are sold out!"
+        "soldoutText": "<br>Large eggs are<br>sold out!"
         //"soldoutText": ""
         
     },
@@ -120,12 +120,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "TMGoldenBerry",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "TMGoldenBerry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMBigBeef",
@@ -194,12 +194,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGChineseCabbage",
-        "soldout": "falses",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGChineseCabbage",
+    //     "soldout": "falses",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGChineseCauliflower",
@@ -220,6 +220,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
+    {
+        "type": "produce",
+        "id": "SQOpo",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGZucchini",
@@ -296,13 +302,13 @@ var myFlyerProduceList = [
     },    
     {
         "type": "produce",
-        "id": "EGFairyTale",
+        "id": "EGGreen",
         "soldout": "false",
         "soldoutText": ""
     },    
     {
         "type": "produce",
-        "id": "EGGreen",
+        "id": "EGFairyTale",
         "soldout": "false",
         "soldoutText": ""
     },    
@@ -320,12 +326,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },  
-    {
-        "type": "produce",
-        "id": "VGPurpleBroccolini",
-        "soldout": "true",
-        "soldoutText": ""
-    },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGPurpleBroccolini",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },  
     {
         "type": "produce",
         "id": "VGBean",
@@ -443,7 +449,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MGBroccoli",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": ""
     },
     // { 
