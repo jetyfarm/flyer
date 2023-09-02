@@ -303,7 +303,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "EGGreen",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },    
     {
@@ -443,7 +443,7 @@ var myFlyerProduceList = [
     { 
         "type" : "produce", 
         "id" : "MGKale",          
-        "soldout" : "false",
+        "soldout" : "true",
         "soldoutText": ""
     },
     {
