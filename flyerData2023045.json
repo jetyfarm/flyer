@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "September 7, 2023",
+       "banner1Txt": "September 14, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, September 5 @3pm",
+        "cutofftimeTxt": "Tue, September 12 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -37,16 +37,16 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "Turkey",
-    //     "soldout": "true",
-    //     "soldoutText": "<br>LAST CALL!"
-    // },
+    {
+        "type": "produce",
+        "id": "Turkey",
+        "soldout": "false",
+        "soldoutText": "<br>LAST CALL!"
+    },
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": "Deliver on Thursday!"
     },
     {
@@ -66,7 +66,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
         "soldoutText": "<br>Large eggs are<br>sold out!"
@@ -75,12 +75,25 @@ var myFlyerProduceList = [
     },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Fruits",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Fruits",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "TMGoldenBerry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "FTBlackBerry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
     // {
     //     "type": "produce",
     //     "id": "FTStrawberry",
@@ -117,15 +130,10 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMCherry",
-        "soldout": "false",
-        "soldoutText": ""
+        "soldout": "true",
+        "soldoutText": "On Sale! $2.00 OFF!"
     },
-    {
-        "type": "produce",
-        "id": "TMGoldenBerry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+
     // {
     //     "type": "produce",
     //     "id": "TMBigBeef",
@@ -274,12 +282,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "New pricing for all squashes!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGBeet",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGBeet",
+        "soldout": "false",
+        "soldoutText": ""
+    },
 
     // ================================================================
     {
@@ -300,12 +308,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },    
-    {
-        "type": "produce",
-        "id": "EGGreen",
-        "soldout": "true",
-        "soldoutText": ""
-    },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGGreen",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },    
     {
         "type": "produce",
         "id": "EGFairyTale",
@@ -391,12 +399,12 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Microgreens",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Microgreens",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {   
     //     "type" : "produce", 
     //     "id" : "MGPeashoot",      
@@ -440,18 +448,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "" 
     // },
-    { 
-        "type" : "produce", 
-        "id" : "MGKale",          
-        "soldout" : "true",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "MGBroccoli",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGKale",          
+    //     "soldout" : "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "MGBroccoli",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // { 
     //     "type" : "produce", 
     //     "id" : "MGKohlrabi",      
@@ -465,6 +473,37 @@ var myFlyerProduceList = [
     //     "soldoutText": "" 
     // },
 
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Bottles",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTRadish",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTSalsa",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    {
+        "type": "produce",
+        "id": "BTBeets",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTPickles",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
     // ================================================================
     {
         "type": "divider",

@@ -19,7 +19,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
-    "pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Sept 7 (Sold Out),<br>Oct 5 (Sold Out), Oct 26 and Nov 23",
+    "pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Oct 5 (Sold Out), <br>Oct 26 and Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2023 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We have 7 deliveries for the 2023 season: Jun 29, Jul 20, Aug 10, Sep 7, Oct 5, Oct 26 and Nov 23.<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 7 meat chicken deliveries for $189.00 (taxes and delivery fee included) which equals to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
   },
@@ -35,13 +35,13 @@ var myProducesData = [
   },
   {
     "id" : "Turkey",
-    "produce_image" : "XmasTurkey1.jpg",
+    "produce_image" : "Turkey.jpg",
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
-    "title" : "Fresh Christmas Turkey",
-    "pricing" : "$5.00 per lb<br>$25.00 deposit",
-    "description_title": "Fresh Christmas Turkey<br>農場走地火雞",
-    "description": "On behalf of my neighbour Mennoite farm, once again, they have FRESH (NEVER FROZEN) Christmas Turkeys to sell for this Christmas. The turkeys will be delivered on DEC 22. The price is $5.00 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 10-16lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey for your Christmas Holiday season. Many Thanks."
+    "title" : "Fresh Thanksgiving Turkey",
+    "pricing" : "$5.50 per lb<br>$25.00 deposit<br>Deliver on Oct 5",
+    "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
+    "description": "On behalf of my neighbour Mennoite farm, they have FRESH (NEVER FROZEN) Turkeys. The turkeys will be delivered on Oct 5. The price is $5.50 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 8-18lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey. Thank you!"
   },
 
   // ===========================================
@@ -77,7 +77,16 @@ var myProducesData = [
     "description_title": "Large Red Raspberries",
     "description": ""
   },
-
+  {
+    "id" : "FTBlackBerry",
+    "produce_image" : "FTBlackberry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTBlackberry_square.jpg",
+    "title" : "Blackberries",
+    "pricing" : "$5.00 per 1/2 pint",
+    "description_title": "Blackberries",
+    "description": ""
+  },
 
 
   // ===========================================
@@ -89,7 +98,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
-    "pricing" : "$4.00 / 0.5lb<br>$8.00 / 1.2lb",
+    "pricing" : "$4.00 / 0.5lb<br><s>$8.00</s> $6.00 / 1.2lb",
 //    "pricing" : "$4.00 per 240g",
     "description_title": "Cherry Tomatoes",
     "description": ""
@@ -116,9 +125,9 @@ var myProducesData = [
   },
   {
     "id" : "TMGoldenBerry",
-    "produce_image" : "TMGoldenBerry2.jpg",
+    "produce_image" : "TMGoldenBerry3.jpg",
     "produce_div" : "narrow",
-    "image" : "TMGoldenBerry_square.jpg",
+    "image" : "TMGoldenBerry_square2.jpg",
     "title" : "Golden Berry",
     "pricing" : "$3.50 pack of 12",
     "description_title": "Golden Berry",
@@ -245,7 +254,7 @@ var myProducesData = [
   },
   {
     "id" : "VGCorn",
-    "produce_image" : "VGCorn.jpg",
+    "produce_image" : "VGCorn2.jpg",
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
     "title" : "Sweet Corn",
@@ -407,13 +416,13 @@ var myProducesData = [
   },
   {
     "id" : "VGBeet",
-    "produce_image" : "VGBeet.jpg",
+    "produce_image" : "VGBeet2.jpg",
     "produce_div" : "narrow",
-    "image" : "VGBeet_square.jpg",
+    "image" : "VGBeet_square2.jpg",
     "title" : "Beets",
-    "pricing" : "$7.00 for 2kg",
+    "pricing" : "$5.00 / half doz",
     "description_title": "Beets",
-    "description": "$7.00 for 2kg, approx 3 beets."
+    "description": ""
   },
   // ===========================================
   // Eggplants
@@ -717,10 +726,21 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
-    "pricing" : "$8.00 / 500ml",
+    "pricing" : "$7.00 / 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
+  {
+    "id" : "BTRadish",
+    "produce_image" : "BTRadish.jpg",
+    "produce_div" : "narrow",
+    "image" : "BTRadish_square.jpg",
+    "title" : "Radish",
+    "pricing" : "$7.00 / 500ml",
+    "description_title": "Radish",
+    "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides."
+  },
+
   {
     "id" : "BTBeets",
     "produce_image" : "BTBeets.jpg",
