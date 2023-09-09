@@ -276,7 +276,8 @@ var myProducesData = [
     "image" : "VGZucchini_square.jpg",
     "title" : "Zucchini",
 //    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
-    "pricing" : "Large $3.00 each",
+//    "pricing" : "Large $3.00 each",
+    "pricing" : "$1.50 each",
     "description_title": "Zucchini",
     "description": ""
   },

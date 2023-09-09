@@ -234,12 +234,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "VGZucchini",
-    //     "soldout": "true",
-    //     "soldoutText": "Regular size is SOLD OUT!"
-    // },
+    {
+        "type": "produce",
+        "id": "VGZucchini",
+        "soldout": "false",
+        "soldoutText": "Regular size is SOLD OUT!"
+    },
     // {
     //     "type": "produce",
     //     "id": "VGYellowZucchini",
