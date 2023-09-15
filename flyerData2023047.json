@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "September 14, 2023",
+       "banner1Txt": "September 21, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -18,7 +18,7 @@ var myFlyerData = [
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
         "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
 
-        "cutofftimeTxt": "Tue, September 12 @3pm",
+        "cutofftimeTxt": "Tue, September 19 @3pm",
         
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
@@ -66,7 +66,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
         "soldoutText": "<br>Large eggs are<br>sold out!"
@@ -100,12 +100,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "FTRaspberry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "FTRaspberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTRedRaspberry",
@@ -134,12 +134,12 @@ var myFlyerProduceList = [
         "soldoutText": "On Sale! $2.00 OFF!"
     },
 
-    // {
-    //     "type": "produce",
-    //     "id": "TMBigBeef",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "TMBigBeef",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMJapaneseBlack",
@@ -172,24 +172,24 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGTWPakChoy",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGTWPakChoy",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "VGSalad",
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "VGBellPepper",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGBellPepper",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGOkra",
@@ -214,12 +214,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGCorn",
-        "soldout": "false",
-        "soldoutText": "From another neighbouring Mennonites"
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCorn",
+    //     "soldout": "false",
+    //     "soldoutText": "From another neighbouring Mennonites"
+    // },
 
     // ================================================================
     // {
@@ -328,12 +328,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "VGLongBean",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGLongBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGPurpleBroccolini",
@@ -476,7 +476,7 @@ var myFlyerProduceList = [
     // ================================================================
     {
         "type": "divider",
-        "id": "Bottles",
+        "id": "Condiments",
         "soldout": "false",
         "soldoutText": ""
     },
