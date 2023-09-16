@@ -52,8 +52,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MatureChicken",
-        "soldout": "false",
-        "soldoutText": "Last Call!"
+        "soldout": "true",
+        "soldoutText": ""
     },
 
     // ================================================================
@@ -103,7 +103,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "FTRaspberry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
