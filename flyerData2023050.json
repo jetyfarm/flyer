@@ -90,7 +90,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "FTBlackBerry",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
 
