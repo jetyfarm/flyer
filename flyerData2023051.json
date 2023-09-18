@@ -69,7 +69,7 @@ var myFlyerProduceList = [
         "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
-        "soldoutText": "<br>Large eggs are<br>sold out!"
+        "soldoutText": "Large and Medium<br>eggs are<br>sold out!"
         //"soldoutText": ""
         
     },
@@ -137,7 +137,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "TMBigBeef",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -187,7 +187,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBellPepper",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },
     // {
@@ -237,8 +237,8 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGZucchini",
-        "soldout": "false",
-        "soldoutText": "Regular size is SOLD OUT!"
+        "soldout": "true",
+        "soldoutText": ""
     },
     // {
     //     "type": "produce",
@@ -343,7 +343,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "VGBean",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": ""
     },  
     {
