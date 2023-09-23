@@ -151,6 +151,7 @@
       }
 
       function onBodyLoad() {
+        checkLanguage();
         checkReminder();
         checkTutorial();
         loadFlyerText();
@@ -177,12 +178,25 @@
         }
       }
 
+      function checkLanguage() {
+        var language = document.getElementById("language");
+
+        let lang = getCookie("preferedlanguage");
+        if (lang == "" ) {
+          setCookie( "preferedlanguage", "eng", 300 );
+          language.value = "eng"
+        }
+        else {
+          language.value = lang;
+        }
+      }
+
     </script>
 
     <script type="text/javascript" src="produceData2023025.json"></script>
     <script type="text/javascript" src="flyerData2023052.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    
   </head>
 
   <!--  ============================================  -->
@@ -194,7 +208,14 @@
     <!--  ============================================  -->
     <!--                      HEADER                    -->
     <!--  ============================================  -->
-    <header style="height: 10vh;">
+    <header style="height: 13vh; background-color: rgb(255, 255, 53);">
+      <div style="height: 3vh; width: 100%;   background-color: rgb(65, 63, 53);">
+        <select style="float: right; margin: 0.5vh; margin-right: 5vw; text-align: center; font-family: Lithos; color: #707070; letter-spacing: 0px; font-size: 1vh;" name="language" id="language" onchange="languageFunc()">
+          <option value="eng">English</option>
+          <option value="cn">中文</option>
+        </select>
+      </div>  
+
       <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
         <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
           <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
@@ -205,7 +226,6 @@
               <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;"></p>
               <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
             </div>  
-
         </div>
       </div>
       <!-- <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
@@ -215,7 +235,7 @@
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 82vh; overflow-y: scroll;">
+    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 79vh; overflow-y: scroll;">
 
       <!------------------------------------------------------------------------------->
       <!--------------------------------- Reminder ------------------------------------>
@@ -280,6 +300,8 @@
 
           <span id="tutorialClose" class="close">&times;</span>
           <p style="text-align: center; vertical-align: middle; font-family: Lithos; color: #707070; letter-spacing: -1px; font-size: 5vw;">How to navigate Jety Farm flyer...</p>
+
+
           <img src="images/jetyTutorial.png" class="center" style="width: 80vw; height: 60vh; object-fit: contain;">
          
           <!-- Don't show again -->
@@ -350,7 +372,14 @@
 
               var t1 = document.createElement("P");                 // Create a <p> element
               t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
-              t1.innerHTML = myProducesData[produce_index].title;   
+
+//              var lang = getCookie( "preferedlanguage");
+              var lang = language.value;
+              if( lang=="" || lang=="eng" ) {
+                t1.innerHTML = myProducesData[produce_index].title;   
+              } else {
+                t1.innerHTML = myProducesData[produce_index].title_cn;   
+              }
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
@@ -393,6 +422,7 @@
           // ==========================================================================
           // Create produce item
           function createProduce(_id,_soldout,_soldoutText) {
+            console.log( "Create Produce ", _id);
             var d = document.createElement('div');
             d.setAttribute("style","text-align:center; position:relative; height:auto; " );
             d.id = _id;
@@ -675,12 +705,7 @@
         </div>
 
         <!-- hitwebcounter Code START -->
-        <div style="width: auto; height: auto; background-color: rgb(143, 138, 118); margin-top: 0.5vh;">
-          <div style="margin-left: 48vw; margin-right: auto; padding-top:0.5vh; height: 2vh; align-content: right; ">
-            <a href="https://www.hitwebcounter.com" target="_blank">
-              <img src="https://hitwebcounter.com/counter/counter.php?page=7998309&style=0007&nbdigits=5&type=page&initCount=1315" title="Free Counter" Alt="web counter" border="0" /></a>   
-          </div>
-        </div>
+
       </div>
     </footer>
 
@@ -695,6 +720,14 @@
           var r1 = document.getElementById("reminderTxt");
           r1.innerHTML = myFlyerData[0].reminderTxt;
         }
+
+        var language = document.getElementById("language");
+        function languageFunc() {
+            console.log( language.value);
+            setCookie("preferedlanguage",language.value,365);
+            location.reload();
+        }
+
     </script>
   </body>
 </html>
