@@ -23,6 +23,9 @@
       @font-face { font-family: ArticulatBold; src: url('ArticulatCF-DemiBold.otf'); }
       @font-face { font-family: ArticulatMedium; src: url('ArticulatCF-Medium.otf'); }
 
+      @font-face { font-family: ZhiMangXing; src: url('ZhiMangXing-Regular.ttf'); }
+      
+
       * {
         box-sizing: border-box
       }
@@ -189,6 +192,8 @@
         else {
           language.value = lang;
         }
+        
+        language.value = "cn";
       }
 
     </script>
@@ -209,33 +214,47 @@
     <!--                      HEADER                    -->
     <!--  ============================================  -->
     <header style="height: 13vh; background-color: rgb(255, 255, 53);">
-      <div style="height: 3vh; width: 100%;   background-color: rgb(65, 63, 53);">
-        <select style="float: right; margin: 0.5vh; margin-right: 5vw; text-align: center; font-family: Lithos; color: #707070; letter-spacing: 0px; font-size: 1vh;" name="language" id="language" onchange="languageFunc()">
-          <option value="eng">English</option>
-          <option value="cn">中文</option>
-        </select>
-      </div>  
-
-      <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
-        <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
-          <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
+        <div style="height: 3vh; width: 100%; vertical-align: middle; overflow: hidden; background-color: rgb(65, 63, 53);">
+            <div style="height: 3vh; width: 2vh; float: right; margin-right: 3vh;">
+                <img src="images/question.png" class="center" style="width: auto; height: 2vh; vertical-align: middle; margin-top: 0.5vh;">
+            </div>
+            <div style="position: relative; float: right; margin-left: 1vw; margin-right: 0vh; height: 3vh; width: fit-content;">
+                <select
+                    style="float: right; margin-top: 0.55vh; margin-right: 2vw; text-align: center; font-family: Lithos; color: #707070; letter-spacing: 0px; font-size: 1.35vh;"
+                    name="language" id="language" onchange="languageFunc()">
+                    <option value="eng">English</option>
+                    <option value="cn">中文</option>
+                </select>
+            </div>
+            <div style="height: 3vh; width: 2vh; float: right;">
+                <img src="images/global.png" class="center" style="width: auto; height: 2vh; vertical-align: middle; margin-top: 0.5vh;">
+            </div>
+        
         </div>
-        <div style="position: relative; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 0.5vh;">
-
-            <div class="vertical-center" >
-              <p id="flyerBanner1Txt" style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;"></p>
-              <p id="flyerBanner2Txt" style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;"></p>  
-            </div>  
+    
+        <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
+            <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
+                <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
+            </div>
+            <div style="position: relative; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 0.5vh;">
+                <div class="vertical-center">
+                    <p id="flyerBanner1Txt"
+                        style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+                    </p>
+                    <p id="flyerBanner2Txt"
+                        style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
-        <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(242, 237, 229);"></p>
-        <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.4vh; color: rgb(242, 237, 229);"></p>
-      </div> -->
+        <!-- <div style="background-color: rgb(47, 56, 49); height: 8vh; padding: 1.4vh;">
+            <p id="flyerBanner1Txt" style="margin: auto; margin-bottom: 0.2vh; text-align:center; font-family: Raleway; font-size: 2vh; color: rgb(242, 237, 229);"></p>
+            <p id="flyerBanner2Txt" style="margin: auto; margin-left: 4vw; margin-right: 4vw; text-align:center; font-family: Raleway; font-size: 1.4vh; color: rgb(242, 237, 229);"></p>
+          </div> -->
     </header>
 
     <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 79vh; overflow-y: scroll;">
+    <div style="background-color: rgb(65, 63, 53); text-align: center; height: 83vh; overflow-y: scroll;">
 
       <!------------------------------------------------------------------------------->
       <!--------------------------------- Reminder ------------------------------------>
@@ -373,11 +392,8 @@
               var t1 = document.createElement("P");                 // Create a <p> element
               t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
 
-//              var lang = getCookie( "preferedlanguage");
-              var lang = language.value;
-              if( lang=="" || lang=="eng" ) {
-                t1.innerHTML = myProducesData[produce_index].title;   
-              } else {
+              t1.innerHTML = myProducesData[produce_index].title;   
+              if( language.value=="cn" ) {
                 t1.innerHTML = myProducesData[produce_index].title_cn;   
               }
               dt.appendChild(t1);
@@ -385,6 +401,9 @@
               var t2 = document.createElement("P");                 // Create a <p> element
               t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
               t2.innerHTML = myProducesData[produce_index].pricing; 
+              if( language.value=="cn" ) {
+                t2.innerHTML = myProducesData[produce_index].pricing_cn;   
+              }
               dt.appendChild(t2);
               d.appendChild(dt);
             }
@@ -440,6 +459,7 @@
             var imgPath = "images/produces/"+myProducesData[produce_index].produce_image;
             p.src = imgPath;
             d.appendChild(p);   
+        
 
             {
               // create div for text
@@ -448,13 +468,21 @@
 
               var t1 = document.createElement("P");                 // Create a <p> element
               t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
+            //   t1.setAttribute("style","text-align:left; color: rgb(242, 237, 229); font-size: 5vw; font-family: ZhiMangXing; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px; " );
+
               t1.innerHTML = myProducesData[produce_index].title;   
+              if( language.value=="cn" ) {
+                t1.innerHTML = myProducesData[produce_index].title_cn;   
+              }
               dt.appendChild(t1);
 
               var t2 = document.createElement("P");                 // Create a <p> element
               t2.setAttribute("style","margin: auto; text-align:left; color: rgb(242, 237, 229); font-size: 3vw; font-family: Raleway; margin:auto; padding-left: 0.75vw; height: auto; line-height: 1.35; letter-spacing:0.5px;" );
 
-              t2.innerHTML = myProducesData[produce_index].pricing; 
+              t2.innerHTML = myProducesData[produce_index].pricing;
+              if( language.value=="cn" ) {
+                t2.innerHTML = myProducesData[produce_index].pricing_cn;
+              }
               dt.appendChild(t2);
               d.appendChild(dt);
             }
@@ -600,7 +628,11 @@
               if( myFlyerProduceList[i].type == "note" ) {
                 createNote( myFlyerProduceList[i].note);
               } else if( myFlyerProduceList[i].type == "divider" ) {
-                createDivider( myFlyerProduceList[i].id, myFlyerProduceList[i].soldout, myFlyerProduceList[i].soldoutText);
+                var id_ = myFlyerProduceList[i].id;
+                if( language.value =="cn" ) {
+                    id_ = myFlyerProduceList[i].id_cn;
+                }
+                createDivider( id_, myFlyerProduceList[i].soldout, myFlyerProduceList[i].soldoutText);
               } else {
                 $.each(myProducesData, function(j, item) {
                   if( myProducesData[j].id == myFlyerProduceList[i].id ) {
@@ -680,23 +712,29 @@
         <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
         
         <div style="margin: auto; text-align: center; width: auto; height: auto;">
-            <!-- <p class="footnotetext" id="flyerFootnoteTxt" style="font-family: ArticulatMedium; letter-spacing: 0.25px;text-align:left; color: rgb(242, 237, 229);"></p> -->
 
             <table class="footnotetext" cellspacing="0" border-collapse="collapse" style="margin: auto; font-family: ArticulatMedium; font-size: 2.5vw; height: auto; letter-spacing: 0.25px; text-align:left; color: rgb(242, 237, 229); vertical-align: top; padding-top: 0.5vh;">
               <tr>
-                <td style="text-align: right; width: 28%; vertical-align: top;">Submit orders to:</td>
-                <td style="text-align: left; vertical-align: top;">WhatsApp group, WeChat group, Signal group, or DM</td>
+                <td style="text-align: right; width: 28%; vertical-align: top;">
+                    <p id="submitOrderLabelTxt" style="text-align: right; vertical-align: top; margin: auto;"></p>
+                </td>
+                <td style="text-align: left; vertical-align: top;">
+                    <p id="submitOrderTxt" style="text-align: right; vertical-align: top; margin: auto;"></p>
+                </td>
               </tr>
               <tr>
-                <td style="text-align: right; vertical-align: top;">Order cut-off time:</td>
+                <td style="text-align: right; vertical-align: top;">
+                    <p id="cutofftimeLabelTxt" style="text-align: right; vertical-align: top; margin: auto;"></p>
+                </td>
                 <td style="text-align: left; vertical-align: top;"> 
                   <p id="cutofftimeTxt" style="text-align: left; vertical-align: top; margin: auto;"> Tue, - @6pm</p>
                 </td>
               </tr>
 
-
               <tr>
-                <td style="text-align: right; vertical-align: top;">Minimum order:</td>
+                <td style="text-align: right; vertical-align: top;">
+                    <p id="minRequiredLabelTxt" style="text-align: right; vertical-align: top; margin: auto;"></p>
+                </td>
                 <td style="text-align: left; vertical-align: top;">$13.00</td>
               </tr>
             </table>
@@ -711,14 +749,39 @@
 
     <script>
         function loadFlyerText() {
-          var t1 = document.getElementById("flyerBanner1Txt");
-          t1.innerHTML = myFlyerData[0].banner1Txt; 
-          var t2 = document.getElementById("flyerBanner2Txt");
-          t2.innerHTML = myFlyerData[0].banner2Txt;
-          var t3 = document.getElementById("cutofftimeTxt");
-          t3.innerHTML = myFlyerData[0].cutofftimeTxt;
-          var r1 = document.getElementById("reminderTxt");
-          r1.innerHTML = myFlyerData[0].reminderTxt;
+            var t1 = document.getElementById("flyerBanner1Txt");
+            t1.innerHTML = myFlyerData[0].banner1Txt; 
+            var t2 = document.getElementById("flyerBanner2Txt");
+            t2.innerHTML = myFlyerData[0].banner2Txt;
+
+            // footnote
+            var t5_0 = document.getElementById("submitOrderLabelTxt");
+            t5_0.innerHTML = myFlyerData[0].submitOrderLabelTxt;
+            var t5 = document.getElementById("submitOrderTxt");
+            t5.innerHTML = myFlyerData[0].submitOrderTxt;
+
+            var t3_0 = document.getElementById("cutofftimeLabelTxt");
+            t3_0.innerHTML = myFlyerData[0].cutofftimeLabelTxt;
+            var t3 = document.getElementById("cutofftimeTxt");
+            t3.innerHTML = myFlyerData[0].cutofftimeTxt;
+
+            var t4_0 = document.getElementById("minRequiredLabelTxt");
+            t4_0.innerHTML = myFlyerData[0].minRequiredLabelTxt;
+
+
+            // reminder
+            var r1 = document.getElementById("reminderTxt");
+            r1.innerHTML = myFlyerData[0].reminderTxt;
+
+            if( language.value=="cn" ) {
+                t5_0.innerHTML = myFlyerData[0].submitOrderLabelTxt_cn;
+                t5.innerHTML = myFlyerData[0].submitOrderTxt_cn;
+
+                t3_0.innerHTML = myFlyerData[0].cutofftimeLabelTxt_cn;
+                t3.innerHTML = myFlyerData[0].cutofftimeTxt_cn;
+                t4_0.innerHTML = myFlyerData[0].minRequiredLabelTxt_cn;
+                //r1.innerHTML = myFlyerData[0].reminderTxt_cn;
+            }
         }
 
         var language = document.getElementById("language");

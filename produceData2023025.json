@@ -7,6 +7,7 @@ var myProducesData = [
     "title" : "Free Range Farm Eggs",
     "title_cn" : "農場走地黃油雞",
     "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $5.00 / doz; $14.00 / 4 doz",
+    "pricing_cn" : "欢迎订购鸡蛋<br>大 $7.00每打<br>中 $6.00每打<br>小 $5.00每打; $14.00每4打",
     "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>You are welcome to join our eggs subscription. We will deliver the eggs to you on a bi-weekly basis. And you can modify or cancel your subscription by a 7 days advance notice.<BR><BR>*Our farm eggs are unwashed, please wash before consuming."
   },
@@ -20,7 +21,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
+    "title_cn" : "農場走地黃油雞",
     "pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Oct 5 (Sold Out), <br>Oct 26 and Nov 23",
+    "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2023 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We have 7 deliveries for the 2023 season: Jun 29, Jul 20, Aug 10, Sep 7, Oct 5, Oct 26 and Nov 23.<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 7 meat chicken deliveries for $189.00 (taxes and delivery fee included) which equals to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
   },
@@ -30,6 +33,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
     "title" : "Frozen Mature Chicken",
+    "title_cn" : "農場走地老雞",
     "pricing" : "$8.00 per chicken",
     "description_title": "Frozen Mature Chicken<br>農場走地老雞",
     "description": "Our mature chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
@@ -40,7 +44,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
     "title" : "Fresh Thanksgiving Turkey",
+    "title_cn" : "農場走地火雞",
     "pricing" : "$5.50 per lb<br>$25.00 deposit<br>Deliver on Oct 5",
+    "pricing_cn" : "$5.50每磅<br>$25.00 定金<br>10月5日发货",
     "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
     "description": "On behalf of my neighbour Mennoite farm, they have FRESH (NEVER FROZEN) Turkeys. The turkeys will be delivered on Oct 5. The price is $5.50 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 8-18lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey. Thank you!"
   },
@@ -84,11 +90,24 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "FTBlackberry_square.jpg",
     "title" : "Blackberries",
+    "title_cn" : "黑莓",
     "pricing" : "$5.00 per 1/2 pint",
+    "pricing_cn" : "$5.00每半pint",
     "description_title": "Blackberries",
     "description": ""
   },
-
+  {
+    "id" : "TMGoldenBerry",
+    "produce_image" : "TMGoldenBerry3.jpg",
+    "produce_div" : "narrow",
+    "image" : "TMGoldenBerry_square2.jpg",
+    "title" : "Golden Berry",
+    "title_cn" : "灯笼果",
+    "pricing" : "$3.50 pack of 12<br>$5.00 pack of 24",
+    "pricing_cn" : "$3.50每打<br>$5.00每两打",
+    "description_title": "Golden Berry",
+    "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
+  },
 
   // ===========================================
   // Cherry Tomatoes
@@ -99,8 +118,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
+    "title_cn" : "樱桃西红柿",
     "pricing" : "$4.00 / 0.5lb<br><s>$8.00</s> $6.00 / 1.2lb",
-//    "pricing" : "$4.00 per 240g",
+    "pricing_cn" : "$4.00 / 0.5lb<br><s>$8.00</s> $6.00 / 1.2lb",
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
@@ -110,7 +130,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "TMBigBeef_square.jpg",
     "title" : "Big Beef Tomatoes",
+    "title_cn" : "大西红柿",
     "pricing" : "$3.00 / 1lb",
+    "pricing_cn" : "$3.00 / 1lb",
     "description_title": "Big Beef Tomatoes",
     "description": "It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
   },
@@ -124,17 +146,6 @@ var myProducesData = [
     "description_title": "Japanese Black Trifele Tomato",
     "description": "A beautiful mahogany pear shaped fruit. These medium to large sized tomatoes have very tasty flesh with a meaty core. Excellent choice for sandwiches, salads and cooking."
   },
-  {
-    "id" : "TMGoldenBerry",
-    "produce_image" : "TMGoldenBerry3.jpg",
-    "produce_div" : "narrow",
-    "image" : "TMGoldenBerry_square2.jpg",
-    "title" : "Golden Berry",
-    "pricing" : "$3.50 pack of 12<br>$5.00 pack of 24",
-    "description_title": "Golden Berry",
-    "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
-  },
-
 
   // ===========================================
   // Vegetables
@@ -165,7 +176,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGSalad_square.jpg",
     "title" : "Spring Mix Salad",
+    "title_cn" : "生菜沙拉",    
     "pricing" : "$5.50 / 0.5lb",
+    "pricing_cn" : "$5.50 / 0.5lb",
     "description_title": "Spring Mix Salad",
     "description": ""
   },
@@ -185,7 +198,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGTWPakChoy_square.jpg",
     "title" : "Taiwan Pak Choy",
+    "title_cn" : "台湾長腳白菜",
     "pricing" : "$3.00 / 1.5lb",
+    "pricing_cn" : "$3.00 / 1.5lb",
     "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
@@ -196,8 +211,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBellPepper_square.jpg",
     "title" : "Mixed Bell Pepper",
-//    "title" : "Green Bell Pepper",
+    "title_cn" : "灯笼椒",
     "pricing" : "$3.50 / 1lb",
+    "pricing_cn" : "$3.50 / 1lb",
     "description_title": "Mixed Bell Pepper",
     "description": ""
   },
@@ -318,7 +334,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "SQOpo_square.jpg",
     "title" : "Taiwan Opo Squash",
+    "title_cn" : "台灣瓠瓜",
     "pricing" : "$3.50 each",
+    "pricing_cn" : "$3.50每个",
     "description_title": "Taiwan Opo Squash 台灣瓠瓜",
     "description": "Opo squash has a lengthy, cylindrical-shape. It is approximately 1 to 1.5 ft in length.<br><br>Its smooth skin varies from a light green to chartreuse and encases a creamy white flesh and petite seeds. Opo squash offers a mild flavor reminiscent to a blend of summer squash and cucumber with a firm yet tender to the bite texture."
   },
@@ -445,7 +463,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGAsian_square.jpg",
     "title" : "Asian Eggplant",
+    "title_cn" : "中国茄子",
     "pricing" : "$4.50 / 1lb",
+    "pricing_cn" : "$4.50 / 1lb",
     "description_title": "Asian Eggplant",
     "description": ""
   },
@@ -728,17 +748,21 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
+    "title_cn" : "莎莎酱",
     "pricing" : "$7.00 / 500ml",
+    "pricing_cn" : "$7.00 / 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
   {
-    "id" : "BTRadish",
+    "id" : "BTRelish",
     "produce_image" : "BTRadish.jpg",
     "produce_div" : "narrow",
     "image" : "BTRadish_square.jpg",
     "title" : "Relish",
+    "title_cn" : "Relish",
     "pricing" : "$7.00 / 500ml",
+    "pricing_cn" : "$7.00 / 500ml",
     "description_title": "Relish",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides."
   },
@@ -749,7 +773,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
+    "title_cn" : "糖醋红甜菜",
     "pricing" : "$7.00 / 500ml",
+    "pricing_cn" : "$7.00 / 500ml",
     "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
   },
@@ -759,7 +785,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
+    "title_cn" : "糖醋黄瓜",
     "pricing" : "$7.00 / 500ml",
+    "pricing_cn" : "$7.00 / 500ml",
     "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
   },
@@ -769,7 +797,9 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
+    "title_cn" : "枫糖浆",
     "pricing" : "$8.00 / 250ml",
+    "pricing_cn" : "$8.00 / 250ml",
     "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. 100% Pure Maple Syrup, no added sugar, preservatives, colour, and artificial flavours."
   }

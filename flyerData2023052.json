@@ -16,10 +16,18 @@ var myFlyerData = [
         //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, Newmarket<br>and all the CHICKEN and TURKEY orders",
         //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
-        "footnoteTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
-
-        "cutofftimeTxt": "Tue, September 26 @3pm",
         
+        "submitOrderLabelTxt": "Submit order to:",
+        "submitOrderLabelTxt_cn": "订单提交至:",
+        "submitOrderTxt": "WhatsApp group, WeChat group, Signal group, or DM",
+        "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
+        "cutofftimeLabelTxt": "Order cut-off time:",
+        "cutofftimeLabelTxt_cn": "订单截止时间:",
+        "cutofftimeTxt": "Tue, September 26 @3pm",
+        "cutofftimeTxt_cn": "9月26日 3PM",
+        "minRequiredLabelTxt":"Minimum order:",
+        "minRequiredLabelTxt_cn":"最低订购费:",
+
         "reminderTxt": "<br>There will be no delivery on May 11, and May 18.<br><br>"
     }
 ];
@@ -34,6 +42,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Poultry",
+        "id_cn": "家禽类",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -60,6 +69,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Eggs",
+        "id_cn": "蛋",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -78,6 +88,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Fruits",
+        "id_cn": "水果类",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -124,6 +135,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Tomatoes",
+        "id_cn":"番茄类",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -151,6 +163,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Vegetables",
+        "id_cn": "蔬菜类",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -293,6 +306,7 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Eggplant",
+        "id_cn": "茄子类",        
         "soldout": "false",
         "soldoutText": ""
     },
@@ -477,12 +491,13 @@ var myFlyerProduceList = [
     {
         "type": "divider",
         "id": "Condiments",
+        "id_cn": "其他",
         "soldout": "false",
         "soldoutText": ""
     },
     {
         "type": "produce",
-        "id": "BTRadish",
+        "id": "BTRelish",
         "soldout": "false",
         "soldoutText": ""
     },
@@ -505,12 +520,13 @@ var myFlyerProduceList = [
         "soldoutText": "<br>$1.00 OFF!"
     },
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Looking for something sweet...",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Looking for something sweet...",
+    //     "id_cn": "甜的.",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
 //     {
 //         "type": "produce",
 //         "id": "Honey",
