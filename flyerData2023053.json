@@ -1,11 +1,11 @@
 var myFlyerData = [
     {
-       "banner1Txt": "September 28, 2023",
+       "banner1Txt": "October 5, 2023",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken orders",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -23,7 +23,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, September 26 @3pm",
+        "cutofftimeTxt": "Tue, Oct 3 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -49,13 +49,13 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Turkey",
-        "soldout": "false",
-        "soldoutText": "<br>LAST CALL!"
+        "soldout": "true",
+        "soldoutText": "Reserve before Sept 30"
     },
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "false",
+        "soldout": "true",
         "soldoutText": "Deliver on Thursday!"
     },
     // {
@@ -111,12 +111,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "FTRaspberry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "FTRaspberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTRedRaspberry",
@@ -185,18 +185,18 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGTWPakChoy",
-        "soldout": "false",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "VGSalad",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGTWPakChoy",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSalad",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "VGBellPepper",
@@ -303,39 +303,6 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Eggplant",
-        "id_cn": "茄子类",        
-        "soldout": "false",
-        "soldoutText": ""
-    },
-    // {
-    //     "type": "produce",
-    //     "id": "EGDark",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },    
-    {
-        "type": "produce",
-        "id": "EGAsian",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    // {
-    //     "type": "produce",
-    //     "id": "EGGreen",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },    
-    // {
-    //     "type": "produce",
-    //     "id": "EGFairyTale",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },    
-
-    // ================================================================
     // {
     //     "type": "divider",
     //     "id": "Beans",
@@ -348,12 +315,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGPurpleBroccolini",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGPurpleBroccolini",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGBean",
@@ -378,6 +345,39 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },  
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Eggplant",
+        "id_cn": "茄子类",        
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "EGDark",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGAsian",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGGreen",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },    
+    {
+        "type": "produce",
+        "id": "EGFairyTale",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
 
     // ================================================================
 //     {
