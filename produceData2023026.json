@@ -22,7 +22,7 @@ var myProducesData = [
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
     "title_cn" : "農場走地黃油雞",
-    "pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Oct 5 (Sold Out), <br>Oct 26 and Nov 23",
+    "pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Oct 26 and Nov 23",
     "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2023 season.<br><br>Our chickens are brown feathered, free-range, 15-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We have 7 deliveries for the 2023 season: Jun 29, Jul 20, Aug 10, Sep 7, Oct 5, Oct 26 and Nov 23.<br><br>There are two ways to reserve the meat chicken: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 7 meat chicken deliveries for $189.00 (taxes and delivery fee included) which equals to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support."
@@ -320,7 +320,7 @@ var myProducesData = [
   },
   {
     "id" : "Squash",
-    "produce_image" : "Squash6.jpg",
+    "produce_image" : "Squash7.jpg",
     "produce_div" : "narrow",
     "image" : "Squash_square.jpg",
     "title" : "",
@@ -335,7 +335,7 @@ var myProducesData = [
     "image" : "SQOpo_square.jpg",
     "title" : "Taiwan Opo Squash",
     "title_cn" : "台灣瓠瓜",
-    "pricing" : "$3.50 each",
+    "pricing" : "<s>$3.50</s> $2.50 each",
     "pricing_cn" : "$3.50每个",
     "description_title": "Taiwan Opo Squash 台灣瓠瓜",
     "description": "Opo squash has a lengthy, cylindrical-shape. It is approximately 1 to 1.5 ft in length.<br><br>Its smooth skin varies from a light green to chartreuse and encases a creamy white flesh and petite seeds. Opo squash offers a mild flavor reminiscent to a blend of summer squash and cucumber with a firm yet tender to the bite texture."
