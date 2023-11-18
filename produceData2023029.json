@@ -43,12 +43,12 @@ var myProducesData = [
     "produce_image" : "Turkey.jpg",
     "produce_div" : "narrow",
     "image" : "Turkey_square.jpg",
-    "title" : "Fresh Thanksgiving Turkey",
+    "title" : "Fresh Christmas Turkey",
     "title_cn" : "農場走地火雞",
-    "pricing" : "$5.50 per lb<br>$25.00 deposit<br>Deliver on Oct 5",
+    "pricing" : "$5.50 per lb<br>$25.00 deposit<br>Deliver on Dec 21",
     "pricing_cn" : "$5.50每磅<br>$25.00 定金<br>10月5日发货",
-    "description_title": "Fresh Thanksgiving Turkey<br>農場走地火雞",
-    "description": "On behalf of my neighbour Mennoite farm, they have FRESH (NEVER FROZEN) Turkeys. The turkeys will be delivered on Oct 5. The price is $5.50 per lbs, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkeys weight approx 8-18lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey. Thank you!"
+    "description_title": "Fresh Christmas Turkey<br>農場走地火雞",
+    "description": "On behalf of my neighbour Mennoite farm, they have FRESH (NEVER FROZEN) turkeys. The turkeys will be delivered on Dec 21. The price is $5.50 per lb, and $25.00 deposit is required.<br><br>Their turkeys will be processed at the same processing plant that I brought my meat chicken to. The turkey weights approx 15-25lbs (undressed), it includes neck and internals. <br><br>Feel free to let me know if you would like to reserve a fresh turkey. Thank you!"
   },
 
   // ===========================================

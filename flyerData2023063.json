@@ -46,12 +46,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "Turkey",
-    //     "soldout": "true",
-    //     "soldoutText": "Reserve before Sept 30"
-    // },
+    {
+        "type": "produce",
+        "id": "Turkey",
+        "soldout": "false",
+        "soldoutText": "Reserve before Sept 30"
+    },
     {
         "type": "produce",
         "id": "MeatChicken",
