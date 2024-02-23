@@ -1,12 +1,12 @@
 var myFlyerData = [
     {
-       "banner1Txt": "February 22, 2024",
+       "banner1Txt": "February 29, 2024",
        
-       //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+      // "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
       
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -25,7 +25,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Feb 20 @3pm",
+        "cutofftimeTxt": "Tue, Feb 27 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -41,25 +41,25 @@ var myFlyerProduceList = [
     //        "note" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
     //    },
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Poultry",
-    //     "id_cn": "家禽类",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Poultry",
+        "id_cn": "家禽类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "Turkey",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "MeatChicken",
-    //     "soldout": "true",
-    //     "soldoutText": "Deliver on Thursday!"
-    // },
+    {
+        "type": "produce",
+        "id": "MeatChicken",
+        "soldout": "false",
+        "soldoutText": "Deliver on Thursday!"
+    },
     // {
     //     "type": "produce",
     //     "id": "MatureChicken",

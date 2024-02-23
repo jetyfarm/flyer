@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jety Farm Flyer</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" href="toggleButton.css">
+
+  <style>
+    @font-face {
+      font-family: Architects;
+      src: url('ArchitectsDaughter-Regular.ttf');
+    }
+
+    @font-face {
+      font-family: Raleway;
+      src: url('Raleway-VariableFont_wght.ttf');
+    }
+
+    @font-face {
+      font-family: Caveat;
+      src: url('Caveat-Medium.ttf');
+    }
+
+    @font-face {
+      font-family: Pacifico;
+      src: url('Pacifico-Regular.ttf');
+    }
+
+    @font-face {
+      font-family: Lithos;
+      src: url('LithosPro-Regular.otf');
+    }
+
+    @font-face {
+      font-family: LithosBold;
+      src: url('Lithos Pro Bold.otf');
+    }
+
+    @font-face {
+      font-family: LithosExtraLight;
+      src: url('Lithos Pro Extra Light.otf');
+    }
+
+    @font-face {
+      font-family: LithosLight;
+      src: url('Lithos Pro Light.otf');
+    }
+
+    @font-face {
+      font-family: ArticulatLight;
+      src: url('ArticulatCF-Light.otf');
+    }
+
+    @font-face {
+      font-family: Articulat;
+      src: url('ArticulatCF-Regular.otf');
+    }
+
+    @font-face {
+      font-family: ArticulatBold;
+      src: url('ArticulatCF-DemiBold.otf');
+    }
+
+    @font-face {
+      font-family: ArticulatMedium;
+      src: url('ArticulatCF-Medium.otf');
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    /* ======================================= */
+    /* Style: Layout */
+    /* ======================================= */
+    html {
+      width: 100%;
+      height: 100vh;
+      font-family: Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(110, 148, 106, 0.8);
+    }
+
+    /* Style the header */
+    header {
+      background-color: rgb(65, 63, 53);
+      text-align: center;
+      color: rgb(242, 237, 229);
+      height: 16vh;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      font-family: Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(242, 237, 229);
+    }
+
+    bottom {
+      background-color: rgb(65, 63, 53);
+      text-align: center;
+      color: rgb(242, 237, 229);
+      width: 100%;
+      height: 8vh;
+      padding: 0;
+      margin: 0;
+    }
+
+    img {
+      padding: 0;
+      display: block;
+      max-height: auto;
+      max-width: 100vw;
+      -webkit-user-drag: none;
+      -khtml-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 8px
+      }
+    }
+
+    @media screen and (min-width: 540px) {
+      p.footnotetext {
+        font-size: 1.8vw;
+      }
+    }
+
+    @media screen and (max-width: 539px) {
+      p.footnotetext {
+        font-size: 2w;
+      }
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    .main div {
+      float: left;
+      clear: none;
+    }
+
+    @keyframes hideMe {
+      0% {
+        opacity: 1;
+      }
+
+      90% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <script>
+  </script>
+</head>
+
+<!--  ============================================  -->
+<!--                      HEADER                    -->
+<!--  ============================================  -->
+<header style="height: 10vh;">
+  <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
+    <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
+      <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
+    </div>
+    <div
+      style="position: relative; text-align:right; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 3vh;">
+
+      <p
+        style="margin: auto; align-content:right; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+        Meat Chicken
+      </p>
+      <p
+        style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+        2024 Season
+      </p>
+
+    </div>
+  </div>
+</header>
+
+<div style="background-color: rgb(52, 50, 43); text-align: center; height: 87vh; overflow-y: scroll;">
+
+  <div
+    style="background-color: rgb(159, 50, 50); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      Early Bird Special!!!
+    </p>
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      Submit your meat chicken order before March 24 and receive 5% OFF!
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:5vw; margin-left:10vw; margin-right:10vw;">
+    <img src="images/produces/meatchicken.jpg" class="center" style="width:80vw; height: auto;">
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      About our meat chicken
+    </p>
+
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px; margin-bottom: 5vw;">
+
+      Our chickens are brown feathered, free-range, minimum 14-weeks old. The average dressed weight is 2.5-3lbs. They
+      are
+      fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario
+      inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br>
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      Delivery Date
+    </p>
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      We will have 6 deliveries for 2024 season:<br><br>
+      + June 27, 2024<br>
+      + July 25, 2024<br>
+      + Auguest 22, 2024<br>
+      + September 19, 2024<br>
+      + October 17, 2024<br>
+      + November 21, 2024<br>
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      Pricing
+    </p>
+
+    <p
+      style="padding: 5vw; padding-top: 0vw; padding-bottom: 0vw; margin-bottom: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      Same pricing as of 2023 season.<br>
+    </p>
+
+    <table class="footnotetext" cellspacing="0" border-collapse="collapse"
+      style="margin-top:2.5vw; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px; align-items: center; vertical-align: top;">
+      <tr>
+        <td style="text-align: right; width: 62%; vertical-align: top;">Monthly Subscription:</td>
+        <td style="text-align: left; vertical-align: top;">$27.00 per chicken</td>
+      </tr>
+      <tr>
+        <td style="text-align: right; vertical-align: top;">Per-Wanted:</td>
+        <td style="text-align: left; vertical-align: top;">$30.00 per chicken</td>
+      </tr>
+    </table>
+
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      Note: Extra $1.50 for a set of chicken feet, chicken heart and liver<br>
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      Order Options
+    </p>
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      <b>MONTHLY SUBSCRIPTION:</b><br><br>
+      Subscribe to our 6 meat chicken deliveries for $162.00 (taxes and delivery fee
+      included) which
+      equals
+      to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we
+      honour
+      $27/chicken price (on availability).<br><br>You can skip the meat chicken delivery and swap to another meat
+      chicken delivery. An early notification is required.
+      <br><br><br><b>PER-WANTED:</b><br><br>
+      You order our meat chicken from an on-demand basis<br>
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      How to order
+    </p>
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      Submit your order thru WhatsApp, WeChat or direct message
+    </p>
+  </div>
+
+  <div
+    style="background-color: rgb(101, 100, 94); text-align: left; margin-top:0vw; margin-left:10vw; margin-right:10vw;">
+    <p
+      style="padding: 5vw; padding-bottom: 0vw; margin-bottom: 0vw; align-content:right; text-align:center; font-family: LithosBold; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
+      Kindly Reminder
+    </p>
+    <p
+      style="padding: 5vw; padding-top: 0vw; text-align:center; font-family: Raleway; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
+      Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the
+      supply is limited. We will stop accepting new orders once we reach our quota. Thanks for your understanding and
+      continuous support."
+    </p>
+  </div>
+
+
+</div>
+<footer style="position: fixed; bottom: 0;">
+  <div style="background-color: rgb(105, 102, 87); width: 100vw; height: auto; margin: auto;">
+    <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
+
+    <div style="margin: auto; text-align: center; width: auto; height: auto;">
+      <p
+        style="padding: 5vw; padding-top: 0vw; padding-bottom: 0vw; text-align:center; font-family: ArticulatMedium;  font-size: 2.5vw; height: auto; letter-spacing: 0.25px; color: rgb(242, 237, 229);">
+        Thank you for your support!
+      </p>
+
+    </div>
+
+    <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47); margin-top: 1vh;"></div>
+  </div>
+</footer>
+
+</body>
+
+</html>
