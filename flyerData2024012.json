@@ -1,12 +1,12 @@
 var myFlyerData = [
     {
-       "banner1Txt": "March 21, 2024",
+       "banner1Txt": "March 28, 2024",
        
       // "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
       
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
@@ -25,7 +25,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Mar 19 @3pm",
+        "cutofftimeTxt": "Tue, Mar 27 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
