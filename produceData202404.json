@@ -6,7 +6,8 @@ var myProducesData = [
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
     "title_cn" : "農場走地黃油雞",
-    "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $5.00 / doz<br>Mini $4.00 / doz",
+  //  "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $5.00 / doz<br>Mini $4.00 / doz",
+    "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $4.50 / doz, $16.00 / 4doz<br>Mini $4.00 / doz",
     "pricing_cn" : "欢迎订购鸡蛋<br>大 $7.00每打<br>中 $6.00每打<br>小 $5.00每打; $14.00每4打",
     "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>You are welcome to join our eggs subscription. We will deliver the eggs to you on a bi-weekly basis. And you can modify or cancel your subscription by a 7 days advance notice.<BR><BR>*Our farm eggs are unwashed, please wash before consuming."
