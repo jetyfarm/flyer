@@ -7,7 +7,7 @@ var myProducesData = [
     "title" : "Free Range Farm Eggs",
     "title_cn" : "農場走地黃油雞",
   //  "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $5.00 / doz<br>Mini $4.00 / doz",
-    "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $4.50 / doz, $16.00 / 4doz<br>Mini $4.00 / doz",
+    "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small <s>$5.00 / doz</s> $4.00 / doz<br>Mini <s>$4.00 / doz</s> $3.00 / doz",
     "pricing_cn" : "欢迎订购鸡蛋<br>大 $7.00每打<br>中 $6.00每打<br>小 $5.00每打; $14.00每4打",
     "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>You are welcome to join our eggs subscription. We will deliver the eggs to you on a bi-weekly basis. And you can modify or cancel your subscription by a 7 days advance notice.<BR><BR>*Our farm eggs are unwashed, please wash before consuming."
@@ -24,7 +24,7 @@ var myProducesData = [
     "title" : "Meat Chicken",
     "title_cn" : "農場走地黃油雞",
     //"pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Nov 23",
-    "pricing" : "Accepting reservation<br>Click here for more information",
+    "pricing" : "Accepting reservation<br>First delivery on June 27<br>Click here for more information",
     "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": "We are now taking orders for MEAT CHICKENS for the 2024 season.<br><br>Our chickens are brown feathered, free-range, 14-weeks old. The average dressed weight is 2.5-3lbs. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet.<br><br>We have 6 deliveries for the 2024 season: Jun 27, Jul 25, Aug 22, Sep 19, Oct 17 and Nov 21.<br><br>There are two order options: MONTHLY SUBSCRIPTION, or PER-WANTED.<br><br>MONTHLY SUBSCRIPTION:<br>Subscribe to our 6 meat chicken deliveries for $162.00 (taxes and delivery fee included) which equals to $27 per chicken per delivery. If you would like to add additional chickens on any given month, we will still honour $27/chicken price (on availability).<br><br>PER-WANTED:<br>If you like to order on a \"per-wanted\" basis, it will be $30/chicken (taxes and delivery fee included).<br><br>You can also add an extra $1.50 to receive a set of chicken feet and internals (chicken heart, liver and heart).<br><br>Due to Ontario regulations, there is a limitation on the number of meat chickens that we can raise, therefore the supply is limited. We will stop accepting new orders once we reach our quota.<br><br>Thanks for your understanding and continuous support.",
