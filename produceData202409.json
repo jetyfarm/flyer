@@ -68,6 +68,16 @@ var myProducesData = [
     "description": ""
   },
   {
+    "id" : "FTBlackCurrant",
+    "produce_image" : "FTCurrant.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTCurrant_square.jpg",
+    "title" : "Black Currants",
+    "pricing" : "$7.00 per 1/2 pint",
+    "description_title": "Black Currants",
+    "description": ""
+  },
+  {
     "id" : "FTStrawberry",
     "produce_image" : "FTStrawberry.jpg",
     "produce_div" : "narrow",
