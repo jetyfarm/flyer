@@ -126,12 +126,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "FTCurrant",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FTCurrant",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "FTBlackCurrant",
