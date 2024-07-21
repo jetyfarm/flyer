@@ -57,16 +57,16 @@ var myProducesData = [
   // ===========================================
   // Fruits
   // ===========================================
-  {
-    "id" : "FTCurrant",
-    "produce_image" : "FTCurrant.jpg",
-    "produce_div" : "narrow",
-    "image" : "FTCurrant_square.jpg",
-    "title" : "Mix Currants",
-    "pricing" : "$7.00 per 1/2 pint",
-    "description_title": "Mix Currants",
-    "description": ""
-  },
+  // {
+  //   "id" : "FTCurrant",
+  //   "produce_image" : "FTCurrant.jpg",
+  //   "produce_div" : "narrow",
+  //   "image" : "FTCurrant_square.jpg",
+  //   "title" : "Mix Currants",
+  //   "pricing" : "$7.00 per 1/2 pint",
+  //   "description_title": "Mix Currants",
+  //   "description": ""
+  // },
   {
     "id" : "FTBlackCurrant",
     "produce_image" : "FTCurrant.jpg",
