@@ -255,30 +255,30 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Squash",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Squash",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "SQOpo",
     //     "soldout": "true",
     //     "soldoutText": "On Sale! $1.00 OFF!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGZucchini",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGYellowZucchini",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGZucchini",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGYellowZucchini",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGPricklyChayote",
@@ -315,20 +315,20 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "New pricing for all squashes!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGBeet",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGBeet",
+        "soldout": "false",
+        "soldoutText": ""
+    },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Beans",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Beans",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGLongBean",
@@ -341,18 +341,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGBean",
-    //     "soldout": "true",
-    //     "soldoutText": ""
-    // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGYellowBean",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGYellowBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGStringBean",

@@ -329,7 +329,7 @@ var myProducesData = [
     "title" : "Zucchini",
 //    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
 //    "pricing" : "Large $3.00 each",
-    "pricing" : "$1.50 each",
+    "pricing" : "$2.00 each",
     "description_title": "Zucchini",
     "description": ""
   },
@@ -339,7 +339,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGYellowZucchini_square.jpg",
     "title" : "Yellow Zucchini",
-    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
+    "pricing" : "$2.00 each",
     "description_title": "Yellow Zucchini",
     "description": ""
   },
@@ -471,9 +471,9 @@ var myProducesData = [
   },
   {
     "id" : "VGBeet",
-    "produce_image" : "VGBeet.jpg",
+    "produce_image" : "VGBeet2.jpg",
     "produce_div" : "narrow",
-    "image" : "VGBeet_square.jpg",
+    "image" : "VGBeet_square2.jpg",
     "title" : "Beets",
     "pricing" : "$5.00 / half doz",
     "description_title": "Beets",
