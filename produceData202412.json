@@ -331,7 +331,7 @@ var myProducesData = [
     "image" : "VGCorn_square.jpg",
     "title" : "Sweet Corn",
 //    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz<br>$9.00 / doz",
-    "pricing" : "$5.00 / half doz<br>$9.00 / doz",
+    "pricing" : "$6.00 / half doz<br>$10.00 / doz",
     "description_title": "Sweet Corn",
     "description": ""
   },
