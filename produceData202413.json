@@ -114,7 +114,7 @@ var myProducesData = [
     "image" : "FTBlackberry_square.jpg",
     "title" : "Blackberries",
     "title_cn" : "黑莓",
-    "pricing" : "$5.00 per 1/2 pint",
+    "pricing" : "$7.00 per 1/2 pint",
     "pricing_cn" : "$5.00每半pint",
     "description_title": "Blackberries",
     "description": ""
@@ -126,7 +126,7 @@ var myProducesData = [
     "image" : "TMGoldenBerry_square2.jpg",
     "title" : "Golden Berry",
     "title_cn" : "灯笼果",
-    "pricing" : "$3.50 pack of 12<br>$5.00 pack of 24",
+    "pricing" : "$4.00 pack of 12<br>$6.00 pack of 24",
     "pricing_cn" : "$3.50每打<br>$5.00每两打",
     "description_title": "Golden Berry",
     "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
@@ -329,7 +329,7 @@ var myProducesData = [
     "produce_image" : "VGCorn2.jpg",
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
-    "title" : "Sweet Corn",
+    "title" : "Sweet Corn<br>(new variety)",
 //    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz<br>$9.00 / doz",
     "pricing" : "$6.00 / half doz<br>$10.00 / doz",
     "description_title": "Sweet Corn",
