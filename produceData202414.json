@@ -290,7 +290,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGCabbage_square.jpg",
     "title" : "Cabbage",
-    "pricing" : "$4.00 each",
+    "pricing" : "$5.00 each",
     "description_title": "Cabbage",
     "description": ""
   },
@@ -788,8 +788,9 @@ var myProducesData = [
     "produce_image" : "Honey2.jpg",
     "produce_div" : "narrow",
     "image" : "Honey_square.jpg",
-    "title" : "Raw Honey",
-    "pricing" : "$8.50 / 250ml<br>$16.00 / 500ml<br>$22.00 / 750ml",
+    "title" : "Pure Raw Honey",
+//    "pricing" : "$9.00 / 250ml<br>$17.00 / 500ml<br>$24.00 / 750ml",
+    "pricing" : "$9.00 / 250ml<br>$17.00 / 500ml",
     "description_title": "Raw Honey",
     "description": "Our Honey is harvested directly from the bee hives into jars, it's 100% raw unpasturized bee honey without any additives or processed."
   },

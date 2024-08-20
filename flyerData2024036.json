@@ -243,12 +243,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGCabbage",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGCabbage",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGBroccoli",
@@ -554,19 +554,19 @@ var myFlyerProduceList = [
     //     "soldoutText": "<br>$1.00 OFF!"
     // },
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Looking for something sweet...",
-    //     "id_cn": "甜的.",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-//     {
-//         "type": "produce",
-//         "id": "Honey",
-//         "soldout": "false",
-// //        "soldoutText": "Last harvest of the season"
-//     },
+    {
+        "type": "divider",
+        "id": "Looking for something sweet...",
+        "id_cn": "甜的.",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "false",
+        "soldoutText": "Very limited supply"
+    },
 
     // ================================================================
     // {
