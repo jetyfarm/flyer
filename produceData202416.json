@@ -6,8 +6,8 @@ var myProducesData = [
     "image" : "egg_square.jpg",
     "title" : "Free Range Farm Eggs",
     "title_cn" : "農場走地黃油雞",
-  //  "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small $5.00 / doz<br>Mini $4.00 / doz",
-    "pricing" : "Eggs subscription is welcome<br>Large $7.00 / doz<br>Medium $6.00 / doz<br>Small <s>$5.00 / doz</s> $4.00 / doz",
+  //  "pricing" : "Eggs subscription is welcome<br>Large $7.00 per doz<br>Medium $6.00 per doz<br>Small $5.00 per doz<br>Mini $4.00 per doz",
+    "pricing" : "Eggs subscription is welcome<br>Large $7.00 per doz<br>Medium $6.00 per doz<br>Small $5.00 per doz",
     "pricing_cn" : "欢迎订购鸡蛋<br>大 $7.00每打<br>中 $6.00每打<br>小 $5.00每打; $14.00每4打",
     "description_title": "Free Range Farm Eggs",
     "description": "From our farm raised chickens. Eggs are naturally laid. Our farm chickens are fed with Non-GMO chicken feed, oats, corn, fruits, and vegetables. No antibiotics. No chemicals. No hormones. <BR><BR>You are welcome to join our eggs subscription. We will deliver the eggs to you on a bi-weekly basis. And you can modify or cancel your subscription by a 7 days advance notice.<BR><BR>*Our farm eggs are unwashed, please wash before consuming."
@@ -23,7 +23,7 @@ var myProducesData = [
     "image" : "MeatChicken_detail.jpg",
     "title" : "Meat Chicken",
     "title_cn" : "農場走地黃油雞",
-    //"pricing" : "On Demand: $30.00 / chicken<br>Subscription: $27.00 / chicken<br>Deliver on: Nov 23",
+    //"pricing" : "On Demand: $30.00 per chicken<br>Subscription: $27.00 per chicken<br>Deliver on: Nov 23",
     "pricing" : "Accepting reservation<br>Next delivery on Sept 19<br>Click here for more information",
     "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
@@ -126,7 +126,7 @@ var myProducesData = [
     "image" : "TMGoldenBerry_square2.jpg",
     "title" : "Golden Berry",
     "title_cn" : "灯笼果",
-    "pricing" : "$4.00 pack of 12<br>$6.00 pack of 24",
+    "pricing" : "$4.00 pack of 12",
     "pricing_cn" : "$3.50每打<br>$5.00每两打",
     "description_title": "Golden Berry",
     "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
@@ -142,8 +142,8 @@ var myProducesData = [
     "image" : "TMCherry_square.jpg",
     "title" : "Cherry Tomatoes",
     "title_cn" : "樱桃西红柿",
-    "pricing" : "$4.00 / 0.5lb<br><s>$8.00</s> $6.00 / 1.2lb",
-    "pricing_cn" : "$4.00 / 0.5lb<br><s>$8.00</s> $6.00 / 1.2lb",
+    "pricing" : "$4.00 per 0.5lb<br><s>$8.00</s> $6.00 per 1.2lb",
+    "pricing_cn" : "$4.00 per 0.5lb<br><s>$8.00</s> $6.00 per 1.2lb",
     "description_title": "Cherry Tomatoes",
     "description": ""
   },
@@ -154,8 +154,8 @@ var myProducesData = [
     "image" : "TMBigBeef_square.jpg",
     "title" : "Big Beef Tomatoes",
     "title_cn" : "大西红柿",
-    "pricing" : "$3.00 / 1lb",
-    "pricing_cn" : "$3.00 / 1lb",
+    "pricing" : "$3.00 per 1lb",
+    "pricing_cn" : "$3.00 per 1lb",
     "description_title": "Big Beef Tomatoes",
     "description": "It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
   },
@@ -200,8 +200,8 @@ var myProducesData = [
     "image" : "VGSalad_square.jpg",
     "title" : "Spring Mix Salad",
     "title_cn" : "生菜沙拉",    
-    "pricing" : "$5.50 / 0.5lb",
-    "pricing_cn" : "$5.50 / 0.5lb",
+    "pricing" : "$5.50 per 0.5lb",
+    "pricing_cn" : "$5.50 per 0.5lb",
     "description_title": "Spring Mix Salad",
     "description": ""
   },
@@ -212,8 +212,8 @@ var myProducesData = [
     "image" : "VGSunchoke_square.jpg",
     "title" : "SunChoke 茯苓",
     "title_cn" : "茯苓",    
-    "pricing" : "$10.00 / 1lb",
-    "pricing_cn" : "$10.00 / 1lb",
+    "pricing" : "$10.00 per 1lb",
+    "pricing_cn" : "$10.00 per 1lb",
     "description_title": "SunChoke 茯苓",
     "description": "Sunchokes are sweet, nutty, and potato-like, with even more health benefits then their root vegetable cousins. They're very high in vitamins, potassium, iron, and fiber.<br><br> Sunchokes have an earthy, nutty flavor that some compare to a water chestnut or potato. When cooked, they develop a more starchy texture with a recognizable artichoke aftertaste. Their slightly sweet flavor profile makes them a delicious addition to soups, salad, salsa, marinade, and soup."
   },
@@ -234,12 +234,23 @@ var myProducesData = [
     "image" : "VGTWPakChoy_square.jpg",
     "title" : "Taiwan Pak Choy",
     "title_cn" : "台湾長腳白菜",
-    "pricing" : "$3.00 / 1.5lb",
-    "pricing_cn" : "$3.00 / 1.5lb",
+    "pricing" : "$3.00 per 1.5lb",
+    "pricing_cn" : "$3.00 per 1.5lb",
     "description_title": "Taiwan Pak Choy 台湾長腳白菜",
     "description": ""
   },
-
+  {
+    "id" : "VGGreenHotPepper",
+    "produce_image" : "VGGreenHotPepper.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGGreenHotPepper_square.jpg",
+    "title" : "Green Chili",
+    "title_cn" : "椒",
+    "pricing" : "$5.00 per 0.5lb",
+    "pricing_cn" : "$3.50 per 1lb",
+    "description_title": "Green Chili",
+    "description": ""
+  },
   {
     "id" : "VGBellPepper",
     "produce_image" : "VGBellPepper.jpg",
@@ -247,8 +258,8 @@ var myProducesData = [
     "image" : "VGBellPepper_square.jpg",
     "title" : "Mixed Bell Pepper",
     "title_cn" : "灯笼椒",
-    "pricing" : "$3.50 / 1lb",
-    "pricing_cn" : "$3.50 / 1lb",
+    "pricing" : "$3.50 per 1lb",
+    "pricing_cn" : "$3.50 per 1lb",
     "description_title": "Mixed Bell Pepper",
     "description": ""
   },
@@ -260,7 +271,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGOkra_square.jpg",
     "title" : "Okra",
-    "pricing" : "$3.00 / 0.5lb",
+    "pricing" : "$3.00 per 0.5lb",
     "description_title": "Okra",
     "description": ""
   },
@@ -280,7 +291,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBroccoli_square.jpg",
     "title" : "Broccoli Crown",
-    "pricing" : "$4.00 / 1lb",
+    "pricing" : "$4.00 per 1lb",
     "description_title": "Broccoli Crown",
     "description": ""
   },
@@ -320,7 +331,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGPurpleBroccolini_square.jpg",
     "title" : "Purple Broccolini",
-    "pricing" : "$3.50 / bunch (approx 6oz)",
+    "pricing" : "$3.50 per bunch (approx 6oz)",
     "description_title": "Purple Broccolini",
     "description": ""
   },
@@ -330,8 +341,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
     "title" : "Sweet Corn<br>(new variety)",
-//    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 / half doz<br>$9.00 / doz",
-    "pricing" : "$6.00 / half doz<br>$10.00 / doz",
+//    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 per half doz<br>$9.00 per doz",
+    "pricing" : "$6.00 per half doz<br>$10.00 per doz",
     "description_title": "Sweet Corn",
     "description": ""
   },
@@ -405,7 +416,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBean_square.jpg",
     "title" : "Green Beans",
-    "pricing" : "$3.50 / 1lb",
+    "pricing" : "$3.50 per 1lb",
     "description_title": "Green Bean",
     "description": ""
   },
@@ -415,7 +426,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGYellowBean_square.jpg",
     "title" : "Yellow Beans",
-    "pricing" : "$3.50 / 1lb",
+    "pricing" : "$3.50 per 1lb",
     "description_title": "Yellow Bean",
     "description": ""
   },
@@ -425,7 +436,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGLongBean_square.jpg",
     "title" : "Long Green Beans",
-    "pricing" : "$4.50 / 1lb",
+    "pricing" : "$4.50 per 1lb",
     "description_title": "Long Green Beans",
     "description": ""
   },
@@ -495,7 +506,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBeet_square2.jpg",
     "title" : "Beets",
-    "pricing" : "$5.00 / half doz",
+    "pricing" : "$5.00 per half doz",
     "description_title": "Beets",
     "description": ""
   },
@@ -508,7 +519,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGFairyTale_square.jpg",
     "title" : "Fairytale Mini Eggplant",
-    "pricing" : "$4.50 / 1lb",
+    "pricing" : "$4.50 per 1lb",
     "description_title": "Fairytale Mini Eggplant",
     "description": "FairyTale is a lovely mini eggplant, only 2-4 inches long. It is lavender with stunning streaks of white and grows on compact stems. The fruit is sweet, without any bitterness, and it has few seeds."
   },
@@ -519,8 +530,8 @@ var myProducesData = [
     "image" : "EGAsian_square.jpg",
     "title" : "Asian Eggplant",
     "title_cn" : "中国茄子",
-    "pricing" : "$4.50 / 1lb",
-    "pricing_cn" : "$4.50 / 1lb",
+    "pricing" : "$4.50 per 1lb",
+    "pricing_cn" : "$4.50 per 1lb",
     "description_title": "Asian Eggplant",
     "description": ""
   },
@@ -530,7 +541,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "EGGreen_square.jpg",
     "title" : "Green Eggplant",
-    "pricing" : "$5.50 / 1lb",
+    "pricing" : "$5.50 per 1lb",
     "description_title": "Green Asian Eggplant",
     "description": ""
   },
@@ -556,7 +567,7 @@ var myProducesData = [
     "image" : "CUQuirk_square.jpg",
     "title" : "Quirk Cucumber",
 //    "pricing" : "$4.50 per 450g<br><s>$7.00 per 450g</s>",
-    "pricing" : "$4.50 / 1lb<br>",
+    "pricing" : "$4.50 per 1lb<br>",
     "description_title": "Quirk Cucumber",
     "description": "Quirk is an attention-grabbing mini with a striking contrast between bright green and gleaming white. It is an excellent fruit uniformity and flavor. The 2-inch seedless fruits are burpless (meaning they contain no cucurbitacin, the compound that causes bitterness), making them ideal for snacking and pickling."
   },
@@ -566,7 +577,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUItachi_square.jpg",
     "title" : "White Itachi Cucumber",
-    "pricing" : "$4.00 / 2 pack",
+    "pricing" : "$4.00 per 2 pack",
     "description_title": "White Itachi Cucumber",
     "description": "White Itachi is an amazing Asian type of cucumber.  They are large white cucumbers between 9-11 inches long. The cucumbers are sweet, crunchy, bitter-free with small seed cavities."
   },
@@ -576,7 +587,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUCucumber_square.jpg",
     "title" : "Cucumber",
-    "pricing" : "$3.00 / 5 pack",
+    "pricing" : "$3.00 per 5 pack",
     "description_title": "Cucumber",
     "description": "Sweet flavor and non-bitter cucumber with a crisp texture. This cucumber is approximate 4 to 6 inches, it has tender skin with firm crispness, excellent for salad or dipping."
   },
@@ -587,7 +598,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "CUEnglish_square.jpg",
     "title" : "English Cucumber",
-    "pricing" : "$3.00 / 2 pack",
+    "pricing" : "$3.00 per 2 pack",
     "description_title": "English Cucumber",
     "description": "Our English Cucumber is 12 inches long, sweet, slender, straight and have fewer, less noticeable seeds than others."
   },
@@ -666,7 +677,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGPeashoot_square.jpg",
     "title" : "Pea Shoot",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Pea Shoot Microgreen",
     "description": "Pea Shoot Microgreens are sweet and tender like the nicest sugar snap peas, munched raw right out of the pot. <br><br>Benefits: Fights Against Free Radicals, Lowers Blood Sugar Levels, Prevents Iron Deficiency and Anaemia, High in Protein."
   },
@@ -676,7 +687,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGSunflower_square.jpg",
     "title" : "Sunflower",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sunflower Microgreen 向日葵微綠",
     "description": "Sunflower Micorgreens produce seedlings that contain about 25% protein. They are big and succulent like mung bean sprouts, but with large, prominent cotyledons (first leaves). They have a surprisingly sweet and mild taste reminiscent of carrots. Add some of these delicious black oil sunflower microgreens to a salad or sandwich, or serve as a refreshing and nutritious side dish. <br><br> Benefits: High in Iron and Protein, Aids Brain Health, Reduces Blood Pressure, Skin Health, Promotes Healthy Bones and Teeth, Prevents Alzheimers, Promotes Heart Health, Boosts Immune System, Promotes Healthy Thyroids, Aids Digestion"
   },
@@ -686,7 +697,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGBroccoli_square.jpg",
     "title" : "Broccoli",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Broccoli Microgreen 西蘭花微綠",
     "description": "Add some crunchy Broccoli Microgreens to your salads, sandwiches and burgers or use them in nutrient-packed juices and smoothies. They go well with cheese and vegetable dishes and you can also garnish omelettes, poached eggs, dips or pasta sauces with broccoli microgreens for extra flavor and nutrients. <br><br>Broccoli Microgreens have up to 40 times the amount of vitamins and minerals than their mature counterparts (source). They have larger quantities of magnesium, manganese, copper, and zinc."    
   },
@@ -696,7 +707,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCabbage_square.jpg",
     "title" : "Cabbage",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Cabbage Microgreen 椰菜微綠",
     "description": "Cabbage Microgreens taste like a cross between cabbage and spinach, but more delicate. The leaves are tender and flavorful, making them perfect for salads, sandwiches, or wraps. You can also add them to soups or stir fry for an extra boost of flavor. <br><br>Our PURPLE Cabbage Microgreens contain high levels of vitamin C, carotenoids, and flavonoid antioxidants."
   },
@@ -706,7 +717,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGPokChoy_square.jpg",
     "title" : "Bok Choy",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Bok Choy Microgreen 白菜微綠",
     "description": "Bok Choy Microgreens have white stems and green leaves, similar to the full-grown veggie. And it has a unique flavor; mild but at the same time a bit nutty, and a little bit sweet. This microgreen adds extra flavor to any salad and meal. Along with it being a tasty and crunchy green, it also full of fibers and antioxidants!<br><br> Bok Choy Microgreens are highly nutritious. They have a high concentration of vitamins (A, C, E & K) and minerals, but at the same time low in calories."
   },
@@ -716,7 +727,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGRadish_square.jpg",
     "title" : "Radish",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Radish Microgreen 蘿蔔微綠",
     "description": "Radish microgreens add a fresh, crunchy, and spicy flavor to your foods. They have a pleasant peppery flavor similar to that of root radishes. <br><br>Radish microgreens have high levels of Vitamin B3 (Niacin), Vitamin B6, Vitamin C, Folate, and the mineral Manganese. They also contain Vitamin A, E, and K as well as potassium, iron, phosphorus, pantothenic acid, calcium, magnesium, zinc, and beta carotenes."
   },
@@ -726,7 +737,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGMizuna_square.jpg",
     "title" : "Mizuna",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Mizuna Microgreen",
     "description": "A Japanese mustard microgreen. It is an unique, mild-flavored mustard green.<br><br>Mizuna microgreen is an excellent source of vitamin K to promote faster wound healing and is rich in vitamins A and C, antioxidants that reduce inflammation."    
   },
@@ -736,7 +747,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKale_square.jpg",
     "title" : "Kale",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Kale Microgreen 羽衣甘藍微綠",
     "description": "Kale Microgreens are simply young versions of the same plant. However, they contain as much as 4 times the nutrient levels that Kale does. They are high in vitamins A, B, C, E, and K, as well as calcium, iron, magnesium, phosphorus, potassium, zinc, carotene, amino acids, and protein. <br><br> Kale microgreen has a nutty taste and robust—similiar to mustard, only less spicy."},
   {
@@ -745,7 +756,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKohlrabi_square.jpg",
     "title" : "Kohlrabi",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Kohlrabi Microgreen 苤藍微綠",
     "description": "Colour: Green leaves, dark purple stems <br><br>Flavour: Similar to broccoli microgreen, but milder and sweeter, <br><br>Benefits: Decreases diabetes, fights cancer, improves heart health, lowers blood pressure, reduces C-reactive protein."
   },
@@ -755,7 +766,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGKomatsuna_square.jpg",
     "title" : "Komatsuna",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Komatsuna Microgreen ",
     "description": "A Japanese mustard spinach. The name 'Komatsuna' means 'greens of Komatsu' in Japanese.<br><br>Flavour: Mild, heat at end <br><br>Benefits: Kills cancer stem cells, slows tumor growth, prevents diabetes, aids heart health, anti-aging, prevents anaemia, strengthens bones."
   },
@@ -765,7 +776,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGSorrel_square.jpg",
     "title" : "Sorrel",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sorrel",
     "description": "-"
   },
@@ -775,7 +786,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "MGCorn_square.jpg",
     "title" : "Sweet Corn Microgreen",
-    "pricing" : "$5.00 / 60g",
+    "pricing" : "$5.00 per 60g",
     "description_title": "Sweet Corn Microgreen 玉米微綠",
     "description": "Corn Microgreens have a slightly sweet flavor than their full-grown corn. It is one of the SWEETEST tasting microgreens.<br><br>Corn microgreens are full of calcium and other minerals which will help to ensure you have strong bones and teeth. And there is a high level of vitamins A, B, and E, alongside Iron, Thiamin, and Niacin. These and other minerals in the microgreens help your body to regulate blood sugar levels which can help to control diabetes.<br><br>NOTE: AVOID SWEET CORN MICROGREEN TO LIGHT!!! <br><br>If the sweet corn microgreens is exposed to light, it will begin the process of photosynthesis. This will cause the shoots to turn fibrous and bitter. Take the micogreens out from the fridge when it's ready to be consumed."
   },
@@ -789,8 +800,8 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "Honey_square.jpg",
     "title" : "Pure Raw Honey",
-//    "pricing" : "$9.00 / 250ml<br>$17.00 / 500ml<br>$24.00 / 750ml",
-    "pricing" : "$9.00 / 250ml<br>$17.00 / 500ml",
+//    "pricing" : "$9.00 per 250ml<br>$17.00 per 500ml<br>$24.00 per 750ml",
+    "pricing" : "$9.00 per 250ml<br>$17.00 per 500ml",
     "description_title": "Pure Raw Honey",
     "description": "Our Honey is harvested directly from the bee hives into jars, it's 100% raw unpasturized bee honey without any additives or processed."
   },
@@ -805,8 +816,8 @@ var myProducesData = [
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
     "title_cn" : "莎莎酱",
-    "pricing" : "$7.00 / 500ml",
-    "pricing_cn" : "$7.00 / 500ml",
+    "pricing" : "$7.00 per 500ml",
+    "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
   },
@@ -817,8 +828,8 @@ var myProducesData = [
     "image" : "BTRadish_square.jpg",
     "title" : "Relish",
     "title_cn" : "Relish",
-    "pricing" : "$7.00 / 500ml",
-    "pricing_cn" : "$7.00 / 500ml",
+    "pricing" : "$7.00 per 500ml",
+    "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Relish",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides."
   },
@@ -830,8 +841,8 @@ var myProducesData = [
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
     "title_cn" : "糖醋红甜菜",
-    "pricing" : "$7.00 / 500ml",
-    "pricing_cn" : "$7.00 / 500ml",
+    "pricing" : "$7.00 per 500ml",
+    "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
   },
@@ -842,8 +853,8 @@ var myProducesData = [
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
     "title_cn" : "糖醋黄瓜",
-    "pricing" : "$7.00 / 500ml",
-    "pricing_cn" : "$7.00 / 500ml",
+    "pricing" : "$7.00 per 500ml",
+    "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
   },
@@ -854,8 +865,8 @@ var myProducesData = [
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
     "title_cn" : "枫糖浆",
-    "pricing" : "$8.00 / 250ml",
-    "pricing_cn" : "$8.00 / 250ml",
+    "pricing" : "$8.00 per 250ml",
+    "pricing_cn" : "$8.00 per 250ml",
     "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. 100% Pure Maple Syrup, no added sugar, preservatives, colour, and artificial flavours."
   }
