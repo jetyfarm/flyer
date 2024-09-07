@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Sept 5, 2024",
+       "banner1Txt": "Sept 12, 2024",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        
        
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
@@ -26,7 +26,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Sept 3 @3pm",
+        "cutofftimeTxt": "Tue, Sept 10 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -84,8 +84,8 @@ var myFlyerProduceList = [
         "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
-        "soldoutText": "Large and Medium<br>eggs are<br>sold out!"
-        //"soldoutText": "Large eggs<br>are<br>sold out!"
+        //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
+        "soldoutText": "Large eggs<br>are<br>sold out!"
         //"soldoutText": ""
         
     },
@@ -149,25 +149,25 @@ var myFlyerProduceList = [
     //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Tomatoes",
-    //     "id_cn":"番茄类",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Tomatoes",
+        "id_cn":"番茄类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMCherry",
     //     "soldout": "true",
     //     "soldoutText": "On Sale! $2.00 OFF!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "TMBigBeef",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "TMBigBeef",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMJapaneseBlack",
@@ -329,18 +329,19 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "Squash",
-    //     "soldout": "false",
-    //     "soldoutText": "New pricing for all squashes!"
-    // },
     {
         "type": "produce",
         "id": "VGBeet",
         "soldout": "false",
         "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "Squash",
+        "soldout": "false",
+        "soldoutText": "Acorn Pepper Squash is available!"
     },
+
 
     // ================================================================
     {
