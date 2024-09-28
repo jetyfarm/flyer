@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Sept 26, 2024",
+       "banner1Txt": "Oct 3, 2024",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
-       "banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
         //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
        
        
@@ -27,7 +27,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Sept 24 @3pm",
+        "cutofftimeTxt": "Tue, Oct 1 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -81,7 +81,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
@@ -98,18 +98,18 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "TMGoldenBerry",
-        "soldout": "true",
-        "soldoutText": "Limited Supply!"
-    },
-    {
-        "type": "produce",
-        "id": "FTBlackBerry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "TMGoldenBerry",
+    //     "soldout": "true",
+    //     "soldoutText": "Limited Supply!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTBlackBerry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "FTStrawberry",
@@ -122,6 +122,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
+    {
+        "type": "produce",
+        "id": "FTMixedberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTRedRaspberry",
@@ -287,12 +293,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": "On Sale! $1.00 OFF!"
     // },
-    {
-        "type": "produce",
-        "id": "VGZucchini",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGZucchini",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGYellowZucchini",
@@ -334,7 +340,13 @@ var myFlyerProduceList = [
         "id": "VGBeet",
         "soldout": "false",
         "soldoutText": ""
-    },    
+    },
+    {
+        "type": "produce",
+        "id": "VGPiePumpkin",
+        "soldout": "false",
+        "soldoutText": ""
+    },        
     {
         "type": "produce",
         "id": "Squash",

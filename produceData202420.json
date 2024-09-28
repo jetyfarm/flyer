@@ -88,6 +88,16 @@ var myProducesData = [
     "description": ""
   },
   {
+    "id" : "FTMixedberry",
+    "produce_image" : "FTRaspberry2.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTRaspberry_square.jpg",
+    "title" : "Mix Berries",
+    "pricing" : "White Raspberry, Red Raspberry and Blackberry<br>$7.00 per 1/2 pint",
+    "description_title": "Mix Raspberries",
+    "description": ""
+  },
+  {
     "id" : "FTRaspberry",
     "produce_image" : "FTRaspberry2.jpg",
     "produce_div" : "narrow",
@@ -385,8 +395,18 @@ var myProducesData = [
     "description": "Each Mo Qua is approximately 750g to 1kg"
   },
   {
+    "id" : "VGPiePumpkin",
+    "produce_image" : "VGPiePumpkin.jpg",
+    "produce_div" : "narrow",
+    "image" : "VGPiePumpkin_square.jpg",
+    "title" : "Pie Pumpkin",
+    "pricing" : "$5.00 each",
+    "description_title": "Pie Pumpkin",
+    "description": ""
+  },  
+  {
     "id" : "Squash",
-    "produce_image" : "Squash202403.jpg",
+    "produce_image" : "Squash20240404.jpg",
     "produce_div" : "narrow",
     "image" : "Squash_square.jpg",
     "title" : "",
