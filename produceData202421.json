@@ -399,14 +399,14 @@ var myProducesData = [
     "produce_image" : "VGPiePumpkin.jpg",
     "produce_div" : "narrow",
     "image" : "VGPiePumpkin_square.jpg",
-    "title" : "Pie Pumpkin",
+    "title" : "Sugar Pie Pumpkin",
     "pricing" : "$5.00 each",
-    "description_title": "Pie Pumpkin",
+    "description_title": "Sugar Pie Pumpkin",
     "description": ""
   },  
   {
     "id" : "Squash",
-    "produce_image" : "Squash20240404.jpg",
+    "produce_image" : "Squash202405.jpg",
     "produce_div" : "narrow",
     "image" : "Squash_square.jpg",
     "title" : "",
