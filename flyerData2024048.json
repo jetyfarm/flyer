@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Oct 31, 2024",
+       "banner1Txt": "Nov 7, 2024",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
        
        
@@ -27,7 +27,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Oct 29 @3pm",
+        "cutofftimeTxt": "Tue, Nov 5 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -255,12 +255,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGCabbage",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCabbage",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGBroccoli",
@@ -335,12 +335,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGBeet",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBeet",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGPiePumpkin",
