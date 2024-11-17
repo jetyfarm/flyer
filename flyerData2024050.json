@@ -1,15 +1,15 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Nov 14, 2024",
+       "banner1Txt": "Nov 21, 2024",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
-       "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
        //"banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
        
        
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
-       //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
+       "banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
 
        // "banner1Txt": "Flyer for December 22, 2022",
        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",
@@ -27,7 +27,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Nov 12 @3pm",
+        "cutofftimeTxt": "Tue, Nov 19 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -59,7 +59,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "false",
+        "soldout": "true",
     //    "soldoutText": "Limited Supply!"
       "soldoutText": "Deliver on this Thursday!"
     },
@@ -182,13 +182,13 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Vegetables",
-        "id_cn": "蔬菜类",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "divider",
+    //     "id": "Vegetables",
+    //     "id_cn": "蔬菜类",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGSunchoke",
@@ -243,12 +243,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGCarrot",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCarrot",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGChineseCabbage",
