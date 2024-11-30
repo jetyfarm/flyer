@@ -238,8 +238,8 @@
 
   </script>
 
-  <script type="text/javascript" src="produceData202424.json"></script>
-  <script type="text/javascript" src="flyerData2024051.json"></script>
+  <script type="text/javascript" src="produceData202425.json"></script>
+  <script type="text/javascript" src="flyerData2024052.json"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
@@ -480,7 +480,14 @@
                   window.location.replace(myProducesData[i].link);
                 }
                 else {
-                  showModal(this.id)
+                  if( myProducesData[i].description_title == "")
+                  {
+                    // do nothing
+                  }
+                  else
+                  {
+                    showModal(this.id)
+                  }
                 }
               }
             });

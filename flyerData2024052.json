@@ -1,10 +1,10 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Nov 28, 2024",
+       "banner1Txt": "Dec 5, 2024",
        
-       "banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
-       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       "banner2Txt" : "North York, Scarborough and Vaughan",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
        
        
@@ -27,7 +27,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Nov 26 @3pm",
+        "cutofftimeTxt": "Tue, Dec 3 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -42,6 +42,12 @@ var myFlyerProduceList = [
     //        "type" : "note", 
     //        "note" : "Special Note:<br><br>Since we have encountered the increasing price of raising chickens, vegetable seeds, and other farming cost, we will be increasing the prices of our eggs and all of our produce starting MARCH 17 delivery.<br><br>Thanks for your support and understanding."
     //    },
+    {
+        "type": "produce",
+        "id": "SpecialNote",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // ================================================================
     // {
     //     "type": "divider",

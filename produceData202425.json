@@ -1,5 +1,17 @@
 var myProducesData = [
   {
+    "id" : "SpecialNote",
+    "produce_image" : "XmasSchedule.jpg",
+    "produce_div" : "narrow",
+    "image" : "",
+    "title" : "",
+    "pricing" : "",
+    "description_title": "",
+    "description": ""
+  },
+
+
+  {
     "id" : "egg",
     "produce_image" : "egg.jpg",
     "produce_div" : "static",
@@ -412,7 +424,7 @@ var myProducesData = [
     "image" : "Squash_square.jpg",
     "title" : "",
     "pricing" : "",
-    "description_title": "Squash",
+    "description_title": "",
     "description": ""
   },
   {
