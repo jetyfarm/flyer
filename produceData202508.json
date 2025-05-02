@@ -1,7 +1,7 @@
 var myProducesData = [
   {
     "id" : "SpecialNote",
-    "produce_image" : "XmasSchedule2.jpg",
+    "produce_image" : "MatureChickenAnnoucement.jpg",
     "produce_div" : "narrow",
     "image" : "",
     "title" : "",
@@ -39,7 +39,7 @@ var myProducesData = [
     //"pricing" : "On Demand: $30.00 per chicken<br>Subscription: $27.00 per chicken<br>Deliver on: Nov 23",
     //"pricing" : "Accepting reservation<br>Next delivery on Oct 17<br>Click here for more information",
     // "pricing" : "Early Bird Subscription Discount<br>Click here for more information",
-    "pricing" : "Click here for more information",
+    "pricing" : "First delivery is on June 29<br>Click here for more information",
     "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
     "description": ".",
@@ -50,12 +50,24 @@ var myProducesData = [
     "produce_image" : "MatureChicken03.jpg",
     "produce_div" : "narrow",
     "image" : "MatureChicken_square.jpg",
+    "title" : "Fresh Mature Chicken",
+    "title_cn" : "農場走地老雞",
+    "pricing" : "$12.00 per chicken",
+    "description_title": "Fresh Mature Chicken<br>農場走地老雞",
+    "description": "Our mature chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
+  },
+  {
+    "id" : "FrozenMatureChicken",
+    "produce_image" : "MatureChicken03.jpg",
+    "produce_div" : "narrow",
+    "image" : "MatureChicken_square.jpg",
     "title" : "Frozen Mature Chicken",
     "title_cn" : "農場走地老雞",
-    "pricing" : "$8.00 per chicken",
+    "pricing" : "$12.00 per chicken",
     "description_title": "Frozen Mature Chicken<br>農場走地老雞",
     "description": "Our mature chickens are brown feathered, and free-range. They are fed with Non-GMO chicken feed with no chemicals or hormonal substances. The chickens are processed at an Ontario inspected and regulated processing plant. They will be plucked and cleaned with no head and no feet."
   },
+
   {
     "id" : "Turkey",
     "produce_image" : "Turkey.jpg",
