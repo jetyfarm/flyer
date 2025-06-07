@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "June 5, 2025",
+       "banner1Txt": "June 12, 2025",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -14,8 +14,8 @@ var myFlyerData = [
        // "banner1Txt": "Flyer for December 22, 2022",
        
        //"banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, Stouffville,<br>Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
         //"banner2Txt": "We will deliver to North York, Scarborough, Vaughan,<br>and all the chicken orders",
         //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
@@ -28,7 +28,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, June 3 @3pm",
+        "cutofftimeTxt": "Tue, June 10 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -72,18 +72,18 @@ var myFlyerProduceList = [
         "soldoutText": "Limited Supply!"
       //"soldoutText": "Deliver on this Thursday!"
     },
-    {
-        "type": "produce",
-        "id": "MatureChicken",
-        "soldout": "false",
-        "soldoutText": "Limited Supply!"
-    },
     // {
     //     "type": "produce",
-    //     "id": "FrozenMatureChicken",
+    //     "id": "MatureChicken",
     //     "soldout": "false",
-    //     "soldoutText": ""
+    //     "soldoutText": "Limited Supply!"
     // },
+    {
+        "type": "produce",
+        "id": "FrozenMatureChicken",
+        "soldout": "false",
+        "soldoutText": ""
+    },
 
     // ================================================================
     {
@@ -96,7 +96,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         "soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
