@@ -595,12 +595,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "BTPickles",
-    //     "soldout": "false",
-    //     "soldoutText": "<br>$1.00 OFF!"
-    // },
+    {
+        "type": "produce",
+        "id": "BTPickles",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
     // ================================================================
     // {
     //     "type": "divider",
