@@ -51,7 +51,7 @@ var myProducesData = [
     "title" : "Meat Chicken",
     "title_cn" : "農場走地黃油雞",
 //    "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Deliver on: Nov 23",
-      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
+      "pricing" : "Next Delivery is on July 17<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
     //"pricing" : "Accepting reservation<br>Next delivery on Oct 17<br>Click here for more information",
     // "pricing" : "Early Bird Subscription Discount<br>Click here for more information",
     //"pricing" : "First delivery is on June 19<br>Click here for more information",
@@ -888,7 +888,7 @@ var myProducesData = [
     "image" : "BTSalsa_square.jpg",
     "title" : "Salsa",
     "title_cn" : "莎莎酱",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$9.00 per 500ml",
     "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Salsa",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Great with tacos, nachos, and salads; or as a dip. Can be used as a pasta sauce base."
@@ -900,7 +900,7 @@ var myProducesData = [
     "image" : "BTRadish_square.jpg",
     "title" : "Relish",
     "title_cn" : "Relish",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$9.00 per 500ml",
     "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Relish",
     "description": "Made with a variety of fresh home grown vegetables by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides."
@@ -913,7 +913,7 @@ var myProducesData = [
     "image" : "BTBeets_square.jpg",
     "title" : "Sweet & Sour Beets",
     "title_cn" : "糖醋红甜菜",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$9.00 per 500ml",
     "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Sweet & Sour Beets",
     "description": "Made with fresh home grown beets. Natural flavour. Prepared by our Mannonite neighbour. No artificial flavours and colour. No chemicals. No pesticides. Great with salads, as a side dish, or even on it's own. Makes a healthy snack."
@@ -925,7 +925,7 @@ var myProducesData = [
     "image" : "BTPickles_square.jpg",
     "title" : "Sweet & Sour Pickles",
     "title_cn" : "糖醋黄瓜",
-    "pricing" : "$7.00 per 500ml",
+    "pricing" : "$9.00 per 500ml",
     "pricing_cn" : "$7.00 per 500ml",
     "description_title": "Sweet & Sour Pickles",
     "description": "Made with fresh home grown cucumbers, garlic, and dill. Prepared by our Mannonite neighbour. No artificial flavours and colours. No chemicals. No pesticides. Crunchy. Market style. Makes a tasty snack."
@@ -937,7 +937,7 @@ var myProducesData = [
     "image" : "BTMaplesyrup_square.jpg",
     "title" : "Maple Syrup",
     "title_cn" : "枫糖浆",
-    "pricing" : "$8.00 per 250ml",
+    "pricing" : "$10.00 per 250ml",
     "pricing_cn" : "$8.00 per 250ml",
     "description_title": "Maple Syrup",
     "description": "Natural. Harvested and prepared from our Mannonite neighbour. 100% Pure Maple Syrup, no added sugar, preservatives, colour, and artificial flavours."
