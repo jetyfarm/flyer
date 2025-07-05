@@ -78,12 +78,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "Limited Supply!"
     // },
-    {
-        "type": "produce",
-        "id": "FrozenMatureChicken",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FrozenMatureChicken",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
 
     // ================================================================
     {
@@ -96,11 +96,11 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        "soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
+        //"soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
-        //"soldoutText": "Large eggs<br>are<br>sold out!"
+        "soldoutText": "Small eggs<br>are<br>sold out!"
         // "soldoutText": "<br>New Pricing!"
         //"soldoutText": "All eggs <br>are<br>sold out!"
         //"soldoutText": "Limited availability of Medium eggs!"
@@ -602,19 +602,25 @@ var myFlyerProduceList = [
         "soldoutText": "<br>$1.00 OFF!"
     },
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Looking for something sweet...",
-    //     "id_cn": "甜的.",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "Honey",
-    //     "soldout": "true",
-    //     "soldoutText": "Limited supply"
-    // },
+    {
+        "type": "divider",
+        "id": "Looking for something sweet...",
+        "id_cn": "甜的.",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+        {
+        "type": "produce",
+        "id": "BTMaplesyrup",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "true",
+        "soldoutText": "Max. 2 orders per person"
+    }
 
     // ================================================================
     // {
@@ -647,10 +653,10 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "<br>$1.00 OFF!"
     // },
-    {
-        "type": "produce",
-        "id": "BTMaplesyrup",
-        "soldout": "false",
-        "soldoutText": "<br>$1.00 OFF!"
-    }
+    // {
+    //     "type": "produce",
+    //     "id": "BTMaplesyrup",
+    //     "soldout": "false",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // }
 ];
