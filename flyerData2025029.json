@@ -96,7 +96,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         //"soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
@@ -114,19 +114,19 @@ var myFlyerProduceList = [
     },
 
     // // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Fruits",
-    //     "id_cn": "水果类",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "TMGoldenBerry",
-    //     "soldout": "true",
-    //     "soldoutText": "Limited Supply!"
-    // },
+    {
+        "type": "divider",
+        "id": "Fruits",
+        "id_cn": "水果类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "TMGoldenBerry",
+        "soldout": "false",
+        "soldoutText": "Limited Supply!"
+    },
     // {
     //     "type": "produce",
     //     "id": "FTBlackBerry",
@@ -139,12 +139,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "FTRaspberry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "FTRaspberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTMixedberry",
@@ -157,12 +157,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "FTCurrant",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "FTCurrant",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTBlackCurrant",

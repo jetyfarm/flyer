@@ -106,7 +106,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "FTCurrant_square.jpg",
     "title" : "Mix Currants",
-    "pricing" : "$7.00 per 1/2 pint",
+    "pricing" : "$8.50 per 1/2 pint",
     "description_title": "Mix Currants",
     "description": ""
   },
@@ -136,7 +136,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "FTRaspberry_square.jpg",
     "title" : "Mix Berries",
-    "pricing" : "White Raspberry, Red Raspberry and Blackberry<br>$7.00 per 1/2 pint",
+    "pricing" : "White Raspberry, Red Raspberry and Blackberry<br>$8.50 per 1/2 pint",
     "description_title": "Mix Raspberries",
     "description": ""
   },
@@ -146,7 +146,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "FTRaspberry_square.jpg",
     "title" : "Mix Raspberries",
-    "pricing" : "$7.00 per 1/2 pint",
+    "pricing" : "$8.50 per 1/2 pint",
     "description_title": "Mix Raspberries",
     "description": ""
   },
@@ -179,7 +179,7 @@ var myProducesData = [
     "image" : "TMGoldenBerry_square2.jpg",
     "title" : "Golden Berry",
     "title_cn" : "灯笼果",
-    "pricing" : "$4.00 pack of 12",
+    "pricing" : "$5.00 pack of 12",
     "pricing_cn" : "$3.50每打<br>$5.00每两打",
     "description_title": "Golden Berry",
     "description": "Golden berries are bright, orange-colored fruits that are closely related to the tomatillo. Like tomatillos, they are wrapped in a papery husk called a calyx that must be removed before eating. Slightly smaller than cherry tomatoes, these fruits have a sweet, tropical taste somewhat reminiscent of pineapple and mango."
