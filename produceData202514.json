@@ -101,6 +101,17 @@ var myProducesData = [
   // Fruits
   // ===========================================
   {
+    "id" : "FTGooseBerry",
+    "produce_image" : "FTGooseBerry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTGooseberry_square.jpg",
+    "title" : "Mix Gooseberries",
+    "pricing" : "$8.50 per 1/2 pint",
+    "description_title": "Mix Gooseberries",
+    "description": ""
+  },
+
+  {
     "id" : "FTCurrant",
     "produce_image" : "FTCurrant.jpg",
     "produce_div" : "narrow",

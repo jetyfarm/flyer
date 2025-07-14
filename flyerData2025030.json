@@ -121,12 +121,18 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "TMGoldenBerry",
-        "soldout": "false",
-        "soldoutText": "Limited Supply!"
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FTGooseBerry",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply!"
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "TMGoldenBerry",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply!"
+    // },
     // {
     //     "type": "produce",
     //     "id": "FTBlackBerry",
