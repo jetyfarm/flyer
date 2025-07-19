@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jul 17, 2025",
+       "banner1Txt": "Jul 24, 2025",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -17,7 +17,7 @@ var myFlyerData = [
        "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
        //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
-        "banner2Txt": "We will deliver to North York, Scarborough,<br>Vaughan, and all the chicken orders",
+        //"banner2Txt": "We will deliver to North York, Scarborough,<br>Vaughan, and all the chicken orders",
         // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
         //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
@@ -28,7 +28,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, June 15 @3pm",
+        "cutofftimeTxt": "Tue, June 22 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -68,7 +68,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
       // "soldoutText": "Limited Supply!"
       "soldoutText": "Deliver on this Thursday!"
     },
@@ -165,6 +165,12 @@ var myFlyerProduceList = [
     // },
     {
         "type": "produce",
+        "id": "FTGooseBerry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
         "id": "FTCurrant",
         "soldout": "false",
         "soldoutText": ""
@@ -211,13 +217,13 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Vegetables",
-    //     "id_cn": "蔬菜类",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Vegetables",
+        "id_cn": "蔬菜类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGAsparagus",
@@ -278,12 +284,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGCarrot",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGCarrot",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGChineseCabbage",
@@ -370,12 +376,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGBeet",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGBeet",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGPiePumpkin",
