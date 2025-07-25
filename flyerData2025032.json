@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jul 24, 2025",
+       "banner1Txt": "Jul 31, 2025",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -14,8 +14,8 @@ var myFlyerData = [
        // "banner1Txt": "Flyer for December 22, 2022",
        
        //"banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, Stouffville,<br>Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
         //"banner2Txt": "We will deliver to North York, Scarborough,<br>Vaughan, and all the chicken orders",
         // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
@@ -28,7 +28,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, June 22 @3pm",
+        "cutofftimeTxt": "Tue, July 29 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -157,6 +157,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
+    {
+        "type": "produce",
+        "id": "FTPurpleRaspberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "FTRedRaspberry",
@@ -203,12 +209,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": "On Sale! $2.00 OFF!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "TMBigBeef",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "TMBigBeef",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "TMJapaneseBlack",
@@ -284,12 +290,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGCarrot",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCarrot",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGChineseCabbage",
@@ -334,18 +340,18 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": "On Sale! $1.00 OFF!"
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGZucchini",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGYellowZucchini",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGZucchini",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "VGYellowZucchini",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGPricklyChayote",
@@ -630,7 +636,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "Honey",
-        "soldout": "true",
+        "soldout": "false",
         "soldoutText": "Max. 2 orders per person"
     }
 

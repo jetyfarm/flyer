@@ -160,6 +160,16 @@ var myProducesData = [
     "description_title": "Mix Raspberries",
     "description": ""
   },
+    {
+    "id" : "FTPurpleRaspberry",
+    "produce_image" : "FTPurpleRaspberry.jpg",
+    "produce_div" : "narrow",
+    "image" : "FTPurpleRaspberry_square.jpg",
+    "title" : "Large Purple Raspberries",
+    "pricing" : "$8.50 per 1/2 pint",
+    "description_title": "Large Purple Raspberries",
+    "description": ""
+  },
   {
     "id" : "FTRedRaspberry",
     "produce_image" : "FTRedRaspberry.jpg",
@@ -217,8 +227,8 @@ var myProducesData = [
     "image" : "TMBigBeef_square.jpg",
     "title" : "Big Beef Tomatoes",
     "title_cn" : "大西红柿",
-    "pricing" : "$3.00 per 1lb",
-    "pricing_cn" : "$3.00 per 1lb",
+    "pricing" : "$4.00 per 1lb",
+    "pricing_cn" : "$4.00 per 1lb",
     "description_title": "Big Beef Tomatoes",
     "description": "It’s extra meaty with a true homegrown flavor and just the right balance of sugars and acids. It's mostly blemish-free, globe-shaped red fruit. They have full flavor - among the best."
   },
@@ -433,7 +443,7 @@ var myProducesData = [
     "title" : "Zucchini",
 //    "pricing" : "Regular $6.00 for 4; Large $3.00 each",
 //    "pricing" : "Large $3.00 each",
-    "pricing" : "$2.00 each",
+    "pricing" : "$2.50 each",
     "description_title": "Zucchini",
     "description": ""
   },
@@ -443,7 +453,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGYellowZucchini_square.jpg",
     "title" : "Yellow Zucchini",
-    "pricing" : "$2.00 each",
+    "pricing" : "$2.50 each",
     "description_title": "Yellow Zucchini",
     "description": ""
   },
