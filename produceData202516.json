@@ -175,8 +175,8 @@ var myProducesData = [
     "produce_image" : "FTRedRaspberry.jpg",
     "produce_div" : "narrow",
     "image" : "FTRedRaspberry_square.jpg",
-    "title" : "Red Raspberries",
-    "pricing" : "$7.00 per 1/2 pint",
+    "title" : "Large Red Raspberries",
+    "pricing" : "$8.50 per 1/2 pint",
     "description_title": "Large Red Raspberries",
     "description": ""
   },
@@ -331,8 +331,8 @@ var myProducesData = [
     "image" : "VGBellPepper_square.jpg",
     "title" : "Mixed Bell Pepper",
     "title_cn" : "灯笼椒",
-    "pricing" : "$3.50 per 1lb",
-    "pricing_cn" : "$3.50 per 1lb",
+    "pricing" : "$4.50 per 1lb",
+    "pricing_cn" : "$4.50 per 1lb",
     "description_title": "Mixed Bell Pepper",
     "description": ""
   },
@@ -509,7 +509,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGBean_square.jpg",
     "title" : "Green Beans",
-    "pricing" : "$3.50 per 1lb",
+    "pricing" : "$4.00 per 1lb",
     "description_title": "Green Bean",
     "description": ""
   },
@@ -519,7 +519,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "VGYellowBean_square.jpg",
     "title" : "Yellow Beans",
-    "pricing" : "$3.50 per 1lb",
+    "pricing" : "$4.00 per 1lb",
     "description_title": "Yellow Bean",
     "description": ""
   },

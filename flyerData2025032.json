@@ -163,12 +163,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    // {
-    //     "type": "produce",
-    //     "id": "FTRedRaspberry",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "FTRedRaspberry",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     {
         "type": "produce",
         "id": "FTGooseBerry",
@@ -272,12 +272,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGBellPepper",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "produce",
+        "id": "VGBellPepper",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGOkra",
@@ -403,12 +403,12 @@ var myFlyerProduceList = [
 
 
     // ================================================================
-    // {
-    //     "type": "divider",
-    //     "id": "Beans",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },
+    {
+        "type": "divider",
+        "id": "Beans",
+        "soldout": "false",
+        "soldoutText": ""
+    },
     // {
     //     "type": "produce",
     //     "id": "VGLongBean",
@@ -421,18 +421,18 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGBean",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },  
-    // {
-    //     "type": "produce",
-    //     "id": "VGYellowBean",
-    //     "soldout": "false",
-    //     "soldoutText": ""
-    // },  
+    {
+        "type": "produce",
+        "id": "VGBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
+    {
+        "type": "produce",
+        "id": "VGYellowBean",
+        "soldout": "false",
+        "soldoutText": ""
+    },  
     // {
     //     "type": "produce",
     //     "id": "VGStringBean",
