@@ -126,7 +126,7 @@ var myProducesData = [
     "produce_div" : "narrow",
     "image" : "FTCurrant_square.jpg",
     "title" : "Black Currants",
-    "pricing" : "$7.00 per 1/2 pint",
+    "pricing" : "$8.50 per 1/2 pint",
     "description_title": "Black Currants",
     "description": ""
   },
@@ -413,9 +413,9 @@ var myProducesData = [
     "produce_image" : "VGCorn2.jpg",
     "produce_div" : "narrow",
     "image" : "VGCorn_square.jpg",
-    "title" : "Sweet Corn<br>(new variety)",
+    "title" : "Sweet Corn",
 //    "pricing" : "<small><i>From another neighbouring Mennonites</i></small><br>$5.00 per half doz<br>$9.00 per doz",
-    "pricing" : "$6.00 per half doz<br>$10.00 per doz",
+    "pricing" : "$7.00 per half doz<br>$11.50 per doz",
     "description_title": "Sweet Corn",
     "description": ""
   },

@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Jul 31, 2025",
+       "banner1Txt": "AUG 7, 2025",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -14,8 +14,8 @@ var myFlyerData = [
        // "banner1Txt": "Flyer for December 22, 2022",
        
        //"banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, Stouffville,<br>Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
-       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
         //"banner2Txt": "We will deliver to North York, Scarborough,<br>Vaughan, and all the chicken orders",
         // "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
@@ -28,7 +28,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, July 29 @3pm",
+        "cutofftimeTxt": "Tue, Aug 5 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -145,12 +145,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "FTRaspberry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FTRaspberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "FTMixedberry",
@@ -169,12 +169,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
-    {
-        "type": "produce",
-        "id": "FTGooseBerry",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FTGooseBerry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     {
         "type": "produce",
         "id": "FTCurrant",
@@ -272,12 +272,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGBellPepper",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBellPepper",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGOkra",
@@ -320,12 +320,12 @@ var myFlyerProduceList = [
     //     "soldout": "true",
     //     "soldoutText": ""
     // },
-    // {
-    //     "type": "produce",
-    //     "id": "VGCorn",
-    //     "soldout": "false",
-    //     "soldoutText": "From another neighbouring Mennonites"
-    // },
+    {
+        "type": "produce",
+        "id": "VGCorn",
+        "soldout": "false",
+        "soldoutText": "From another neighbouring Mennonites"
+    },
 
     // ================================================================
     // {
@@ -382,12 +382,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "VGBeet",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBeet",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
     // {
     //     "type": "produce",
     //     "id": "VGPiePumpkin",
