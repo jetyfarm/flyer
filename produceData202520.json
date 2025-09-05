@@ -51,7 +51,7 @@ var myProducesData = [
     "title" : "Meat Chicken",
     "title_cn" : "農場走地黃油雞",
 //    "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Deliver on: Nov 23",
-      "pricing" : "Next delivery is on Sept 11<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
+      "pricing" : "Next delivery is on Oct 2<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
 //      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
     //"pricing" : "Accepting reservation<br>Next delivery on Oct 17<br>Click here for more information",
     // "pricing" : "Early Bird Subscription Discount<br>Click here for more information",
