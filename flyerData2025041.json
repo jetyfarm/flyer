@@ -1,0 +1,680 @@
+var myFlyerData = [
+    {
+       "banner1Txt": "Oct 2, 2025",
+       
+       //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
+       //"banner2Txt" : "North York, Scarborough and Vaughan",
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
+       
+       
+       //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora and all the chicken & turkey orders",
+       //"banner2Txt" : "North York, Scarborough, Vaughan and all the chicken orders",
+
+       // "banner1Txt": "Flyer for December 22, 2022",
+       
+       //"banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, Stouffville,<br>Markham, Richmond Hill, Thornhill, Aurora, and Newmarket",
+       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+
+        //"banner2Txt": "We will deliver to North York, Scarborough,<br>Vaughan, and all the chicken orders",
+         "banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, Aurora, <br>Newmarket and all the CHICKEN orders",
+        //"footnoteTxt": "",
+        "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
+        
+        "submitOrderLabelTxt": "Submit order to:",
+        "submitOrderLabelTxt_cn": "订单提交至:",
+        "submitOrderTxt": "WhatsApp group, WeChat group, Signal group, or DM",
+        "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
+        "cutofftimeLabelTxt": "Order cut-off time:",
+        "cutofftimeLabelTxt_cn": "订单截止时间:",
+        "cutofftimeTxt": "Tue, Sep 30 @3pm",
+        "cutofftimeTxt_cn": "9月26日 3PM",
+        "minRequiredLabelTxt":"Minimum order:",
+        "minRequiredLabelTxt_cn":"最低订购费:",
+
+        "reminderTxt": "Friendly reminder: <br><br>Jan 11 will be our first delivery from this year, we will deliver to all locations: North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket.<br><br>On Jan 18, we will start our routine bi-weekly delivery to North York, Scarbough and Vaughan.<br><br>On Jan 25, we will deliver to Stouffville, Markham, Richmond Hill, Thornhill, Aurora, and Newmarket."         
+    }
+];
+
+
+var myFlyerProduceList = [
+    // {
+    //     "type" : "note", 
+    //     "note" : "Special Note:<br><br>We have been holding egg prices steady for the last 2 years. But as the cost of raising chickens and supplies are increasing, we unfortunately have to adjust our egg prices at this time.<br><br>Starting in Febrary, the new egg prices will be:<br><br> One doz large eggs: $7.50<br> One doz medium eggs: $6.50<br> One doz small eggs: $5.50<br><br>Thanks for your support and understanding."
+    // },
+    // ================================================================
+    // Xmas delivery notice
+    // {
+    //     "type": "produce",
+    //     "id": "SpecialNote",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Poultry",
+        "id_cn": "家禽类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "Turkey",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    {
+        "type": "produce",
+        "id": "MeatChicken",
+        "soldout": "true",
+      // "soldoutText": "Limited Supply!"
+      "soldoutText": "Deliver on this Thursday!"
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "MatureChicken",
+    //     "soldout": "false",
+    //     "soldoutText": "New pricing"
+    // },
+    {
+        "type": "produce",
+        "id": "FrozenMatureChicken",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Eggs",
+        "id_cn": "蛋",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "egg",
+        "soldout": "false",
+        //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
+        //"soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
+        //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
+        "soldoutText": "Small eggs<br>are<br>sold out!"
+        // "soldoutText": "<br>New Pricing!"
+        //"soldoutText": "All eggs <br>are<br>sold out!"
+        //"soldoutText": "Limited availability of Medium eggs!"
+        
+    },
+    {
+        "type": "produce",
+        "id": "eggWhite",
+        "soldout": "true",
+        "soldoutText": "Limited Supply!"
+    },
+
+    // // ================================================================
+    // {
+    //     "type": "divider",
+    //     "id": "Fruits",
+    //     "id_cn": "水果类",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTGooseBerry",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply!"
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "TMGoldenBerry",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTBlackBerry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTStrawberry",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTRaspberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTMixedberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTPurpleRaspberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTRedRaspberry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTGooseBerry",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTCurrant",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "FTBlackCurrant",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+
+    // ================================================================
+    //    { "type" : "divider", "id" : "Mushrooms" },
+    //    { "type" : "produce", "id" : "MSBlack",         "soldout" : "false" },
+    //    { "type" : "produce", "id" : "MSGold",          "soldout" : "false" },
+    //    { "type" : "produce", "id" : "MSLion",            "soldout" : "true" },
+    //    { "type" : "produce", "id" : "MSShiitake",          "soldout" : "true" },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Tomatoes",
+        "id_cn":"番茄类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "TMCherry",
+    //     "soldout": "true",
+    //     "soldoutText": "On Sale! $2.00 OFF!"
+    // },
+    {
+        "type": "produce",
+        "id": "TMBigBeef",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "TMJapaneseBlack",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Vegetables",
+        "id_cn": "蔬菜类",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGAsparagus",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGSunchoke",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "VGAsianLettuce",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGGaiLan",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGYouChoy",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGTWPakChoy",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSalad",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    {
+        "type": "produce",
+        "id": "VGBellPepper",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGOkra",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGGreenHotPepper",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCarrot",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGChineseCabbage",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    {
+        "type": "produce",
+        "id": "VGCabbage",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBroccoli",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGChineseCauliflower",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGCorn",
+    //     "soldout": "false",
+    //     "soldoutText": "From another neighbouring Mennonites"
+    // },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Squash",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "SQOpo",
+    //     "soldout": "true",
+    //     "soldoutText": "On Sale! $1.00 OFF!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGZucchini",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGYellowZucchini",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGPricklyChayote",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGFuzzySquash",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGWhiteBitterMelon",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGBitterMelon",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGSingGua",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    {
+        "type": "produce",
+        "id": "VGBeet",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    // {
+    //     "type": "produce",
+    //     "id": "VGPiePumpkin",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },        
+    {
+        "type": "produce",
+        "id": "Squash",
+        "soldout": "false",
+        "soldoutText": "Acorn Pepper Squash is available!"
+    },
+
+
+    // ================================================================
+    // {
+    //     "type": "divider",
+    //     "id": "Beans",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "VGLongBean",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGPurpleBroccolini",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGBean",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGYellowBean",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGStringBean",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },  
+    // {
+    //     "type": "produce",
+    //     "id": "VGSnowPea",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },  
+
+    // ================================================================
+    // {
+    //     "type": "divider",
+    //     "id": "Eggplant",
+    //     "id_cn": "茄子类",        
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "EGDark",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGAsian",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGGreen",
+    //     "soldout": "true",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "EGFairyTale",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+
+    // ================================================================
+//     {
+//         "type": "divider",
+//         "id": "Cucumbers",
+//         "soldout": "false",
+//         "soldoutText": "Limited Supply"
+//     },
+//     {
+//         "type": "produce",
+//         "id": "CUQuirk",
+//         "soldout": "false",
+//         "soldoutText": "Limited Supply"
+// //        "soldoutText": "<br> ON SALE!!!"
+//     },
+    // {
+    //     "type": "produce",
+    //     "id": "CUItachi",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "CUCucumber",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "CUEnglish",
+    //     "soldout": "false",
+    //     "soldoutText": "Limited Supply"
+    // },
+
+    // ================================================================
+    // {
+    //     "type": "divider",
+    //     "id": "Microgreens",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {   
+    //     "type" : "produce", 
+    //     "id" : "MGPeashoot",      
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // {   
+    //     "type" : "produce", 
+    //     "id" : "MGSunflower",      
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "MGCabbage",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGCorn",          
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGMizuna",     
+    //     "soldout" : "false",
+    //     "soldoutText": "" 
+    // },
+    // // { "type" : "produce", "id" : "MGSunflower",     "soldout" : "false" },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGPokChoy",       
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "MGKomatsuna",
+    //     "soldout": "false",
+    //     "soldoutText": "" 
+    // },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGKale",          
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "MGBroccoli",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // { 
+    //     "type" : "produce", 
+    //     "id" : "MGKohlrabi",      
+    //     "soldout" : "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "MGRadish",
+    //     "soldout": "true",
+    //     "soldoutText": "" 
+    // },
+
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Condiments",
+        "id_cn": "其他",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTRelish",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTSalsa",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    {
+        "type": "produce",
+        "id": "BTBeets",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "BTPickles",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    // ================================================================
+    {
+        "type": "divider",
+        "id": "Looking for something sweet...",
+        "id_cn": "甜的.",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+        {
+        "type": "produce",
+        "id": "BTMaplesyrup",
+        "soldout": "false",
+        "soldoutText": "<br>$1.00 OFF!"
+    },
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "false",
+        "soldoutText": "Max. 2 orders per person"
+    }
+
+    // ================================================================
+    // {
+    //     "type": "divider",
+    //     "id": "From our Mennonite neighbours",
+    //     "soldout": "true",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "Turkey",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "BTSalsa",
+    //     "soldout": "false",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "BTBeets",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "BTPickles",
+    //     "soldout": "false",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "BTMaplesyrup",
+    //     "soldout": "false",
+    //     "soldoutText": "<br>$1.00 OFF!"
+    // }
+];
