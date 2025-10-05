@@ -334,6 +334,50 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": ""
     },
+    {
+        "type": "produce",
+        "id": "SQAcornPepper",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "SQBakedPotato",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "SQButter",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "SQMami",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "SQSunshineKabocha",
+        "soldout": "false",
+        "soldoutText": ""
+    },    
+    {
+        "type": "produce",
+        "id": "SQSweetPotato",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+    {
+        "type": "produce",
+        "id": "SQYellowSpaghetti",
+        "soldout": "false",
+        "soldoutText": ""
+    },
+
+
     // {
     //     "type": "produce",
     //     "id": "SQOpo",
@@ -394,12 +438,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": ""
     // },        
-    {
-        "type": "produce",
-        "id": "Squash",
-        "soldout": "false",
-        "soldoutText": "Acorn Pepper Squash is available!"
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "Squash",
+    //     "soldout": "false",
+    //     "soldoutText": "Acorn Pepper Squash is available!"
+    // },
 
 
     // ================================================================

@@ -500,6 +500,90 @@ var myProducesData = [
     "description_title": "Taiwan Opo Squash 台灣瓠瓜",
     "description": "Opo squash has a lengthy, cylindrical-shape. It is approximately 1 to 1.5 ft in length.<br><br>Its smooth skin varies from a light green to chartreuse and encases a creamy white flesh and petite seeds. Opo squash offers a mild flavor reminiscent to a blend of summer squash and cucumber with a firm yet tender to the bite texture."
   },
+  {
+    "id" : "SQAcornPepper",
+    "produce_image" : "SQAcornPepper.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQAcornPepper_square.jpg",
+    "title" : "Acorn Pepper Squash",
+    "title_cn" : "",
+    "pricing" : "$5.00 each",
+    "pricing_cn" : "",
+    "description_title": "Acorn Pepper Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQBakedPotato",
+    "produce_image" : "SQBakedPotato.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQBakedPotato_square.jpg",
+    "title" : "Baked Potato Squash",
+    "title_cn" : "",
+    "pricing" : "$5.00 each",
+    "pricing_cn" : "",
+    "description_title": "Baked Potato Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQButter",
+    "produce_image" : "SQButter.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQButter_square.jpg",
+    "title" : "Butternut Squash",
+    "title_cn" : "",
+    "pricing" : "$6.00 each",
+    "pricing_cn" : "",
+    "description_title": "Butternut Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQMami",
+    "produce_image" : "SQMami.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQMami_square.jpg",
+    "title" : "Mami Squash",
+    "title_cn" : "",
+    "pricing" : "$6.00 each",
+    "pricing_cn" : "",
+    "description_title": "Mami Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQSunshineKabocha",
+    "produce_image" : "SQSunshineKabocha.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQSunshineKabocha_square.jpg",
+    "title" : "Sunshine Kabocha Squash",
+    "title_cn" : "",
+    "pricing" : "$6.00 each",
+    "pricing_cn" : "",
+    "description_title": "Sunshine Kabocha Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQSweetPotato",
+    "produce_image" : "SQSweetPotato.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQSweetPotato_square.jpg",
+    "title" : "Sweet Potato Squash",
+    "title_cn" : "",
+    "pricing" : "$5.00 each",
+    "pricing_cn" : "",
+    "description_title": "Sweet Potato Squash",
+    "description": ""
+  },
+  {
+    "id" : "SQYellowSpaghetti",
+    "produce_image" : "SQYellowSpaghetti.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQYellowSpaghetti_square.jpg",
+    "title" : "Yellow Spaghetti Squash",
+    "title_cn" : "",
+    "pricing" : "$6.00 each",
+    "pricing_cn" : "",
+    "description_title": "Yellow Spaghetti Squash",
+    "description": ""
+  },
 
   // ===========================================
   // Beans & Peas
@@ -895,7 +979,7 @@ var myProducesData = [
     "image" : "Honey_square.jpg",
     "title" : "Pure Raw Honey",
 //    "pricing" : "$9.00 per 250ml<br>$17.00 per 500ml<br>$24.00 per 750ml",
-    "pricing" : "$10.00 per 250ml",
+    "pricing" : "$10.00 per 250ml<br>$17.50 per 500ml",
     "description_title": "Pure Raw Honey",
     "description": "We harvest our honey directly from the beehives and bottle it as is. It's 100% raw, unprocessed, and has no additives."
   },
