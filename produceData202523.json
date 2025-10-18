@@ -584,6 +584,18 @@ var myProducesData = [
     "description_title": "Yellow Spaghetti Squash",
     "description": ""
   },
+  {
+    "id" : "SQHubbard",
+    "produce_image" : "SQHubbard.jpg",
+    "produce_div" : "narrow",
+    "image" : "SQHubbard_square.jpg",
+    "title" : "Hubbard Squash",
+    "title_cn" : "",
+    "pricing" : "$6.00 each",
+    "pricing_cn" : "",
+    "description_title": "Hubbard Squash",
+    "description": ""
+  },
 
   // ===========================================
   // Beans & Peas
