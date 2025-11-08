@@ -73,12 +73,12 @@ var myFlyerProduceList = [
     //   "soldoutText": "Deliver on this Thursday!"
       "soldoutText": "Last Delivery <br>on<br>Nov27!"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "MatureChicken",
-    //     "soldout": "false",
-    //     "soldoutText": "New pricing"
-    // },
+    {
+        "type": "produce",
+        "id": "MatureChicken",
+        "soldout": "false",
+        "soldoutText": "New pricing"
+    },
     // {
     //     "type": "produce",
     //     "id": "FrozenMatureChicken",
