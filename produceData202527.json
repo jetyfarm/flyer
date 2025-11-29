@@ -1,7 +1,7 @@
 var myProducesData = [
   {
     "id" : "SpecialNote",
-    "produce_image" : "MatureChickenAnnoucement.jpg",
+    "produce_image" : "2025XmasSchedule.png",
     "produce_div" : "narrow",
     "image" : "",
     "title" : "",
