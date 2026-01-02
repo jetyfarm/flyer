@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Dec 18, 2025",
+       "banner1Txt": "Jan 8, 2026",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -29,7 +29,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Dec 16 @3pm",
+        "cutofftimeTxt": "Tue, Jan 6 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -330,60 +330,60 @@ var myFlyerProduceList = [
     // },
 
     // ================================================================
-    {
-        "type": "divider",
-        "id": "Squash",
-        "soldout": "false",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "SQAcornPepper",
-        "soldout": "false",
-        "soldoutText": ""
-    },
-    {
-        "type": "produce",
-        "id": "SQBakedPotato",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "SQButter",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "SQMami",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "SQSunshineKabocha",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
+    // {
+    //     "type": "divider",
+    //     "id": "Squash",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "SQAcornPepper",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
+    // {
+    //     "type": "produce",
+    //     "id": "SQBakedPotato",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "SQButter",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "SQMami",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "SQSunshineKabocha",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
     // {
     //     "type": "produce",
     //     "id": "SQSweetPotato",
     //     "soldout": "false",
     //     "soldoutText": ""
     // },
-    {
-        "type": "produce",
-        "id": "SQHubbard",
-        "soldout": "false",
-        "soldoutText": ""
-    },    
-    {
-        "type": "produce",
-        "id": "SQYellowSpaghetti",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "SQHubbard",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },    
+    // {
+    //     "type": "produce",
+    //     "id": "SQYellowSpaghetti",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
 
 
 
