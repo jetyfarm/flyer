@@ -1,117 +1,195 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-
-  /* The Main Wrapper */
-  .main-wrapper { 
-    display: flex; 
-    height: 100vh; /* Full screen height */
-    flex-direction: row; /* Desktop: Side-by-side */
-  }
-
-  /* Left Side (Iframe) */
-  .content-left {
-    flex: 1; /* Takes up 50% */
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  iframe { width: 95%; height: 80%; border: none; }
-
-  /* Right Side (Game) */
-  .content-right {
-    flex: 1; /* Takes up 50% */
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-y: auto; /* Scroll if game is tall */
-  }
-
-  /* Game Elements */
-  .slot-container { display: flex; gap: 10px; margin-bottom: 30px; }
-  .slot { width: 80px; height: 80px; border: 3px dashed #999; background: #fff; display: flex; justify-content: center; align-items: center; }
-  .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 400px; }
-  .draggable-img { width: 60px; height: 60px; cursor: grab; background: #3498db; color: white; display: flex; justify-content: center; align-items: center; font-size: 10px; font-weight: bold; border-radius: 4px; }
-
-  /* MOBILE RESPONSIVENESS */
-  @media (max-width: 768px) {
-    .main-wrapper { 
-      flex-direction: column; /* Mobile: Stacked top to bottom */
+  <base target="_self">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
     }
+
+    /* The Main Wrapper */
+    .main-wrapper {
+      display: flex;
+      height: 100vh;
+      /* Full screen height */
+      flex-direction: row;
+      /* Desktop: Side-by-side */
+    }
+
+    /* Left Side (Iframe) */
     .content-left {
-      flex: 0 0 40%; /* Iframe takes top 40% of screen */
+      flex: 1;
+      /* Takes up 50% */
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .content-right {
-      flex: 1; /* Game takes the rest */
-    }
-    iframe { height: 90%; }
-  }
 
-  /* Overlay Screens */
-  .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); color: white; justify-content: center; align-items: center; flex-direction: column; z-index: 100; }
-</style>
+    iframe {
+      width: 95%;
+      height: 80%;
+      border: none;
+    }
+
+    /* Right Side (Game) */
+    .content-right {
+      flex: 1;
+      /* Takes up 50% */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: auto;
+      /* Scroll if game is tall */
+    }
+
+    /* Game Elements */
+    .slot-container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .slot {
+      width: 80px;
+      height: 80px;
+      border: 3px dashed #999;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      max-width: 400px;
+    }
+
+    .draggable-img {
+      width: 60px;
+      height: 60px;
+      cursor: grab;
+      background: #3498db;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    /* MOBILE RESPONSIVENESS */
+    @media (max-width: 768px) {
+      .main-wrapper {
+        flex-direction: column;
+        /* Mobile: Stacked top to bottom */
+      }
+
+      .content-left {
+        flex: 0 0 40%;
+        /* Iframe takes top 40% of screen */
+      }
+
+      .content-right {
+        flex: 1;
+        /* Game takes the rest */
+      }
+
+      iframe {
+        height: 90%;
+      }
+    }
+
+    /* Overlay Screens */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      z-index: 100;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="main-wrapper">
-  
-  <div class="content-left">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAbuEmS_-nf8otsQtsZ1abQdBf7NqUjQ5fwKzoLsrBVgH-lNJ0rdT5LUsjQKJNK1Ae5yxkV9zolJbH/pubembed?start=false&loop=false&delayms=3000&rm=minimal"></iframe>
-  </div>
+  <div class="main-wrapper">
 
-  <div class="content-right">
-    <h3>Sorting Game</h3>
-    <div class="slot-container">
-      <div id="slot1" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      <div id="slot2" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      <div id="slot3" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="content-left">
+      <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQAbuEmS_-nf8otsQtsZ1abQdBf7NqUjQ5fwKzoLsrBVgH-lNJ0rdT5LUsjQKJNK1Ae5yxkV9zolJbH/pubembed?start=false&loop=false&delayms=30&rm=minimal"
+        sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
     </div>
-    
-    <button onclick="checkResult()" style="padding: 10px 20px; cursor:pointer;">Check Result</button>
 
-    <div class="gallery" id="gallery" ondrop="drop(event)" ondragover="allowDrop(event)">
-      <div id="img1" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 1</div>
-      <div id="img2" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 2</div>
-      <div id="img3" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 3</div>
+    <div class="content-right">
+      <h3>Sorting Game</h3>
+      <div class="slot-container">
+        <div id="slot1" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot2" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot3" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       </div>
+
+      <button onclick="checkResult()" style="padding: 10px 20px; cursor:pointer;">Check Result</button>
+
+      <div class="gallery" id="gallery" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="img1" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 1</div>
+        <div id="img2" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 2</div>
+        <div id="img3" class="draggable-img" draggable="true" ondragstart="drag(event)">Image 3</div>
+      </div>
+    </div>
+
   </div>
 
-</div>
+  <div id="win" class="overlay">
+    <h1>🎉 Success!</h1><button onclick="location.reload()">Reset</button>
+  </div>
+  <div id="lose" class="overlay">
+    <h1>❌ Try Again</h1><button onclick="document.getElementById('lose').style.display='none'">Close</button>
+  </div>
 
-<div id="win" class="overlay"><h1>🎉 Success!</h1><button onclick="location.reload()">Reset</button></div>
-<div id="lose" class="overlay"><h1>❌ Try Again</h1><button onclick="document.getElementById('lose').style.display='none'">Close</button></div>
-
-<script>
-  const solutions = { "slot1": "img1", "slot2": "img2", "slot3": "img3" };
-  function allowDrop(ev) { ev.preventDefault(); }
-  function drag(ev) { ev.dataTransfer.setData("text", ev.target.id); }
-  function drop(ev) {
-    ev.preventDefault();
-    const data = ev.dataTransfer.getData("text");
-    const el = document.getElementById(data);
-    if (ev.target.classList.contains('slot') && ev.target.children.length === 0) {
-      ev.target.appendChild(el);
-    } else if (ev.target.id === 'gallery' || ev.target.closest('#gallery')) {
-      document.getElementById('gallery').appendChild(el);
+  <script>
+    const solutions = { "slot1": "img1", "slot2": "img2", "slot3": "img3" };
+    function allowDrop(ev) { ev.preventDefault(); }
+    function drag(ev) { ev.dataTransfer.setData("text", ev.target.id); }
+    function drop(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      const el = document.getElementById(data);
+      if (ev.target.classList.contains('slot') && ev.target.children.length === 0) {
+        ev.target.appendChild(el);
+      } else if (ev.target.id === 'gallery' || ev.target.closest('#gallery')) {
+        document.getElementById('gallery').appendChild(el);
+      }
     }
-  }
-  function checkResult() {
-    const s1 = document.getElementById('slot1').children[0]?.id;
-    const s2 = document.getElementById('slot2').children[0]?.id;
-    const s3 = document.getElementById('slot3').children[0]?.id;
-    if (s1 === solutions.slot1 && s2 === solutions.slot2 && s3 === solutions.slot3) {
-      document.getElementById('win').style.display = 'flex';
-    } else {
-      document.getElementById('lose').style.display = 'flex';
+    function checkResult() {
+      const s1 = document.getElementById('slot1').children[0]?.id;
+      const s2 = document.getElementById('slot2').children[0]?.id;
+      const s3 = document.getElementById('slot3').children[0]?.id;
+      if (s1 === solutions.slot1 && s2 === solutions.slot2 && s3 === solutions.slot3) {
+        document.getElementById('win').style.display = 'flex';
+      } else {
+        document.getElementById('lose').style.display = 'flex';
+      }
     }
-  }
-</script>
+  </script>
 
 </body>
+
 </html>
