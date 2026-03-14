@@ -98,11 +98,11 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        //"soldoutText": "SPECIAL PRICE for Small & Mini eggs!"
+        "soldoutText": "SPECIAL PRICE for 4 doz Small eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
-        "soldoutText": "Small eggs<br>are<br>sold out!"
+        //"soldoutText": "Small eggs<br>are<br>sold out!"
         // "soldoutText": "<br>New Pricing!"
         //"soldoutText": "All eggs <br>are<br>sold out!"
         //"soldoutText": "Limited availability of Medium eggs!"
