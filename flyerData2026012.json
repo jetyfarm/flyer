@@ -80,12 +80,12 @@ var myFlyerProduceList = [
     //     "soldout": "false",
     //     "soldoutText": "New pricing"
     // },
-    {
-        "type": "produce",
-        "id": "FrozenMatureChicken",
-        "soldout": "false",
-        "soldoutText": ""
-    },
+    // {
+    //     "type": "produce",
+    //     "id": "FrozenMatureChicken",
+    //     "soldout": "false",
+    //     "soldoutText": ""
+    // },
 
     // ================================================================
     {
