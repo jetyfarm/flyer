@@ -1,6 +1,6 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Apr 16, 2026",
+       "banner1Txt": "Apr 30, 2026",
        
        //"banner2Txt" : "North York, Scarborough, Vaughan, Stouffville, Markham, Richmond Hill, Thornhill, and Aurora",
        //"banner2Txt" : "Stouffville, Markham, Richmond Hill, Thornhill, NewMarket and Aurora",
@@ -29,7 +29,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Apr 14 @3pm",
+        "cutofftimeTxt": "Tue, Apr 28 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -686,12 +686,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": "<br>$1.00 OFF!"
     },
-    {
-        "type": "produce",
-        "id": "Honey",
-        "soldout": "false",
-        "soldoutText": "Max. 2 orders per person"
-    }
+    // {
+    //     "type": "produce",
+    //     "id": "Honey",
+    //     "soldout": "false",
+    //     "soldoutText": "Max. 2 orders per person"
+    // }
 
     // ================================================================
     // {
