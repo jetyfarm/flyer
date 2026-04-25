@@ -74,6 +74,10 @@
       box-sizing: border-box
     }
 
+    :root {
+      --header-height: 10vh;
+    }
+
     /* ======================================= */
     /* Style: Layout */
     /* ======================================= */
@@ -84,6 +88,7 @@
       margin: 0;
       padding: 0;
       background-color: rgba(110, 148, 106, 0.8);
+      overflow-x: hidden;
     }
 
     /* Style the header */
@@ -98,11 +103,48 @@
 
     body {
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       font-family: Verdana, sans-serif;
       margin: 0;
       padding: 0;
       background-color: rgb(242, 237, 229);
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    .site-header {
+      height: var(--header-height);
+      background-color: rgb(105, 102, 87);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .site-header-logo {
+      width: 24vh;
+      height: 100%;
+      background-color: rgb(143, 138, 118);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .site-header-text {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0.5vh 1.5vh;
+    }
+
+    .site-main {
+      background-color: rgb(65, 63, 53);
+      text-align: center;
+      flex: 1;
+      overflow-y: auto;
     }
 
     bottom {
@@ -209,7 +251,26 @@
       return "";
     }
 
-    function onBodyLoad() {
+    function loadScriptByPath(path) {
+      return new Promise(function (resolve, reject) {
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = path;
+        script.onload = resolve;
+        script.onerror = function () {
+          reject(new Error("Unable to load script: " + path));
+        };
+        document.head.appendChild(script);
+      });
+    }
+
+    async function loadLatestDataScripts() {
+      await loadScriptByPath("produceData.json");
+      await loadScriptByPath("flyerData.json");
+    }
+
+    async function onBodyLoad() {
+      await loadLatestDataScripts();
       checkReminder();
       checkTutorial();
       loadFlyerText();
@@ -238,8 +299,6 @@
 
   </script>
 
-  <script type="text/javascript" src="produceData202527.json"></script>
-  <script type="text/javascript" src="flyerData2026016.json"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
@@ -255,13 +314,12 @@
   <!--                      HEADER                    -->
   <!--  ============================================  -->
   <header style="height: 10vh;">
-    <div style="height: 10vh; width: 100%; overflow: hidden; background-color: rgb(105, 102, 87);">
-      <div style="width: auto; height: 10vh; float: left; background-color: rgb(143, 138, 118); ">
-        <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 1vh;">
+    <div class="site-header">
+      <div class="site-header-logo">
+        <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 0;">
       </div>
-      <div style="position: relative; margin-left: 37vw; margin-right: 1vh; height: 10vh; padding: 0.5vh;">
-
-        <div class="vertical-center">
+      <div class="site-header-text">
+        <div>
           <p id="flyerBanner1Txt"
             style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
           </p>
@@ -279,7 +337,7 @@
   </header>
 
   <!-- <div style="background-color: rgb(74, 109, 58); height: 72vh;"> -->
-  <div style="background-color: rgb(65, 63, 53); text-align: center; height: 82vh; overflow-y: scroll;">
+  <div class="site-main">
 
     <!------------------------------------------------------------------------------->
     <!--------------------------------- Reminder ------------------------------------>
@@ -402,7 +460,7 @@
         // eggs
         function createProduceStatic(_id, _soldout, _soldoutText) {
           var d = document.createElement('div');
-          d.setAttribute("style", "text-align:center; position:relative; height:auto;");
+          d.setAttribute("style", "text-align:center; position:relative; height:auto; width:100%;");
           d.id = _id;
           d.addEventListener("click", function () { showModal(this.id) });
 
@@ -417,6 +475,7 @@
           var p = document.createElement('img');
           var imgPath = "images/produces/" + myProducesData[produce_index].produce_image;
           p.src = imgPath;
+          p.setAttribute("style", "width:100%; height:auto;");
           d.appendChild(p);
 
           {
@@ -447,10 +506,10 @@
             sd.appendChild(s);
 
             var st = document.createElement('div');
-            st.setAttribute("style", "position:absolute; top:20%; left:20%; text-align:center; height:65%; width:65%;");
+            st.setAttribute("style", "position:absolute; top:20%; left:20%; text-align:center; height:65%; width:65%; display:flex; align-items:center; justify-content:center;");
 
             var t = document.createElement("P");                 // Create a <p> element
-            t.setAttribute("style", "position:absolute; top:20%; left:10%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3vw; font-family: LithosBold; height:auto; line-height: 1.0; letter-spacing:-1px;");
+            t.setAttribute("style", "margin: 0; text-align:center; color: rgb(242, 237, 229); font-size: 3vw; font-family: LithosBold; line-height: 1.0; letter-spacing:-1px;");
 
 
             t.innerHTML = _soldoutText;
@@ -470,7 +529,7 @@
         // Create produce item
         function createProduce(_id, _soldout, _soldoutText) {
           var d = document.createElement('div');
-          d.setAttribute("style", "text-align:center; position:relative; height:auto; ");
+          d.setAttribute("style", "text-align:center; position:relative; height:auto; width:100%;");
           d.id = _id;
           d.addEventListener("click", function () {
             var produce_index = 0;
@@ -504,6 +563,7 @@
           var p = document.createElement('img');
           var imgPath = "images/produces/" + myProducesData[produce_index].produce_image;
           p.src = imgPath;
+          p.setAttribute("style", "width:100%; height:auto;");
           d.appendChild(p);
 
           {
@@ -552,17 +612,16 @@
               sd.appendChild(s);
 
               var st = document.createElement('div');
-              st.setAttribute("style", "position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%;");
+              st.setAttribute("style", "position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%; display:flex; align-items:center; justify-content:center;");
 
               var t = document.createElement("P");                 // Create a <p> element
 
-              //                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
               let length = _soldoutText.length;
               if (length > 20) {
-                t.setAttribute("style", "position:absolute; top:41%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 2.8vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;");
+                t.setAttribute("style", "margin: 0; text-align:center; color: rgb(242, 237, 229); font-size: 2.8vw; font-family: LithosBold; line-height: 1.0; letter-spacing:-1px;");
               }
               else {
-                t.setAttribute("style", "position:absolute; top:47%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;");
+                t.setAttribute("style", "margin: 0; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; line-height: 1.0; letter-spacing:-1px;");
               }
 
               t.innerHTML = _soldoutText;
@@ -600,17 +659,16 @@
               sd.appendChild(s);
 
               var st = document.createElement('div');
-              st.setAttribute("style", "position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%;");
+              st.setAttribute("style", "position:absolute; top:8%; left:15%; text-align:center; height:65%; width:65%; display:flex; align-items:center; justify-content:center;");
 
               var t = document.createElement("P");                 // Create a <p> element
 
-              //                t.setAttribute("style","position:absolute; top:30%; left:0%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.8vw; font-family: LithosLight; margin:auto; height: auto; line-height: 1.0;" );
               let length = _soldoutText.length;
               if (length > 20) {
-                t.setAttribute("style", "position:absolute; top:37%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;");
+                t.setAttribute("style", "margin: 0; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; line-height: 1.0; letter-spacing:-1px;");
               }
               else {
-                t.setAttribute("style", "position:absolute; top:47%; left:5%;  margin: auto; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; margin:auto; height:auto; line-height: 1.0; letter-spacing:-1px;");
+                t.setAttribute("style", "margin: 0; text-align:center; color: rgb(242, 237, 229); font-size: 3.3vw; font-family: LithosBold; line-height: 1.0; letter-spacing:-1px;");
               }
 
               t.innerHTML = _soldoutText;
@@ -733,7 +791,7 @@
     </script>
   </div>
 
-  <footer style="position: fixed; bottom: 0;">
+  <footer>
     <div style="background-color: rgb(105, 102, 87); width: 100vw; height: auto; margin: auto;">
       <div style="text-align:center; height:0.3vh; background-color:rgb(56, 53, 47);"></div>
 
