@@ -264,9 +264,13 @@
       });
     }
 
+    function cacheBustedPath(path) {
+      return path + "?v=" + Date.now();
+    }
+
     async function loadLatestDataScripts() {
-      await loadScriptByPath("produceData.json");
-      await loadScriptByPath("flyerData.json");
+      await loadScriptByPath(cacheBustedPath("produceData.json"));
+      await loadScriptByPath(cacheBustedPath("flyerData.json"));
     }
 
     async function onBodyLoad() {
