@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/kheyu/OneDrive/Documents/JetyFarm/Flyer/repo/index.html",
+            "url": "file:///C:/Users/kheyu/Claude Playground/JetyFarm Flyer/Flyer/index.html",
             "webRoot": "${workspaceFolder}"
         }
 

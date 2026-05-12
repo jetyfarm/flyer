@@ -75,7 +75,7 @@
     }
 
     :root {
-      --header-height: 10vh;
+      --header-min-height: 12vh;
     }
 
     /* ======================================= */
@@ -96,9 +96,13 @@
       background-color: rgb(65, 63, 53);
       text-align: center;
       color: rgb(242, 237, 229);
-      height: 16vh;
+      height: auto;
+      min-height: var(--header-min-height);
       padding: 0;
       margin: 0;
+      overflow: visible;
+      width: 100%;
+      max-width: 100%;
     }
 
     body {
@@ -114,30 +118,115 @@
     }
 
     .site-header {
-      height: var(--header-height);
+      min-height: var(--header-min-height);
+      height: auto;
       background-color: rgb(105, 102, 87);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      overflow: hidden;
+      /* Grid: strict 1/3 vs 2/3; row tall enough so logo can scale inside its cell */
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      grid-template-rows: minmax(var(--header-min-height), auto);
+      align-items: stretch;
+      justify-items: stretch;
+      column-gap: 0;
+      overflow: visible;
+      width: 100%;
+      max-width: 100%;
     }
 
     .site-header-logo {
-      width: 24vh;
-      height: 100%;
+      grid-column: 1;
+      grid-row: 1;
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
+      min-height: var(--header-min-height);
       background-color: rgb(143, 138, 118);
+      position: relative;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    /* Fills the logo cell so max-width/max-height % on the img always refer to this box */
+    .site-header-logo-inner {
+      position: absolute;
+      inset: 0;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 0.2rem 0.3rem;
+      box-sizing: border-box;
+      min-width: 0;
+      min-height: 0;
     }
 
     .site-header-text {
-      flex: 1;
-      height: 100%;
+      grid-column: 2;
+      grid-row: 1;
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
+      min-height: var(--header-min-height);
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      padding: 0.5vh 1.5vh;
+      padding: 0.45rem 0.35rem 0.45rem 0.25rem;
+      box-sizing: border-box;
+      overflow: visible;
+      /* Font sizing uses cqw relative to the text band, not full viewport */
+      container-type: inline-size;
+      container-name: headertext;
+    }
+
+    .site-header-text>div {
+      width: 100%;
+      min-width: 0;
+    }
+
+    #flyerBanner1Txt,
+    #flyerBanner2Txt {
+      margin: 0.08em 0;
+      text-align: right;
+      color: rgb(242, 237, 229);
+      line-height: 1.3;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      white-space: normal;
+      max-width: 100%;
+      overflow: visible;
+      text-overflow: clip;
+    }
+
+    /* Fallback when container queries are unavailable */
+    #flyerBanner1Txt {
+      font-family: Lithos, serif;
+      font-size: clamp(0.58rem, 0.42rem + 2.4vw, 1.15rem);
+      letter-spacing: -0.02em;
+    }
+
+    #flyerBanner2Txt {
+      font-family: LithosExtraLight, LithosLight, serif;
+      font-size: clamp(0.52rem, 0.36rem + 2vw, 0.95rem);
+      letter-spacing: 0;
+    }
+
+    @container headertext (min-width: 0px) {
+      #flyerBanner1Txt {
+        font-size: clamp(0.58rem, 0.3rem + 5cqw, 1.12rem);
+      }
+
+      #flyerBanner2Txt {
+        font-size: clamp(0.52rem, 0.26rem + 4.2cqw, 0.92rem);
+      }
+    }
+
+    @container headertext (max-width: 240px) {
+      #flyerBanner1Txt {
+        font-size: clamp(0.52rem, 0.26rem + 4.2cqw, 1rem);
+      }
+
+      #flyerBanner2Txt {
+        font-size: clamp(0.48rem, 0.22rem + 3.6cqw, 0.82rem);
+      }
     }
 
     .site-main {
@@ -160,14 +249,28 @@
     img {
       padding: 0;
       display: block;
-      max-height: auto;
-      max-width: 100vw;
+      max-height: none;
+      /* 100vw lets wide bitmaps inflate flex/grid min-content; keep images within their parent */
+      max-width: 100%;
+      height: auto;
       -webkit-user-drag: none;
       -khtml-user-drag: none;
       -moz-user-drag: none;
       -o-user-drag: none;
       user-drag: none;
       pointer-events: none;
+    }
+
+    header .site-header-logo img {
+      box-sizing: border-box;
+      display: block;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0;
+      object-fit: contain;
+      object-position: center;
     }
 
     /* On smaller screens, decrease text size */
@@ -326,19 +429,17 @@
   <!--  ============================================  -->
   <!--                      HEADER                    -->
   <!--  ============================================  -->
-  <header style="height: 10vh;">
+  <header>
     <div class="site-header">
       <div class="site-header-logo">
-        <img src="images/JetyLogo.png" class="center" style="width: auto; height: 8vh; margin-top: 0;">
+        <div class="site-header-logo-inner">
+          <img src="images/JetyLogo.png" alt="Jety Farm">
+        </div>
       </div>
       <div class="site-header-text">
         <div>
-          <p id="flyerBanner1Txt"
-            style="margin: auto; text-align:right; font-family: Lithos; font-size: 2.35vh; color: rgb(242, 237, 229); letter-spacing:-1px;">
-          </p>
-          <p id="flyerBanner2Txt"
-            style="margin: auto; text-align:right; font-family: LithosExtraLight; font-size: 1.25vh; color: rgb(242, 237, 229); letter-spacing:0px;">
-          </p>
+          <p id="flyerBanner1Txt"></p>
+          <p id="flyerBanner2Txt"></p>
         </div>
 
       </div>
