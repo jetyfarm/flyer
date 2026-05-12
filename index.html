@@ -274,11 +274,20 @@
     }
 
     async function onBodyLoad() {
-      await loadLatestDataScripts();
-      checkReminder();
-      checkTutorial();
-      loadFlyerText();
-      loadProduces();
+      try {
+        await loadLatestDataScripts();
+        checkReminder();
+        checkTutorial();
+        loadFlyerText();
+        loadProduces();
+      } catch (err) {
+        console.error(err);
+        var main = document.querySelector(".site-main");
+        if (main) {
+          main.insertAdjacentHTML("afterbegin",
+            "<p style=\"margin:1rem;padding:0.75rem;background:#5c3d3d;color:#f5f0e6;font-family:Verdana,sans-serif;font-size:14px;\">Flyer data failed to load (see browser console). Check that <code>produceData.js</code> and <code>flyerData.js</code> uploaded next to <code>index.html</code> and returned status 200.</p>");
+        }
+      }
     }
 
     function checkTutorial() {
