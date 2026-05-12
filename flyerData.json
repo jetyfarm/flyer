@@ -2,8 +2,8 @@ var myFlyerData = [
     {
        "banner1Txt": "May 14, 2026",
        
-      "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
        //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
