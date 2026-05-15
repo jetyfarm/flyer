@@ -1,9 +1,9 @@
 var myFlyerData = [
     {
-       "banner1Txt": "May 14, 2026",
+       "banner1Txt": "May 21, 2026",
        
-       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
        //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, December 19 @6pm.<br>Minimum order: $13.00.",
@@ -14,7 +14,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, May 19 @3pm",
+        "cutofftimeTxt": "Tue, May 26 @3pm",
         "cutofftimeTxt_cn": "9月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
