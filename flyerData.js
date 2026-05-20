@@ -25,10 +25,10 @@ var myFlyerData = [
 
 
 var myFlyerProduceList = [
-    // {
-    //     "type" : "note", 
-    //     "note" : "Special Note:<br><br>We have been holding egg prices steady for the last 2 years. But as the cost of raising chickens and supplies are increasing, we unfortunately have to adjust our egg prices at this time.<br><br>Starting in Febrary, the new egg prices will be:<br><br> One doz large eggs: $7.50<br> One doz medium eggs: $6.50<br> One doz small eggs: $5.50<br><br>Thanks for your support and understanding."
-    // },
+    {
+        "type" : "note", 
+        "note" : "Special Note:<br><br>As the cost of raising chickens and supplies are increasing, we unfortunately have to adjust our egg prices at this time.<br><br>Starting in May 28, the new egg prices will be:<br><br> One doz large eggs: $8.50<br> One doz medium eggs: $7.50<br> One doz small eggs: $6.50<br><br>Thanks for your support and understanding."
+    },
     // ================================================================
     // Xmas delivery notice
     // {
