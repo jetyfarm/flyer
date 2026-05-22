@@ -27,7 +27,10 @@ var myFlyerData = [
 var myFlyerProduceList = [
     {
         "type" : "note", 
-        "note" : "Special Note:<br><br>As the cost of raising chickens and supplies are increasing, we unfortunately have to adjust our egg prices at this time.<br><br>Starting in May 28, the new egg prices will be:<br><br> One doz large eggs: $8.50<br> One doz medium eggs: $7.50<br> One doz small eggs: $6.50<br><br>Thanks for your support and understanding."
+        "note" : "Special Note:<br><br>Due to the rising cost of supplies and poultry feed, we unfortunately have to adjust our egg prices at this time.<br><br>Starting May 28, our new prices per dozen will be:<br><br> Large Eggs: $8.50<br> Medium Eggs: $7.50<br> Small Eggs: $6.50<br><br>Thank you so much for your ongoing support and understanding."
+
+
+
     },
     // ================================================================
     // Xmas delivery notice
@@ -83,7 +86,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "true",
+        "soldout": "false",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
         "soldoutText": "SPECIAL PRICE for 4 doz Small eggs!"
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
