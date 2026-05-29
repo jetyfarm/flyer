@@ -6,11 +6,11 @@ var myFlyerData = [
        //"banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 
        //"footnoteTxt": "",
-        "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, Signal group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
+        "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
         
         "submitOrderLabelTxt": "Submit order to:",
         "submitOrderLabelTxt_cn": "订单提交至:",
-        "submitOrderTxt": "WhatsApp group, WeChat group, Signal group, or DM",
+        "submitOrderTxt": "WhatsApp group, WeChat group, or DM",
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",

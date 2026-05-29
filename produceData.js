@@ -56,7 +56,7 @@ var myProducesData = [
       //  "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
 //      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
     //"pricing" : "Accepting reservation<br>Next delivery on Oct 17<br>Click here for more information",
-     "pricing" : "Early Bird Subscription Discount<br>First delivery is on June 11<br>Click here for more information",
+     "pricing" : "First delivery is on June 11<br>Click here for more information",
     //"pricing" : "First delivery is on June 19<br>Click here for more information",
     "pricing_cn" : "一次性购买: $30.00 每只<br>订购: $27.00 每只<br>发货日期: Oct 5 (售罄), <br>Oct 26 和 Nov 23",
     "description_title": "Meat Chicken 農場走地黃油雞",
