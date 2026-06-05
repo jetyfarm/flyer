@@ -3,7 +3,7 @@ var myFlyerData = [
        "banner1Txt": "June 11, 2026",
        
        //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+       "banner2Txt" : "We will deliver to North York, Scarborough, Vaughan <br> and all chicken orders",
 
        //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
@@ -28,9 +28,6 @@ var myFlyerProduceList = [
     {
         "type" : "note", 
         "note" : "Special Note:<br><br>Due to the rising cost of supplies and poultry feed, we unfortunately have to adjust our egg prices at this time.<br><br>Starting May 28, our new prices per dozen will be:<br><br> Large Eggs: $8.50<br> Medium Eggs: $7.50<br> Small Eggs: $6.50<br><br>Thank you so much for your ongoing support and understanding."
-
-
-
     },
     // ================================================================
     // Xmas delivery notice
@@ -57,10 +54,10 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "false",
+        "soldout": "true",
       // "soldoutText": "Limited Supply!"
-    //   "soldoutText": "Deliver on this Thursday!"
-      "soldoutText": "Last Delivery <br>of<br>the season!"
+       "soldoutText": "<br>Deliver on this Thursday!"
+      //"soldoutText": "Last Delivery <br>of<br>the season!"
     },
     // {
     //     "type": "produce",
