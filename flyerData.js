@@ -25,10 +25,10 @@ var myFlyerData = [
 
 
 var myFlyerProduceList = [
-    {
-        "type" : "note", 
-        "note" : "Special Note:<br><br>Due to the rising cost of supplies and poultry feed, we unfortunately have to adjust our egg prices at this time.<br><br>Starting May 28, our new prices per dozen will be:<br><br> Large Eggs: $8.50<br> Medium Eggs: $7.50<br> Small Eggs: $6.50<br><br>Thank you so much for your ongoing support and understanding."
-    },
+    // {
+    //     "type" : "note", 
+    //     "note" : "Special Note:<br><br>Due to the rising cost of supplies and poultry feed, we unfortunately have to adjust our egg prices at this time.<br><br>Starting May 28, our new prices per dozen will be:<br><br> Large Eggs: $8.50<br> Medium Eggs: $7.50<br> Small Eggs: $6.50<br><br>Thank you so much for your ongoing support and understanding."
+    // },
     // ================================================================
     // Xmas delivery notice
     // {
@@ -54,7 +54,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
       // "soldoutText": "Limited Supply!"
        "soldoutText": "<br>Deliver on this Thursday!"
       //"soldoutText": "Last Delivery <br>of<br>the season!"
