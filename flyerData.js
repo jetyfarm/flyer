@@ -1,9 +1,9 @@
 var myFlyerData = [
     {
-       "banner1Txt": "July 9, 2026",
+       "banner1Txt": "July 16, 2026",
        
-       //"banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-       "banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, and all chicken orders",
+       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       //"banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, and all chicken orders",
 
        //"footnoteTxt": "",
         "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
@@ -14,7 +14,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Jul 7 @3pm",
+        "cutofftimeTxt": "Tue, Jul 14 @3pm",
         "cutofftimeTxt_cn": "5月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -54,7 +54,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
       // "soldoutText": "Limited Supply!"
        "soldoutText": "<br>Deliver on this Thursday!"
       //"soldoutText": "Last Delivery <br>of<br>the season!"
@@ -83,9 +83,11 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "egg",
-        "soldout": "false",
+        "soldout": "true",
         //        "soldoutText" : "SPECIAL PRICE for large eggs.<br>Large eggs are available for non-subscription customers." },
-        "soldoutText": "SPECIAL PRICE for 4 doz Small eggs!"
+        //"soldoutText": "SPECIAL PRICE for 4 doz Medium eggs!"
+        "soldoutText": "Limited time offer!<br>SPECIAL PRICE for 4 doz Medium/Small eggs!"
+        
         //"soldoutText": "Large and Medium<br>eggs are<br>sold out!"
         //"soldoutText": "Small eggs<br>are<br>sold out!"
         // "soldoutText": "<br>New Pricing!"

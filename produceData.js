@@ -19,7 +19,10 @@ var myProducesData = [
     "title" : "Free Range Farm Eggs",
     "title_cn" : "農場走地黃油雞",
   //  "pricing" : "Eggs subscription is welcome<br>Large $7.00 per doz<br>Medium $6.00 per doz<br>Small $5.00 per doz<br>Mini $4.00 per doz",
-   "pricing" : "Eggs subscription is welcome<br>Large $8.50 per doz<br>Medium $7.50 per doz<br>Small $6.50 per doz",
+   
+  // "pricing" : "Eggs subscription is welcome<br>Large $8.50 per doz<br>Medium $7.50 per doz<br>Small $6.50 per doz",
+    "pricing" : "Eggs subscription is welcome<br>Large $8.50 per doz<br>Medium $7.50 per doz, $26.0 per 4 doz<br>Small $6.50 per doz, $24.0 per 4 doz",
+   
     // "pricing" : "Eggs subscription is welcome<br><s>Large $7.50 per doz</s>&nbsp;&nbsp; SOLD OUT!<br><s>Medium $6.50 per doz</s>&nbsp;&nbsp; SOLD OUT!<br><s>Small $5.50 per doz</s>&nbsp;&nbsp; SOLD OUT!",
     "pricing_cn" : "欢迎订购鸡蛋<br>大 $7.00每打<br>中 $6.00每打<br>小 $5.00每打; $14.00每4打",
     "description_title": "Free Range Farm Eggs",
@@ -54,8 +57,8 @@ var myProducesData = [
  //    "pricing" : "Last delivery of the season<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
     //  "pricing" : "Next delivery is on Nov 29<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
 
-//    "pricing" : "Next delivery is on Jul 9<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Click here for more information",
-      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Delivery to all locations<br>Click here for more information",
+    "pricing" : "Next delivery is on Aug 6<br>On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Click here for more information",
+//      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken<br>Delivery to all locations<br>Click here for more information",
 
 //      "pricing" : "On Demand: $32.50 per chicken<br>Subscription: $28.50 per chicken",
     //"pricing" : "Accepting reservation<br>Next delivery on Oct 17<br>Click here for more information",
