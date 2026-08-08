@@ -1,13 +1,13 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Aug 6, 2026",
+       "banner1Txt": "Aug 13, 2026",
        
-//       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
 //       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
-       "banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, and all chicken orders",
+//       "banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, and all chicken orders",
 
        //"footnoteTxt": "",
-        "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
+       // "footnoteTitleTxt": "Submit orders to: WhatsApp group, Jety Farm WeChat group, or direct message.<br>Order cut-off time: Tue, May 26 @3pm.<br>Minimum order: $13.00.",
         
         "submitOrderLabelTxt": "Submit order to:",
         "submitOrderLabelTxt_cn": "订单提交至:",
@@ -15,7 +15,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Aug 4 @3pm",
+        "cutofftimeTxt": "Tue, Aug 11 @3pm",
         "cutofftimeTxt_cn": "5月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -55,7 +55,7 @@ var myFlyerProduceList = [
     {
         "type": "produce",
         "id": "MeatChicken",
-        "soldout": "true",
+        "soldout": "false",
       // "soldoutText": "Limited Supply!"
        "soldoutText": "<br>Deliver on this Thursday!"
       //"soldoutText": "Last Delivery <br>of<br>the season!"
