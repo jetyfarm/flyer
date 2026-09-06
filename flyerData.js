@@ -674,12 +674,12 @@ var myFlyerProduceList = [
         "soldout": "false",
         "soldoutText": "<br>$1.00 OFF!"
     },
-    // {
-    //     "type": "produce",
-    //     "id": "Honey",
-    //     "soldout": "false",
-    //     "soldoutText": "Max. 2 orders per person"
-    // }
+    {
+        "type": "produce",
+        "id": "Honey",
+        "soldout": "true",
+        "soldoutText": "Max. 2 orders per person"
+    }
 
     // ================================================================
     // {

@@ -999,7 +999,7 @@ var myProducesData = [
     "title" : "Pure Raw Honey",
 //    "pricing" : "$9.00 per 250ml<br>$17.00 per 500ml<br>$24.00 per 750ml",
 //    "pricing" : "$10.00 per 250ml<br>$17.50 per 500ml",
-    "pricing" : "$10.00 per 250ml",
+    "pricing" : "$12.00 per 250ml",
     "description_title": "Pure Raw Honey",
     "description": "We harvest our honey directly from the beehives and bottle it as is. It's 100% raw, unprocessed, and has no additives."
   },
