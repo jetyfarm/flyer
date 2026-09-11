@@ -1,9 +1,9 @@
 var myFlyerData = [
     {
-       "banner1Txt": "Sept 10, 2026",
+       "banner1Txt": "Sept 17, 2026",
        
-       "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
-//       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
+ //      "banner2Txt" : "We will deliver to Stouffville, Markham, Richmond Hill,<br>Thornhill, Aurora, and Newmarket",      
+       "banner2Txt" : "We will deliver to North York, Scarborough, and Vaughan",
 //       "banner2Txt" : "We will deliver to North York, Scarborough, Vaughan, and all chicken orders",
 
        //"footnoteTxt": "",
@@ -15,7 +15,7 @@ var myFlyerData = [
         "submitOrderTxt_cn": "WhatsApp群组, 微信群组, Signal群组, 或直接留言",
         "cutofftimeLabelTxt": "Order cut-off time:",
         "cutofftimeLabelTxt_cn": "订单截止时间:",
-        "cutofftimeTxt": "Tue, Sept 8 @3pm",
+        "cutofftimeTxt": "Tue, Sept 15 @3pm",
         "cutofftimeTxt_cn": "5月26日 3PM",
         "minRequiredLabelTxt":"Minimum order:",
         "minRequiredLabelTxt_cn":"最低订购费:",
@@ -678,7 +678,7 @@ var myFlyerProduceList = [
         "type": "produce",
         "id": "Honey",
         "soldout": "true",
-        "soldoutText": "Max. 2 orders per person"
+        "soldoutText": "Limited Supply! Max. 2 orders per person"
     }
 
     // ================================================================
